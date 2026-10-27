@@ -1,0 +1,2224 @@
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+20 00 00 00 00 01 00 00 00 02 00 00 00 ff ff ff ff |                
+30 70 61 65 77 02 00 00 00 02 74 b0 81 4d 41 4c 42 |paew     t  MALB
+40 21 67 61 74 00 00 00 00 b2 8a 00 00 79 61 6c 62 |!gat        yalb
+50 02 00 00 00 c0 62 00 00 ff ff ff ff 12 be 99 86 |     b          
+60 93 7b a5 4a b7 fc b2 4c 87 6b 1a a2 03 00 00 00 | { J   L k      
+70 1d 00 00 00 10 3b 00 00 44 01 00 00 28 00 00 00 |     ;  D   (   
+80 00 00 00 00 01 00 00 00 00 00 00 00 1f 00 00 00 |                
+90 10 02 00 00 2d 00 00 00 1e 00 00 00 00 00 00 00 |    -           
+a0 00 00 00 00 79 6c 67 74 03 00 00 00 68 62 00 00 |    ylgt    hb  
+b0 2a 72 74 73 00 00 00 00 10 3b 00 00 69 74 65 6d |*rts     ;  item
+c0 00 73 74 72 75 63 74 00 6f 62 6a 65 63 74 00 63 | struct object c
+d0 75 73 74 6f 6d 00 72 75 6e 74 69 6d 65 20 6f 62 |ustom runtime ob
+e0 6a 65 63 74 20 74 79 70 65 00 73 68 6f 72 74 20 |ject type short 
+f0 69 6e 74 65 67 65 72 00 73 65 63 6f 6e 64 61 72 |integer secondar
+100 79 20 66 6c 61 67 73 00 77 6f 72 64 20 66 6c 61 |y flags word fla
+110 67 73 00 64 6f 65 73 20 6e 6f 74 20 61 66 66 65 |gs does not affe
+120 63 74 20 70 72 6f 6a 65 63 74 69 6c 65 20 61 69 |ct projectile ai
+130 6d 69 6e 67 00 6f 62 6a 65 63 74 5f 64 65 66 69 |ming object_defi
+140 6e 69 74 69 6f 6e 5f 73 65 63 6f 6e 64 61 72 79 |nition_secondary
+150 5f 66 6c 61 67 73 00 6c 6f 6e 67 20 66 6c 61 67 |_flags long flag
+160 73 00 64 6f 65 73 20 6e 6f 74 20 63 61 73 74 20 |s does not cast 
+170 73 68 61 64 6f 77 00 73 65 61 72 63 68 20 63 61 |shadow search ca
+180 72 64 69 6e 61 6c 20 64 69 72 65 63 74 69 6f 6e |rdinal direction
+190 20 6c 69 67 68 74 6d 61 70 73 20 6f 6e 20 66 61 | lightmaps on fa
+1a0 69 6c 75 72 65 00 70 72 65 73 65 72 76 65 73 20 |ilure preserves 
+1b0 69 6e 69 74 69 61 6c 20 64 61 6d 61 67 65 20 6f |initial damage o
+1c0 77 6e 65 72 00 6e 6f 74 20 61 20 70 61 74 68 66 |wner not a pathf
+1d0 69 6e 64 69 6e 67 20 6f 62 73 74 61 63 6c 65 00 |inding obstacle 
+1e0 65 78 74 65 6e 73 69 6f 6e 20 6f 66 20 70 61 72 |extension of par
+1f0 65 6e 74 00 64 6f 65 73 20 6e 6f 74 20 63 61 75 |ent does not cau
+200 73 65 20 63 6f 6c 6c 69 73 69 6f 6e 20 64 61 6d |se collision dam
+210 61 67 65 00 65 61 72 6c 79 20 6d 6f 76 65 72 00 |age early mover 
+220 65 61 72 6c 79 20 6d 6f 76 65 72 20 6c 6f 63 61 |early mover loca
+230 6c 69 7a 65 64 20 70 68 79 73 69 63 73 00 6f 62 |lized physics ob
+240 6a 65 63 74 20 73 63 61 6c 65 73 20 61 74 74 61 |ject scales atta
+250 63 68 6d 65 6e 74 73 00 6f 62 6a 65 63 74 20 69 |chments object i
+260 73 20 61 6c 77 61 79 73 20 6f 6e 20 74 68 65 20 |s always on the 
+270 63 65 69 6c 69 6e 67 00 73 61 6d 70 6c 65 20 65 |ceiling sample e
+280 6e 76 69 72 6f 6d 65 6e 74 20 6c 69 67 68 74 69 |nviroment lighti
+290 6e 67 20 6f 6e 6c 79 20 69 67 6e 6f 72 65 20 6f |ng only ignore o
+2a0 62 6a 65 63 74 20 6c 69 67 68 74 69 6e 67 00 65 |bject lighting e
+2b0 66 66 65 63 74 73 20 63 72 65 61 74 65 64 20 62 |ffects created b
+2c0 79 20 74 68 69 73 20 6f 62 6a 65 63 74 20 64 6f |y this object do
+2d0 20 6e 6f 74 20 73 70 61 77 6e 20 6f 62 6a 65 63 | not spawn objec
+2e0 74 73 20 69 6e 20 6d 75 6c 74 69 70 6c 61 79 65 |ts in multiplaye
+2f0 72 00 64 6f 65 73 20 6e 6f 74 20 63 6f 6c 6c 69 |r does not colli
+300 64 65 20 77 69 74 68 20 63 61 6d 65 72 61 00 66 |de with camera f
+310 6f 72 63 65 20 63 6f 6c 6c 69 64 65 20 77 69 74 |orce collide wit
+320 68 20 63 61 6d 65 72 61 00 64 61 6d 61 67 65 20 |h camera damage 
+330 6e 6f 74 20 62 6c 6f 63 6b 65 64 20 62 79 20 6f |not blocked by o
+340 62 73 74 72 75 63 74 69 6f 6e 73 00 64 6f 65 73 |bstructions does
+350 20 6e 6f 74 20 64 61 6d 61 67 65 20 62 72 65 61 | not damage brea
+360 6b 61 62 6c 65 20 73 75 72 66 61 63 65 73 00 44 |kable surfaces D
+370 61 6d 61 67 65 20 6e 6f 6e 2d 6e 65 74 77 6f 72 |amage non-networ
+380 6b 65 64 20 63 68 69 6c 64 72 65 6e 20 6f 6e 20 |ked children on 
+390 64 69 73 74 72 69 62 75 74 65 64 20 63 6c 69 65 |distributed clie
+3a0 6e 74 20 6f 6e 20 6f 62 6a 65 63 74 20 64 65 61 |nt on object dea
+3b0 74 68 00 6f 62 6a 65 63 74 5f 64 65 66 69 6e 69 |th object_defini
+3c0 74 69 6f 6e 5f 66 6c 61 67 73 00 72 75 6e 74 69 |tion_flags runti
+3d0 6d 65 20 66 6c 61 67 73 00 6c 6f 6e 67 20 69 6e |me flags long in
+3e0 74 65 67 65 72 00 62 6f 75 6e 64 69 6e 67 20 72 |teger bounding r
+3f0 61 64 69 75 73 00 72 65 61 6c 00 62 6f 75 6e 64 |adius real bound
+400 69 6e 67 20 6f 66 66 73 65 74 00 72 65 61 6c 20 |ing offset real 
+410 70 6f 69 6e 74 20 33 64 00 68 6f 72 69 7a 6f 6e |point 3d horizon
+420 74 61 6c 20 61 63 63 65 6c 65 72 61 74 69 6f 6e |tal acceleration
+430 20 73 63 61 6c 65 00 76 65 72 74 69 63 61 6c 20 | scale vertical 
+440 61 63 63 65 6c 65 72 61 74 69 6f 6e 20 73 63 61 |acceleration sca
+450 6c 65 00 61 6e 67 75 6c 61 72 20 61 63 63 65 6c |le angular accel
+460 65 72 61 74 69 6f 6e 20 73 63 61 6c 65 00 6c 69 |eration scale li
+470 67 68 74 6d 61 70 20 73 68 61 64 6f 77 20 6d 6f |ghtmap shadow mo
+480 64 65 00 73 68 6f 72 74 20 65 6e 75 6d 00 64 65 |de short enum de
+490 66 61 75 6c 74 00 6e 65 76 65 72 00 61 6c 77 61 |fault never alwa
+4a0 79 73 00 62 6c 75 72 00 6c 69 67 68 74 6d 61 70 |ys blur lightmap
+4b0 5f 73 68 61 64 6f 77 5f 6d 6f 64 65 5f 65 6e 75 |_shadow_mode_enu
+4c0 6d 00 73 77 65 65 74 65 6e 65 72 20 73 69 7a 65 |m sweetener size
+4d0 00 63 68 61 72 20 65 6e 75 6d 00 73 6d 61 6c 6c | char enum small
+4e0 00 6d 65 64 69 75 6d 00 6c 61 72 67 65 00 73 77 | medium large sw
+4f0 65 65 74 65 6e 65 72 5f 73 69 7a 65 5f 65 6e 75 |eetener_size_enu
+500 6d 00 77 61 74 65 72 20 64 65 6e 73 69 74 79 00 |m water density 
+510 73 75 70 65 72 5f 66 6c 6f 61 74 65 72 00 6e 65 |super_floater ne
+520 75 74 72 61 6c 00 73 69 6e 6b 65 72 00 73 75 70 |utral sinker sup
+530 65 72 5f 73 69 6e 6b 65 72 00 6e 6f 6e 65 00 77 |er_sinker none w
+540 61 74 65 72 5f 64 65 6e 73 69 74 79 5f 74 79 70 |ater_density_typ
+550 65 5f 65 6e 75 6d 00 64 79 6e 61 6d 69 63 20 6c |e_enum dynamic l
+560 69 67 68 74 20 73 70 68 65 72 65 20 72 61 64 69 |ight sphere radi
+570 75 73 00 64 79 6e 61 6d 69 63 20 6c 69 67 68 74 |us dynamic light
+580 20 73 70 68 65 72 65 20 6f 66 66 73 65 74 00 67 | sphere offset g
+590 65 6e 65 72 69 63 20 68 75 64 20 74 65 78 74 00 |eneric hud text 
+5a0 73 74 72 69 6e 67 20 69 64 00 67 65 6e 65 72 69 |string id generi
+5b0 63 20 6e 61 6d 65 20 6c 69 73 74 00 74 61 67 20 |c name list tag 
+5c0 72 65 66 65 72 65 6e 63 65 00 67 65 6e 65 72 69 |reference generi
+5d0 63 20 73 65 72 76 69 63 65 20 74 61 67 20 6c 69 |c service tag li
+5e0 73 74 00 64 65 66 61 75 6c 74 20 6d 6f 64 65 6c |st default model
+5f0 20 76 61 72 69 61 6e 74 00 6d 6f 64 65 6c 00 63 | variant model c
+600 72 61 74 65 20 6f 62 6a 65 63 74 00 62 72 69 74 |rate object brit
+610 74 6c 65 20 63 6f 6c 6c 69 73 69 6f 6e 20 64 61 |tle collision da
+620 6d 61 67 65 00 65 61 72 6c 79 20 6d 6f 76 65 72 |mage early mover
+630 20 4f 42 42 00 62 6c 6f 63 6b 00 6e 6f 64 65 20 | OBB block node 
+640 6e 61 6d 65 00 72 75 6e 74 69 6d 65 20 6e 6f 64 |name runtime nod
+650 65 20 69 6e 64 65 78 00 78 30 00 78 31 00 79 30 |e index x0 x1 y0
+660 00 79 31 00 7a 30 00 7a 31 00 61 6e 67 6c 65 73 | y1 z0 z1 angles
+670 00 72 65 61 6c 20 65 75 6c 65 72 20 61 6e 67 6c | real euler angl
+680 65 73 20 33 64 00 74 65 72 6d 69 6e 61 74 6f 72 |es 3d terminator
+690 20 58 00 6f 62 6a 65 63 74 5f 65 61 72 6c 79 5f | X object_early_
+6a0 6d 6f 76 65 72 5f 6f 62 62 5f 62 6c 6f 63 6b 00 |mover_obb_block 
+6b0 63 72 65 61 74 69 6f 6e 20 65 66 66 65 63 74 00 |creation effect 
+6c0 6d 61 74 65 72 69 61 6c 20 65 66 66 65 63 74 73 |material effects
+6d0 00 6d 65 6c 65 65 20 73 6f 75 6e 64 00 61 69 20 | melee sound ai 
+6e0 70 72 6f 70 65 72 74 69 65 73 00 61 69 20 66 6c |properties ai fl
+6f0 61 67 73 00 64 65 74 72 6f 79 61 62 6c 65 20 63 |ags detroyable c
+700 6f 76 65 72 00 70 61 74 68 66 69 6e 64 69 6e 67 |over pathfinding
+710 20 69 67 6e 6f 72 65 20 77 68 65 6e 20 64 65 61 | ignore when dea
+720 64 00 64 79 6e 61 6d 69 63 20 63 6f 76 65 72 00 |d dynamic cover 
+730 6e 6f 6e 20 66 6c 69 67 68 74 2d 62 6c 6f 63 6b |non flight-block
+740 69 6e 67 00 64 79 6e 61 6d 69 63 20 63 6f 76 65 |ing dynamic cove
+750 72 20 66 72 6f 6d 20 63 65 6e 74 72 65 00 68 61 |r from centre ha
+760 73 20 63 6f 72 6e 65 72 20 6d 61 72 6b 65 72 73 |s corner markers
+770 00 69 64 6c 65 20 77 68 65 6e 20 66 6c 79 69 6e | idle when flyin
+780 67 00 63 6f 6e 73 69 64 65 72 20 66 6f 72 20 69 |g consider for i
+790 6e 74 65 72 61 63 74 69 6f 6e 00 61 69 5f 70 72 |nteraction ai_pr
+7a0 6f 70 65 72 74 69 65 73 5f 66 6c 61 67 73 00 61 |operties_flags a
+7b0 69 20 74 79 70 65 20 6e 61 6d 65 00 69 6e 74 65 |i type name inte
+7c0 72 61 63 74 69 6f 6e 20 6e 61 6d 65 00 61 69 20 |raction name ai 
+7d0 73 69 7a 65 00 74 69 6e 79 00 68 75 67 65 00 69 |size tiny huge i
+7e0 6d 6d 6f 62 69 6c 65 00 61 69 5f 73 69 7a 65 5f |mmobile ai_size_
+7f0 65 6e 75 6d 00 6c 65 61 70 20 6a 75 6d 70 20 73 |enum leap jump s
+800 70 65 65 64 00 4e 4f 4e 45 00 64 6f 77 6e 00 73 |peed NONE down s
+810 74 65 70 00 63 72 6f 75 63 68 00 73 74 61 6e 64 |tep crouch stand
+820 00 73 74 6f 72 65 79 00 74 6f 77 65 72 00 69 6e | storey tower in
+830 66 69 6e 69 74 65 00 67 6c 6f 62 61 6c 5f 61 69 |finite global_ai
+840 5f 6a 75 6d 70 5f 68 65 69 67 68 74 5f 65 6e 75 |_jump_height_enu
+850 6d 00 6f 62 6a 65 63 74 5f 61 69 5f 70 72 6f 70 |m object_ai_prop
+860 65 72 74 69 65 73 5f 62 6c 6f 63 6b 00 66 75 6e |erties_block fun
+870 63 74 69 6f 6e 73 00 69 6e 76 65 72 74 00 6d 61 |ctions invert ma
+880 70 70 69 6e 67 20 64 6f 65 73 20 6e 6f 74 20 63 |pping does not c
+890 6f 6e 74 72 6f 6c 73 20 61 63 74 69 76 65 00 61 |ontrols active a
+8a0 6c 77 61 79 73 20 61 63 74 69 76 65 00 72 61 6e |lways active ran
+8b0 64 6f 6d 20 74 69 6d 65 20 6f 66 66 73 65 74 00 |dom time offset 
+8c0 61 6c 77 61 79 73 20 65 78 70 6f 72 74 73 20 76 |always exports v
+8d0 61 6c 75 65 00 74 75 72 6e 20 6f 66 66 20 77 69 |alue turn off wi
+8e0 74 68 20 75 73 65 73 20 6d 61 67 6e 69 74 75 64 |th uses magnitud
+8f0 65 00 6f 62 6a 65 63 74 5f 66 75 6e 63 74 69 6f |e object_functio
+900 6e 5f 66 6c 61 67 73 00 69 6d 70 6f 72 74 20 6e |n_flags import n
+910 61 6d 65 00 65 78 70 6f 72 74 20 6e 61 6d 65 00 |ame export name 
+920 74 75 72 6e 20 6f 66 66 20 77 69 74 68 00 72 61 |turn off with ra
+930 6e 67 65 64 20 69 6e 74 65 72 70 6f 6c 61 74 69 |nged interpolati
+940 6f 6e 20 6e 61 6d 65 00 6d 69 6e 20 76 61 6c 75 |on name min valu
+950 65 00 64 65 66 61 75 6c 74 20 66 75 6e 63 74 69 |e default functi
+960 6f 6e 00 64 61 74 61 00 66 75 6e 63 74 69 6f 6e |on data function
+970 5f 64 65 66 69 6e 69 74 69 6f 6e 5f 64 61 74 61 |_definition_data
+980 00 6d 61 70 70 69 6e 67 5f 66 75 6e 63 74 69 6f | mapping_functio
+990 6e 00 73 63 61 6c 65 20 62 79 00 69 6e 74 65 72 |n scale by inter
+9a0 70 6f 6c 61 74 69 6f 6e 00 69 6e 74 65 72 70 6f |polation interpo
+9b0 6c 61 74 69 6f 6e 20 6d 6f 64 65 00 6c 6f 6e 67 |lation mode long
+9c0 20 65 6e 75 6d 00 63 6f 6e 73 74 61 6e 74 20 76 | enum constant v
+9d0 65 6c 6f 63 69 74 79 00 6c 69 6e 65 61 72 20 61 |elocity linear a
+9e0 63 63 65 6c 65 72 61 74 69 6f 6e 00 64 61 6d 70 |cceleration damp
+9f0 65 64 20 73 70 72 69 6e 67 00 66 72 61 63 74 69 |ed spring fracti
+a00 6f 6e 61 6c 00 6f 62 6a 65 63 74 5f 66 75 6e 63 |onal object_func
+a10 74 69 6f 6e 5f 69 6e 74 65 72 70 6f 6c 61 74 69 |tion_interpolati
+a20 6f 6e 5f 6d 6f 64 65 5f 65 6e 75 6d 00 6c 69 6e |on_mode_enum lin
+a30 65 61 72 20 74 72 61 76 65 6c 20 74 69 6d 65 00 |ear travel time 
+a40 73 70 72 69 6e 67 20 6b 00 73 70 72 69 6e 67 20 |spring k spring 
+a50 63 00 66 72 61 63 74 69 6f 6e 00 6f 62 6a 65 63 |c fraction objec
+a60 74 5f 66 75 6e 63 74 69 6f 6e 5f 69 6e 74 65 72 |t_function_inter
+a70 70 6f 6c 61 74 69 6f 6e 5f 62 6c 6f 63 6b 00 72 |polation_block r
+a80 75 6e 74 69 6d 65 20 69 6e 74 65 72 70 6f 6c 61 |untime interpola
+a90 74 6f 72 20 69 6e 64 65 78 00 6c 6f 6e 67 20 62 |tor index long b
+aa0 6c 6f 63 6b 20 69 6e 64 65 78 00 72 75 6e 74 69 |lock index runti
+ab0 6d 65 20 69 6e 74 65 72 70 6f 6c 61 74 6f 72 20 |me interpolator 
+ac0 74 6f 20 6f 62 6a 65 63 74 20 66 75 6e 63 74 69 |to object functi
+ad0 6f 6e 20 6d 61 70 70 69 6e 67 00 6f 62 6a 65 63 |on mapping objec
+ae0 74 5f 72 75 6e 74 69 6d 65 5f 69 6e 74 65 72 70 |t_runtime_interp
+af0 6f 6c 61 74 6f 72 5f 66 75 6e 63 74 69 6f 6e 73 |olator_functions
+b00 5f 62 6c 6f 63 6b 00 6f 62 6a 65 63 74 5f 66 75 |_block object_fu
+b10 6e 63 74 69 6f 6e 5f 62 6c 6f 63 6b 00 72 75 6e |nction_block run
+b20 74 69 6d 65 20 69 6e 74 65 72 70 6f 6c 61 74 6f |time interpolato
+b30 72 20 66 75 6e 63 74 69 6f 6e 73 00 6d 61 72 6b |r functions mark
+b40 65 72 00 6f 6c 64 20 73 74 72 69 6e 67 20 69 64 |er old string id
+b50 00 63 68 61 6e 67 65 20 63 6f 6c 6f 72 00 70 72 | change color pr
+b60 69 6d 61 72 79 00 73 65 63 6f 6e 64 61 72 79 00 |imary secondary 
+b70 74 65 72 74 69 61 72 79 00 71 75 61 74 65 72 6e |tertiary quatern
+b80 61 72 79 00 67 6c 6f 62 61 6c 5f 6f 62 6a 65 63 |ary global_objec
+b90 74 5f 63 68 61 6e 67 65 5f 63 6f 6c 6f 72 5f 65 |t_change_color_e
+ba0 6e 75 6d 00 62 79 74 65 20 66 6c 61 67 73 00 66 |num byte flags f
+bb0 6f 72 63 65 20 61 6c 77 61 79 73 20 6f 6e 00 6f |orce always on o
+bc0 62 6a 65 63 74 5f 61 74 74 61 63 68 6d 65 6e 74 |bject_attachment
+bd0 5f 66 6c 61 67 73 00 44 50 4b 50 00 70 61 64 00 |_flags DPKP pad 
+be0 70 72 69 6d 61 72 79 20 73 63 61 6c 65 00 73 65 |primary scale se
+bf0 63 6f 6e 64 61 72 79 20 73 63 61 6c 65 00 67 6c |condary scale gl
+c00 6f 62 61 6c 5f 6f 62 6a 65 63 74 5f 61 74 74 61 |obal_object_atta
+c10 63 68 6d 65 6e 74 5f 62 6c 6f 63 6b 00 68 75 6c |chment_block hul
+c20 6c 20 73 75 72 66 61 63 65 73 00 77 6f 72 6b 73 |l surfaces works
+c30 20 6f 6e 20 6c 61 6e 64 00 65 66 66 65 63 74 73 | on land effects
+c40 20 6f 6e 6c 79 00 77 61 74 65 72 5f 70 68 79 73 | only water_phys
+c50 69 63 73 5f 68 75 6c 6c 5f 73 75 72 66 61 63 65 |ics_hull_surface
+c60 5f 64 65 66 69 6e 69 74 69 6f 6e 5f 66 6c 61 67 |_definition_flag
+c70 73 00 70 61 64 30 00 6d 61 72 6b 65 72 20 6e 61 |s pad0 marker na
+c80 6d 65 00 64 72 61 67 00 6d 61 74 65 72 69 61 6c |me drag material
+c90 00 70 72 65 73 73 75 72 65 00 76 65 6c 6f 63 69 | pressure veloci
+ca0 74 79 20 74 6f 20 70 72 65 73 73 75 72 65 00 6d |ty to pressure m
+cb0 61 78 20 76 65 6c 6f 63 69 74 79 00 70 68 79 73 |ax velocity phys
+cc0 69 63 73 5f 66 6f 72 63 65 5f 66 75 6e 63 74 69 |ics_force_functi
+cd0 6f 6e 5f 73 74 72 75 63 74 00 73 75 63 74 69 6f |on_struct suctio
+ce0 6e 00 6c 69 6e 65 61 72 20 64 61 6d 70 69 6e 67 |n linear damping
+cf0 00 61 6e 67 75 6c 61 72 20 64 61 6d 70 69 6e 67 | angular damping
+d00 00 77 61 74 65 72 5f 70 68 79 73 69 63 73 5f 64 | water_physics_d
+d10 72 61 67 5f 70 72 6f 70 65 72 74 69 65 73 5f 73 |rag_properties_s
+d20 74 72 75 63 74 00 77 61 74 65 72 5f 70 68 79 73 |truct water_phys
+d30 69 63 73 5f 6d 61 74 65 72 69 61 6c 5f 6f 76 65 |ics_material_ove
+d40 72 72 69 64 65 00 77 61 74 65 72 5f 70 68 79 73 |rride water_phys
+d50 69 63 73 5f 68 75 6c 6c 5f 73 75 72 66 61 63 65 |ics_hull_surface
+d60 5f 64 65 66 69 6e 69 74 69 6f 6e 5f 62 6c 6f 63 |_definition_bloc
+d70 6b 00 6a 65 74 77 61 73 68 00 6d 61 78 69 6d 75 |k jetwash maximu
+d80 6d 20 74 72 61 63 65 73 00 6d 61 78 69 6d 75 6d |m traces maximum
+d90 20 65 6d 69 73 73 69 6f 6e 20 6c 65 6e 67 74 68 | emission length
+da0 00 74 72 61 63 65 20 79 61 77 20 61 6e 67 6c 65 | trace yaw angle
+db0 00 61 6e 67 6c 65 20 62 6f 75 6e 64 73 00 74 72 | angle bounds tr
+dc0 61 63 65 20 70 69 74 63 68 20 61 6e 67 6c 65 00 |ace pitch angle 
+dd0 70 61 72 74 69 63 6c 65 20 6f 66 66 73 65 74 00 |particle offset 
+de0 6a 65 74 77 61 73 68 5f 64 65 66 69 6e 69 74 69 |jetwash_definiti
+df0 6f 6e 5f 62 6c 6f 63 6b 00 77 69 64 67 65 74 73 |on_block widgets
+e00 00 6f 62 6a 65 63 74 5f 77 69 64 67 65 74 5f 62 | object_widget_b
+e10 6c 6f 63 6b 00 63 68 61 6e 67 65 20 63 6f 6c 6f |lock change colo
+e20 72 73 00 69 6e 69 74 69 61 6c 20 70 65 72 6d 75 |rs initial permu
+e30 74 61 74 69 6f 6e 73 00 77 65 69 67 68 74 00 63 |tations weight c
+e40 6f 6c 6f 72 20 6c 6f 77 65 72 20 62 6f 75 6e 64 |olor lower bound
+e50 00 72 65 61 6c 20 72 67 62 20 63 6f 6c 6f 72 00 | real rgb color 
+e60 63 6f 6c 6f 72 20 75 70 70 65 72 20 62 6f 75 6e |color upper boun
+e70 64 00 76 61 72 69 61 6e 74 20 6e 61 6d 65 00 6f |d variant name o
+e80 62 6a 65 63 74 5f 63 68 61 6e 67 65 5f 63 6f 6c |bject_change_col
+e90 6f 72 5f 69 6e 69 74 69 61 6c 5f 70 65 72 6d 75 |or_initial_permu
+ea0 74 61 74 69 6f 6e 00 73 63 61 6c 65 20 66 6c 61 |tation scale fla
+eb0 67 73 00 62 6c 65 6e 64 20 69 6e 20 68 73 76 00 |gs blend in hsv 
+ec0 2e 2e 2e 6d 6f 72 65 20 63 6f 6c 6f 72 73 00 67 |...more colors g
+ed0 6c 6f 62 61 6c 5f 72 67 62 5f 69 6e 74 65 72 70 |lobal_rgb_interp
+ee0 6f 6c 61 74 69 6f 6e 5f 66 6c 61 67 73 00 64 61 |olation_flags da
+ef0 72 6b 65 6e 20 62 79 00 6f 62 6a 65 63 74 5f 63 |rken by object_c
+f00 68 61 6e 67 65 5f 63 6f 6c 6f 72 5f 66 75 6e 63 |hange_color_func
+f10 74 69 6f 6e 00 6f 62 6a 65 63 74 5f 63 68 61 6e |tion object_chan
+f20 67 65 5f 63 6f 6c 6f 72 73 00 6d 75 6c 74 69 70 |ge_colors multip
+f30 6c 61 79 65 72 20 6f 62 6a 65 63 74 00 67 61 6d |layer object gam
+f40 65 20 65 6e 67 69 6e 65 20 66 6c 61 67 73 00 73 |e engine flags s
+f50 61 6e 64 62 6f 78 00 6d 65 67 61 6c 6f 67 61 6d |andbox megalogam
+f60 65 6e 67 69 6e 65 00 63 61 6d 70 61 69 67 6e 00 |engine campaign 
+f70 73 75 72 76 69 76 61 6c 00 67 6c 6f 62 61 6c 5f |survival global_
+f80 67 61 6d 65 5f 65 6e 67 69 6e 65 5f 74 79 70 65 |game_engine_type
+f90 5f 66 6c 61 67 73 00 6f 72 64 69 6e 61 72 79 00 |_flags ordinary 
+fa0 77 65 61 70 6f 6e 00 67 72 65 6e 61 64 65 00 70 |weapon grenade p
+fb0 72 6f 6a 65 63 74 69 6c 65 00 70 6f 77 65 72 75 |rojectile poweru
+fc0 70 00 65 71 75 69 70 6d 65 6e 74 00 61 6d 6d 6f |p equipment ammo
+fd0 20 70 61 63 6b 00 6c 69 67 68 74 20 6c 61 6e 64 | pack light land
+fe0 20 76 65 68 69 63 6c 65 00 68 65 61 76 79 20 6c | vehicle heavy l
+ff0 61 6e 64 20 76 65 68 69 63 6c 65 00 66 6c 79 69 |and vehicle flyi
+1000 6e 67 20 76 65 68 69 63 6c 65 00 74 75 72 72 65 |ng vehicle turre
+1010 74 00 64 65 76 69 63 65 00 74 65 6c 65 70 6f 72 |t device telepor
+1020 74 65 72 20 32 77 61 79 00 74 65 6c 65 70 6f 72 |ter 2way telepor
+1030 74 65 72 20 73 65 6e 64 65 72 00 74 65 6c 65 70 |ter sender telep
+1040 6f 72 74 65 72 20 72 65 63 65 69 76 65 72 00 70 |orter receiver p
+1050 6c 61 79 65 72 20 73 70 61 77 6e 20 6c 6f 63 61 |layer spawn loca
+1060 74 69 6f 6e 00 70 6c 61 79 65 72 20 72 65 73 70 |tion player resp
+1070 61 77 6e 20 7a 6f 6e 65 00 73 65 63 6f 6e 64 61 |awn zone seconda
+1080 72 79 20 6f 62 6a 65 63 74 69 76 65 00 70 72 69 |ry objective pri
+1090 6d 61 72 79 20 6f 62 6a 65 63 74 69 76 65 00 6e |mary objective n
+10a0 61 6d 65 64 20 6c 6f 63 61 74 69 6f 6e 20 61 72 |amed location ar
+10b0 65 61 00 64 61 6e 67 65 72 20 7a 6f 6e 65 00 66 |ea danger zone f
+10c0 69 72 65 74 65 61 6d 20 31 20 72 65 73 70 61 77 |ireteam 1 respaw
+10d0 6e 20 7a 6f 6e 65 00 66 69 72 65 74 65 61 6d 20 |n zone fireteam 
+10e0 32 20 72 65 73 70 61 77 6e 20 7a 6f 6e 65 00 66 |2 respawn zone f
+10f0 69 72 65 74 65 61 6d 20 33 20 72 65 73 70 61 77 |ireteam 3 respaw
+1100 6e 20 7a 6f 6e 65 00 66 69 72 65 74 65 61 6d 20 |n zone fireteam 
+1110 34 20 72 65 73 70 61 77 6e 20 7a 6f 6e 65 00 73 |4 respawn zone s
+1120 61 66 65 20 76 6f 6c 75 6d 65 00 6b 69 6c 6c 20 |afe volume kill 
+1130 76 6f 6c 75 6d 65 00 63 69 6e 65 6d 61 74 69 63 |volume cinematic
+1140 20 63 61 6d 65 72 61 20 70 6f 73 69 74 69 6f 6e | camera position
+1150 00 6d 75 6c 74 69 70 6c 61 79 65 72 5f 6f 62 6a | multiplayer_obj
+1160 65 63 74 5f 74 79 70 65 00 74 65 6c 65 70 6f 72 |ect_type telepor
+1170 74 65 72 20 70 61 73 73 61 62 69 6c 69 74 79 00 |ter passability 
+1180 64 69 73 61 6c 6c 6f 77 20 70 6c 61 79 65 72 73 |disallow players
+1190 00 61 6c 6c 6f 77 20 6c 69 67 68 74 20 6c 61 6e | allow light lan
+11a0 64 20 76 65 68 69 63 6c 65 73 00 61 6c 6c 6f 77 |d vehicles allow
+11b0 20 68 65 61 76 79 20 6c 61 6e 64 20 76 65 68 69 | heavy land vehi
+11c0 63 6c 65 73 00 61 6c 6c 6f 77 20 66 6c 79 69 6e |cles allow flyin
+11d0 67 20 76 65 68 69 63 6c 65 73 00 61 6c 6c 6f 77 |g vehicles allow
+11e0 20 70 72 6f 6a 65 63 74 69 6c 65 73 00 74 65 6c | projectiles tel
+11f0 65 70 6f 72 74 65 72 5f 70 61 73 73 61 62 69 6c |eporter_passabil
+1200 69 74 79 5f 66 6c 61 67 73 00 70 61 64 31 00 62 |ity_flags pad1 b
+1210 6f 75 6e 64 61 72 79 20 77 69 64 74 68 2f 72 61 |oundary width/ra
+1220 64 69 75 73 00 62 6f 75 6e 64 61 72 79 20 62 6f |dius boundary bo
+1230 78 20 6c 65 6e 67 74 68 00 62 6f 75 6e 64 61 72 |x length boundar
+1240 79 20 2b 68 65 69 67 68 74 00 62 6f 75 6e 64 61 |y +height bounda
+1250 72 79 20 2d 68 65 69 67 68 74 00 62 6f 75 6e 64 |ry -height bound
+1260 61 72 79 20 73 68 61 70 65 00 75 6e 75 73 65 64 |ary shape unused
+1270 00 73 70 68 65 72 65 00 63 79 6c 69 6e 64 65 72 | sphere cylinder
+1280 00 6d 75 6c 74 69 70 6c 61 79 65 72 5f 6f 62 6a | multiplayer_obj
+1290 65 63 74 5f 62 6f 75 6e 64 61 72 79 5f 73 68 61 |ect_boundary_sha
+12a0 70 65 00 73 70 61 77 6e 20 74 69 6d 65 72 20 74 |pe spawn timer t
+12b0 79 70 65 00 73 74 61 72 74 73 20 6f 6e 20 64 65 |ype starts on de
+12c0 61 74 68 00 73 74 61 72 74 73 20 6f 6e 20 64 69 |ath starts on di
+12d0 73 74 75 72 62 61 6e 63 65 00 6d 75 6c 74 69 70 |sturbance multip
+12e0 6c 61 79 65 72 5f 6f 62 6a 65 63 74 5f 73 70 61 |layer_object_spa
+12f0 77 6e 5f 74 69 6d 65 72 5f 74 79 70 65 73 00 64 |wn_timer_types d
+1300 65 66 61 75 6c 74 20 73 70 61 77 6e 20 74 69 6d |efault spawn tim
+1310 65 00 64 65 66 61 75 6c 74 20 61 62 61 6e 64 6f |e default abando
+1320 6e 6d 65 6e 74 20 74 69 6d 65 00 6f 6e 6c 79 20 |nment time only 
+1330 76 69 73 69 62 6c 65 20 69 6e 20 65 64 69 74 6f |visible in edito
+1340 72 00 70 68 61 73 65 64 20 70 68 79 73 69 63 73 |r phased physics
+1350 20 69 6e 20 66 6f 72 67 65 00 76 61 6c 69 64 20 | in forge valid 
+1360 69 6e 69 74 69 61 6c 20 70 6c 61 79 65 72 20 73 |initial player s
+1370 70 61 77 6e 00 66 69 78 65 64 20 62 6f 75 6e 64 |pawn fixed bound
+1380 61 72 79 20 6f 72 69 65 6e 74 61 74 69 6f 6e 00 |ary orientation 
+1390 63 61 6e 64 79 20 6d 6f 6e 69 74 6f 72 20 73 68 |candy monitor sh
+13a0 6f 75 6c 64 20 69 67 6e 6f 72 65 00 69 6e 68 65 |ould ignore inhe
+13b0 72 69 74 20 6f 77 6e 69 6e 67 20 74 65 61 6d 20 |rit owning team 
+13c0 63 6f 6c 6f 72 00 62 6f 75 6e 64 61 72 79 20 76 |color boundary v
+13d0 6f 6c 75 6d 65 20 64 6f 65 73 6e 27 74 20 6b 69 |olume doesn't ki
+13e0 6c 6c 20 69 6d 6d 65 64 69 61 74 65 6c 79 00 6d |ll immediately m
+13f0 75 6c 74 69 70 6c 61 79 65 72 5f 6f 62 6a 65 63 |ultiplayer_objec
+1400 74 5f 66 6c 61 67 73 00 6e 6f 72 6d 61 6c 20 77 |t_flags normal w
+1410 65 69 67 68 74 00 62 6f 75 6e 64 61 72 79 20 63 |eight boundary c
+1420 65 6e 74 65 72 20 6d 61 72 6b 65 72 00 73 70 61 |enter marker spa
+1430 77 6e 65 64 20 6f 62 6a 65 63 74 20 6d 61 72 6b |wned object mark
+1440 65 72 20 6e 61 6d 65 00 73 70 61 77 6e 65 64 20 |er name spawned 
+1450 6f 62 6a 65 63 74 00 4e 59 49 20 62 6f 75 6e 64 |object NYI bound
+1460 61 72 79 20 6d 61 74 65 72 69 61 6c 00 62 6f 75 |ary material bou
+1470 6e 64 61 72 79 20 73 74 61 6e 64 61 72 64 20 73 |ndary standard s
+1480 68 61 64 65 72 00 62 6f 75 6e 64 61 72 79 20 6f |hader boundary o
+1490 70 61 71 75 65 20 73 68 61 64 65 72 00 73 70 68 |paque shader sph
+14a0 65 72 65 20 73 74 61 6e 64 61 72 64 20 73 68 61 |ere standard sha
+14b0 64 65 72 00 73 70 68 65 72 65 20 6f 70 61 71 75 |der sphere opaqu
+14c0 65 20 73 68 61 64 65 72 00 63 79 6c 69 6e 64 65 |e shader cylinde
+14d0 72 20 73 74 61 6e 64 61 72 64 20 73 68 61 64 65 |r standard shade
+14e0 72 00 63 79 6c 69 6e 64 65 72 20 6f 70 61 71 75 |r cylinder opaqu
+14f0 65 20 73 68 61 64 65 72 00 62 6f 78 20 73 74 61 |e shader box sta
+1500 6e 64 61 72 64 20 73 68 61 64 65 72 00 62 6f 78 |ndard shader box
+1510 20 6f 70 61 71 75 65 20 73 68 61 64 65 72 00 6d | opaque shader m
+1520 75 6c 74 69 70 6c 61 79 65 72 5f 6f 62 6a 65 63 |ultiplayer_objec
+1530 74 5f 62 6c 6f 63 6b 00 73 69 6d 75 6c 61 74 69 |t_block simulati
+1540 6f 6e 5f 69 6e 74 65 72 70 6f 6c 61 74 69 6f 6e |on_interpolation
+1550 00 73 70 61 77 6e 20 65 66 66 65 63 74 73 00 6d | spawn effects m
+1560 75 6c 74 69 70 6c 61 79 65 72 20 73 70 61 77 6e |ultiplayer spawn
+1570 20 65 66 66 65 63 74 00 73 75 72 76 69 76 61 6c | effect survival
+1580 20 73 70 61 77 6e 20 65 66 66 65 63 74 00 63 61 | spawn effect ca
+1590 6d 70 61 69 67 6e 20 73 70 61 77 6e 20 65 66 66 |mpaign spawn eff
+15a0 65 63 74 00 6f 62 6a 65 63 74 5f 73 70 61 77 6e |ect object_spawn
+15b0 5f 65 66 66 65 63 74 73 5f 62 6c 6f 63 6b 00 6f |_effects_block o
+15c0 62 6a 65 63 74 5f 73 74 72 75 63 74 5f 64 65 66 |bject_struct_def
+15d0 69 6e 69 74 69 6f 6e 00 61 6c 77 61 79 73 20 6d |inition always m
+15e0 61 69 6e 74 61 69 6e 73 20 7a 20 75 70 00 69 74 |aintains z up it
+15f0 65 6d 5f 64 65 66 69 6e 69 74 69 6f 6e 5f 66 6c |em_definition_fl
+1600 61 67 73 00 70 69 63 6b 75 70 20 6d 65 73 73 61 |ags pickup messa
+1610 67 65 00 73 77 61 70 20 6d 65 73 73 61 67 65 00 |ge swap message 
+1620 70 69 63 6b 75 70 20 6d 65 73 73 61 67 65 20 28 |pickup message (
+1630 64 75 61 6c 29 00 73 77 61 70 20 6d 65 73 73 61 |dual) swap messa
+1640 67 65 20 28 64 75 61 6c 29 00 70 69 63 6b 65 64 |ge (dual) picked
+1650 20 75 70 20 6d 73 67 00 73 77 69 74 63 68 2d 74 | up msg switch-t
+1660 6f 20 6d 73 67 00 73 77 69 74 63 68 2d 74 6f 20 |o msg switch-to 
+1670 66 72 6f 6d 20 61 69 20 6d 73 67 00 6e 6f 74 69 |from ai msg noti
+1680 66 79 20 65 6d 70 74 79 20 6d 73 67 00 6e 6f 74 |fy empty msg not
+1690 69 66 79 20 6f 76 65 72 68 65 61 74 65 64 20 6d |ify overheated m
+16a0 65 73 73 61 67 65 00 70 72 69 76 61 74 65 20 75 |essage private u
+16b0 73 65 20 66 6f 6e 74 20 69 63 6f 6e 00 70 72 69 |se font icon pri
+16c0 76 61 74 65 20 75 73 65 20 66 6f 6e 74 20 69 63 |vate use font ic
+16d0 6f 6e 20 28 64 75 61 6c 29 00 64 65 74 6f 6e 61 |on (dual) detona
+16e0 74 69 6f 6e 20 64 61 6d 61 67 65 20 65 66 66 65 |tion damage effe
+16f0 63 74 00 64 65 74 6f 6e 61 74 69 6f 6e 20 64 65 |ct detonation de
+1700 6c 61 79 00 72 65 61 6c 20 62 6f 75 6e 64 73 00 |lay real bounds 
+1710 64 65 74 6f 6e 61 74 69 6e 67 20 65 66 66 65 63 |detonating effec
+1720 74 00 64 65 74 6f 6e 61 74 69 6f 6e 20 65 66 66 |t detonation eff
+1730 65 63 74 00 67 72 6f 75 6e 64 20 73 63 61 6c 65 |ect ground scale
+1740 00 73 6d 61 6c 6c 20 75 6e 69 74 20 28 61 72 6d | small unit (arm
+1750 65 64 29 00 73 6d 61 6c 6c 20 75 6e 69 74 20 28 |ed) small unit (
+1760 73 74 6f 77 65 64 29 00 6d 65 64 69 75 6d 20 75 |stowed) medium u
+1770 6e 69 74 20 28 61 72 6d 65 64 29 00 6d 65 64 69 |nit (armed) medi
+1780 75 6d 20 75 6e 69 74 20 28 73 74 6f 77 65 64 29 |um unit (stowed)
+1790 00 6c 61 72 67 65 20 75 6e 69 74 20 28 61 72 6d | large unit (arm
+17a0 65 64 29 00 6c 61 72 67 65 20 75 6e 69 74 20 28 |ed) large unit (
+17b0 73 74 6f 77 65 64 29 00 68 75 67 65 20 75 6e 69 |stowed) huge uni
+17c0 74 20 28 61 72 6d 65 64 29 00 68 75 67 65 20 75 |t (armed) huge u
+17d0 6e 69 74 20 28 73 74 6f 77 65 64 29 00 67 72 6f |nit (stowed) gro
+17e0 75 6e 64 65 64 20 66 72 69 63 74 69 6f 6e 20 73 |unded friction s
+17f0 65 74 74 69 6e 67 73 00 69 74 65 6d 5f 73 74 72 |ettings item_str
+1800 75 63 74 5f 64 65 66 69 6e 69 74 69 6f 6e 00 6d |uct_definition m
+1810 75 73 74 20 62 65 20 72 65 61 64 69 65 64 00 64 |ust be readied d
+1820 6f 65 73 6e 27 74 20 63 6f 75 6e 74 20 74 6f 77 |oesn't count tow
+1830 61 72 64 20 6d 61 78 69 6d 75 6d 00 61 69 6d 20 |ard maximum aim 
+1840 61 73 73 69 73 74 73 20 6f 6e 6c 79 20 77 68 65 |assists only whe
+1850 6e 20 7a 6f 6f 6d 65 64 00 70 72 65 76 65 6e 74 |n zoomed prevent
+1860 73 20 67 72 65 6e 61 64 65 20 74 68 72 6f 77 69 |s grenade throwi
+1870 6e 67 00 70 72 65 76 65 6e 74 73 20 6d 65 6c 65 |ng prevents mele
+1880 65 20 61 74 74 61 63 6b 00 64 65 74 6f 6e 61 74 |e attack detonat
+1890 65 73 20 77 68 65 6e 20 64 72 6f 70 70 65 64 00 |es when dropped 
+18a0 63 61 6e 6e 6f 74 20 66 69 72 65 20 61 74 20 6d |cannot fire at m
+18b0 61 78 69 6d 75 6d 20 61 67 65 00 73 65 63 6f 6e |aximum age secon
+18c0 64 61 72 79 20 74 72 69 67 67 65 72 20 6f 76 65 |dary trigger ove
+18d0 72 72 69 64 65 73 20 67 72 65 6e 61 64 65 73 00 |rrides grenades 
+18e0 73 75 70 70 6f 72 74 20 77 65 61 70 6f 6e 00 41 |support weapon A
+18f0 49 73 20 75 73 65 20 77 65 61 70 6f 6e 20 6d 65 |Is use weapon me
+1900 6c 65 65 20 64 61 6d 61 67 65 00 61 6c 6c 6f 77 |lee damage allow
+1910 73 20 62 69 6e 6f 63 75 6c 61 72 73 00 6c 6f 6f |s binoculars loo
+1920 70 20 66 70 20 66 69 72 69 6e 67 20 61 6e 69 6d |p fp firing anim
+1930 61 74 69 6f 6e 00 70 72 65 76 65 6e 74 73 20 63 |ation prevents c
+1940 72 6f 75 63 68 69 6e 67 00 63 61 6e 6e 6f 74 20 |rouching cannot 
+1950 66 69 72 65 20 77 68 69 6c 65 20 62 6f 6f 73 74 |fire while boost
+1960 69 6e 67 00 75 73 65 20 65 6d 70 74 79 20 6d 65 |ing use empty me
+1970 6c 65 65 20 6f 6e 20 65 6d 70 74 79 00 75 73 65 |lee on empty use
+1980 73 20 33 72 64 20 70 65 72 73 6f 6e 20 63 61 6d |s 3rd person cam
+1990 65 72 61 00 63 61 6e 20 62 65 20 64 75 61 6c 20 |era can be dual 
+19a0 77 69 65 6c 64 65 64 00 63 61 6e 20 6f 6e 6c 79 |wielded can only
+19b0 20 62 65 20 64 75 61 6c 20 77 69 65 6c 64 65 64 | be dual wielded
+19c0 00 6d 65 6c 65 65 20 6f 6e 6c 79 00 63 61 6e 74 | melee only cant
+19d0 20 66 69 72 65 20 69 66 20 70 61 72 65 6e 74 20 | fire if parent 
+19e0 64 65 61 64 00 77 65 61 70 6f 6e 20 61 67 65 73 |dead weapon ages
+19f0 20 77 69 74 68 20 65 61 63 68 20 6b 69 6c 6c 00 | with each kill 
+1a00 61 6c 6c 6f 77 73 20 75 6e 61 69 6d 65 64 20 6c |allows unaimed l
+1a10 75 6e 67 65 00 63 61 6e 6e 6f 74 20 62 65 20 75 |unge cannot be u
+1a20 73 65 64 20 62 79 20 70 6c 61 79 65 72 00 68 6f |sed by player ho
+1a30 6c 64 20 66 70 20 66 69 72 69 6e 67 20 61 6e 69 |ld fp firing ani
+1a40 6d 61 74 69 6f 6e 00 73 74 72 69 63 74 20 64 65 |mation strict de
+1a50 76 69 61 74 69 6f 6e 20 61 6e 67 6c 65 00 6e 6f |viation angle no
+1a60 74 69 66 69 65 73 20 74 61 72 67 65 74 20 75 6e |tifies target un
+1a70 69 74 73 00 77 65 61 70 6f 6e 5f 64 65 66 69 6e |its weapon_defin
+1a80 69 74 69 6f 6e 5f 66 6c 61 67 73 00 6d 61 67 6e |ition_flags magn
+1a90 69 74 69 7a 65 73 20 6f 6e 6c 79 20 77 68 65 6e |itizes only when
+1aa0 20 7a 6f 6f 6d 65 64 00 66 6f 72 63 65 20 65 6e | zoomed force en
+1ab0 61 62 6c 65 20 65 71 75 69 70 6d 65 6e 74 20 74 |able equipment t
+1ac0 6f 73 73 69 6e 67 00 6e 6f 6e 2d 6c 75 6e 67 65 |ossing non-lunge
+1ad0 20 6d 65 6c 65 65 20 64 61 73 68 20 64 69 73 61 | melee dash disa
+1ae0 62 6c 65 64 00 64 6f 6e 27 74 20 64 72 6f 70 20 |bled don't drop 
+1af0 6f 6e 20 64 75 61 6c 20 77 69 65 6c 64 20 6d 65 |on dual wield me
+1b00 6c 65 65 00 69 73 20 65 71 75 69 70 6d 65 6e 74 |lee is equipment
+1b10 20 73 70 65 63 69 61 6c 20 77 65 61 70 6f 6e 00 | special weapon 
+1b20 75 73 65 73 20 67 68 6f 73 74 20 72 65 74 69 63 |uses ghost retic
+1b30 6c 65 00 6e 65 76 65 72 20 6f 76 65 72 68 65 61 |le never overhea
+1b40 74 73 00 66 6f 72 63 65 20 63 6f 6e 74 72 61 69 |ts force contrai
+1b50 6c 73 20 74 6f 20 63 6f 6d 65 20 66 72 6f 6d 20 |ls to come from 
+1b60 77 65 61 70 6f 6e 20 62 61 72 72 65 6c 00 63 61 |weapon barrel ca
+1b70 6e 6e 6f 74 20 66 69 72 65 20 64 75 72 69 6e 67 |nnot fire during
+1b80 20 65 6d 70 00 77 65 61 70 6f 6e 20 63 61 6e 20 | emp weapon can 
+1b90 68 65 61 64 73 68 6f 74 00 41 49 20 63 61 6e 6e |headshot AI cann
+1ba0 6f 74 20 66 69 72 65 20 74 72 61 63 6b 69 6e 67 |ot fire tracking
+1bb0 20 70 72 6f 6a 65 63 74 69 6c 65 73 00 77 65 61 | projectiles wea
+1bc0 70 6f 6e 5f 64 65 66 69 6e 69 74 69 6f 6e 5f 73 |pon_definition_s
+1bd0 65 63 6f 6e 64 61 72 79 5f 66 6c 61 67 73 00 73 |econdary_flags s
+1be0 65 63 6f 6e 64 61 72 79 20 74 72 69 67 67 65 72 |econdary trigger
+1bf0 20 6d 6f 64 65 00 6e 6f 72 6d 61 6c 00 73 6c 61 | mode normal sla
+1c00 76 65 64 20 74 6f 20 70 72 69 6d 61 72 79 00 69 |ved to primary i
+1c10 6e 68 69 62 69 74 73 20 70 72 69 6d 61 72 79 00 |nhibits primary 
+1c20 6c 6f 61 64 73 20 61 6c 74 65 72 61 74 65 20 61 |loads alterate a
+1c30 6d 6d 75 6e 69 74 69 6f 6e 00 6c 6f 61 64 73 20 |mmunition loads 
+1c40 6d 75 6c 74 69 70 6c 65 20 70 72 69 6d 61 72 79 |multiple primary
+1c50 20 61 6d 6d 75 6e 69 74 69 6f 6e 00 73 65 63 6f | ammunition seco
+1c60 6e 64 61 72 79 5f 74 72 69 67 67 65 72 5f 6d 6f |ndary_trigger_mo
+1c70 64 65 73 00 6d 61 78 69 6d 75 6d 20 61 6c 74 65 |des maximum alte
+1c80 72 6e 61 74 65 20 73 68 6f 74 73 20 6c 6f 61 64 |rnate shots load
+1c90 65 64 00 74 75 72 6e 20 6f 6e 20 74 69 6d 65 00 |ed turn on time 
+1ca0 72 65 61 64 79 20 74 69 6d 65 00 72 65 61 64 79 |ready time ready
+1cb0 20 65 66 66 65 63 74 00 72 65 61 64 79 20 64 61 | effect ready da
+1cc0 6d 61 67 65 20 65 66 66 65 63 74 00 68 65 61 74 |mage effect heat
+1cd0 20 72 65 63 6f 76 65 72 79 20 74 68 72 65 73 68 | recovery thresh
+1ce0 6f 6c 64 00 72 65 61 6c 20 66 72 61 63 74 69 6f |old real fractio
+1cf0 6e 00 6f 76 65 72 68 65 61 74 65 64 20 74 68 72 |n overheated thr
+1d00 65 73 68 6f 6c 64 00 68 65 61 74 20 64 65 74 6f |eshold heat deto
+1d10 6e 61 74 69 6f 6e 20 74 68 72 65 73 68 6f 6c 64 |nation threshold
+1d20 00 68 65 61 74 20 64 65 74 6f 6e 61 74 69 6f 6e | heat detonation
+1d30 20 66 72 61 63 74 69 6f 6e 00 68 65 61 74 20 6c | fraction heat l
+1d40 6f 73 73 20 70 65 72 20 73 65 63 6f 6e 64 00 68 |oss per second h
+1d50 65 61 74 20 6c 6f 73 73 00 68 65 61 74 20 6c 6f |eat loss heat lo
+1d60 73 73 20 76 65 6e 74 69 6e 67 00 68 65 61 74 20 |ss venting heat 
+1d70 76 65 6e 74 69 6e 67 20 74 69 6d 65 00 68 65 61 |venting time hea
+1d80 74 20 76 65 6e 74 69 6e 67 20 65 78 69 74 20 68 |t venting exit h
+1d90 65 61 74 00 68 65 61 74 20 69 6c 6c 75 6d 69 6e |eat heat illumin
+1da0 61 74 69 6f 6e 00 68 65 61 74 20 77 61 72 6e 69 |ation heat warni
+1db0 6e 67 20 74 68 72 65 73 68 6f 6c 64 00 6f 76 65 |ng threshold ove
+1dc0 72 68 65 61 74 65 64 20 68 65 61 74 20 6c 6f 73 |rheated heat los
+1dd0 73 20 70 65 72 20 73 65 63 6f 6e 64 00 6f 76 65 |s per second ove
+1de0 72 68 65 61 74 65 64 20 68 65 61 74 20 6c 6f 73 |rheated heat los
+1df0 73 00 6f 76 65 72 68 65 61 74 65 64 00 6f 76 65 |s overheated ove
+1e00 72 68 65 61 74 65 64 20 64 61 6d 61 67 65 20 65 |rheated damage e
+1e10 66 66 65 63 74 00 64 65 74 6f 6e 61 74 69 6f 6e |ffect detonation
+1e20 00 6d 65 6c 65 65 20 64 61 6d 61 67 65 20 70 61 | melee damage pa
+1e30 72 61 6d 65 74 65 72 73 00 64 61 6d 61 67 65 20 |rameters damage 
+1e40 70 79 72 61 6d 69 64 20 61 6e 67 6c 65 73 00 72 |pyramid angles r
+1e50 65 61 6c 20 65 75 6c 65 72 20 61 6e 67 6c 65 73 |eal euler angles
+1e60 20 32 64 00 64 61 6d 61 67 65 20 70 79 72 61 6d | 2d damage pyram
+1e70 69 64 20 64 65 70 74 68 00 6d 61 78 69 6d 75 6d |id depth maximum
+1e80 20 6c 75 6e 67 65 20 72 61 6e 67 65 00 64 61 6d | lunge range dam
+1e90 61 67 65 20 6c 75 6e 67 65 20 65 78 70 6c 6f 73 |age lunge explos
+1ea0 69 76 65 20 64 65 70 74 68 00 72 75 6e 74 69 6d |ive depth runtim
+1eb0 65 20 64 61 6d 61 67 65 20 6c 75 6e 67 65 20 65 |e damage lunge e
+1ec0 78 70 6c 6f 73 69 76 65 20 66 72 61 63 74 69 6f |xplosive fractio
+1ed0 6e 00 6d 65 6c 65 65 20 72 65 73 70 6f 6e 73 65 |n melee response
+1ee0 00 6c 75 6e 67 65 20 6d 65 6c 65 65 20 64 61 6d | lunge melee dam
+1ef0 61 67 65 00 6c 75 6e 67 65 20 6d 65 6c 65 65 20 |age lunge melee 
+1f00 72 65 73 70 6f 6e 73 65 00 65 6d 70 74 79 20 6d |response empty m
+1f10 65 6c 65 65 20 64 61 6d 61 67 65 00 65 6d 70 74 |elee damage empt
+1f20 79 20 6d 65 6c 65 65 20 72 65 73 70 6f 6e 73 65 |y melee response
+1f30 00 63 6c 61 6e 67 20 6d 65 6c 65 65 20 64 61 6d | clang melee dam
+1f40 61 67 65 00 63 6c 61 6e 67 20 6d 65 6c 65 65 20 |age clang melee 
+1f50 72 65 73 70 6f 6e 73 65 00 63 6c 61 6e 67 20 6d |response clang m
+1f60 65 6c 65 65 20 61 67 61 69 6e 73 74 20 6d 65 6c |elee against mel
+1f70 65 65 20 77 65 61 70 6f 6e 20 64 61 6d 61 67 65 |ee weapon damage
+1f80 00 63 6c 61 6e 67 20 6d 65 6c 65 65 20 61 67 61 | clang melee aga
+1f90 69 6e 73 74 20 6d 65 6c 65 65 20 77 65 61 70 6f |inst melee weapo
+1fa0 6e 20 64 61 6d 61 67 65 20 72 65 73 70 6f 6e 73 |n damage respons
+1fb0 65 00 6c 75 6e 67 65 20 6d 65 6c 65 65 20 65 78 |e lunge melee ex
+1fc0 70 6c 6f 73 69 76 65 20 64 61 6d 61 67 65 00 6d |plosive damage m
+1fd0 65 6c 65 65 5f 64 61 6d 61 67 65 5f 70 61 72 61 |elee_damage_para
+1fe0 6d 65 74 65 72 73 5f 62 6c 6f 63 6b 00 63 6c 61 |meters_block cla
+1ff0 6e 67 20 65 66 66 65 63 74 00 6d 65 6c 65 65 20 |ng effect melee 
+2000 64 61 6d 61 67 65 20 72 65 70 6f 72 74 69 6e 67 |damage reporting
+2010 20 74 79 70 65 00 75 6e 6b 6e 6f 77 6e 00 74 65 | type unknown te
+2020 68 20 67 75 61 72 64 69 61 6e 73 00 73 63 72 69 |h guardians scri
+2030 70 74 69 6e 67 00 61 69 20 73 75 69 63 69 64 65 |pting ai suicide
+2040 00 6d 61 67 6e 75 6d 20 70 69 73 74 6f 6c 00 61 | magnum pistol a
+2050 73 73 61 75 6c 74 20 72 69 66 6c 65 00 6d 61 72 |ssault rifle mar
+2060 6b 73 6d 61 6e 20 72 69 66 6c 65 00 73 68 6f 74 |ksman rifle shot
+2070 67 75 6e 00 73 6e 69 70 65 72 20 72 69 66 6c 65 |gun sniper rifle
+2080 00 72 6f 63 6b 65 74 20 6c 61 75 6e 63 68 65 72 | rocket launcher
+2090 00 73 70 61 72 74 61 6e 20 6c 61 73 65 72 00 66 | spartan laser f
+20a0 72 61 67 20 67 72 65 6e 61 64 65 00 67 72 65 6e |rag grenade gren
+20b0 61 64 65 20 6c 61 75 6e 63 68 65 72 00 70 6c 61 |ade launcher pla
+20c0 73 6d 61 20 70 69 73 74 6f 6c 00 6e 65 65 64 6c |sma pistol needl
+20d0 65 72 00 70 6c 61 73 6d 61 20 72 69 66 6c 65 00 |er plasma rifle 
+20e0 70 6c 61 73 6d 61 20 72 65 70 65 61 74 65 72 00 |plasma repeater 
+20f0 6e 65 65 64 6c 65 20 72 69 66 6c 65 00 73 70 69 |needle rifle spi
+2100 6b 65 20 72 69 66 6c 65 00 70 6c 61 73 6d 61 20 |ke rifle plasma 
+2110 6c 61 75 6e 63 68 65 72 00 67 72 61 76 69 74 79 |launcher gravity
+2120 20 68 61 6d 6d 65 72 00 65 6e 65 72 67 79 20 73 | hammer energy s
+2130 77 6f 72 64 00 70 6c 61 73 6d 61 20 67 72 65 6e |word plasma gren
+2140 61 64 65 00 70 6c 61 73 6d 61 20 73 68 6f 74 00 |ade plasma shot 
+2150 67 68 6f 73 74 00 72 65 76 65 6e 61 6e 74 20 64 |ghost revenant d
+2160 72 69 76 65 72 00 72 65 76 65 6e 61 6e 74 20 67 |river revenant g
+2170 75 6e 6e 65 72 00 77 72 61 69 74 68 00 77 72 61 |unner wraith wra
+2180 69 74 68 20 61 6e 74 69 2d 69 6e 66 61 6e 74 72 |ith anti-infantr
+2190 79 00 62 61 6e 73 68 65 65 00 62 61 6e 73 68 65 |y banshee banshe
+21a0 65 20 62 6f 6d 62 00 73 65 72 61 70 68 00 6d 6f |e bomb seraph mo
+21b0 6e 67 6f 6f 73 65 00 77 61 72 74 68 6f 67 20 64 |ngoose warthog d
+21c0 72 69 76 65 72 00 77 61 72 74 68 6f 67 20 67 75 |river warthog gu
+21d0 6e 6e 65 72 00 77 61 72 74 68 6f 67 20 67 75 6e |nner warthog gun
+21e0 6e 65 72 20 67 61 75 73 73 00 77 61 72 74 68 6f |ner gauss wartho
+21f0 67 20 67 75 6e 6e 65 72 20 72 6f 63 6b 65 74 00 |g gunner rocket 
+2200 73 63 6f 72 70 69 6f 6e 00 73 63 6f 72 70 69 6f |scorpion scorpio
+2210 6e 20 67 75 6e 6e 65 72 00 66 61 6c 63 6f 6e 20 |n gunner falcon 
+2220 64 72 69 76 65 72 00 66 61 6c 63 6f 6e 20 67 75 |driver falcon gu
+2230 6e 6e 65 72 00 66 61 6c 6c 69 6e 67 20 64 61 6d |nner falling dam
+2240 61 67 65 00 67 65 6e 65 72 69 63 20 63 6f 6c 6c |age generic coll
+2250 69 73 69 6f 6e 20 64 61 6d 61 67 65 00 67 65 6e |ision damage gen
+2260 65 72 69 63 20 6d 65 6c 65 65 20 64 61 6d 61 67 |eric melee damag
+2270 65 00 67 65 6e 65 72 69 63 20 65 78 70 6c 6f 73 |e generic explos
+2280 69 6f 6e 00 62 69 72 74 68 64 61 79 20 70 61 72 |ion birthday par
+2290 74 79 20 65 78 70 6c 6f 73 69 6f 6e 00 66 6c 61 |ty explosion fla
+22a0 67 20 6d 65 6c 65 65 20 64 61 6d 61 67 65 00 62 |g melee damage b
+22b0 6f 6d 62 20 6d 65 6c 65 65 20 64 61 6d 61 67 65 |omb melee damage
+22c0 00 62 6f 6d 62 20 65 78 70 6c 6f 73 69 6f 6e 20 | bomb explosion 
+22d0 64 61 6d 61 67 65 00 62 61 6c 6c 20 6d 65 6c 65 |damage ball mele
+22e0 65 20 64 61 6d 61 67 65 00 74 65 6c 65 70 6f 72 |e damage telepor
+22f0 74 65 72 00 74 72 61 6e 73 66 65 72 20 64 61 6d |ter transfer dam
+2300 61 67 65 00 61 72 6d 6f 72 20 6c 6f 63 6b 20 63 |age armor lock c
+2310 72 75 73 68 00 61 69 72 73 74 72 69 6b 65 00 68 |rush airstrike h
+2320 75 6d 61 6e 20 74 75 72 72 65 74 00 70 6c 61 73 |uman turret plas
+2330 6d 61 20 63 61 6e 6e 6f 6e 00 70 6c 61 73 6d 61 |ma cannon plasma
+2340 20 6d 6f 72 74 61 72 00 70 6c 61 73 6d 61 20 74 | mortar plasma t
+2350 75 72 72 65 74 00 73 68 61 64 65 20 74 75 72 72 |urret shade turr
+2360 65 74 00 65 78 63 61 76 61 74 6f 72 00 73 6d 67 |et excavator smg
+2370 00 62 61 74 74 6c 65 20 72 69 66 6c 65 00 63 61 | battle rifle ca
+2380 72 62 69 6e 65 00 62 65 61 6d 20 72 69 66 6c 65 |rbine beam rifle
+2390 00 66 6c 61 6b 20 63 61 6e 6e 6f 6e 00 6d 69 73 | flak cannon mis
+23a0 73 69 6c 65 20 6c 61 75 6e 63 68 65 72 00 62 72 |sile launcher br
+23b0 75 74 65 20 73 68 6f 74 00 66 6c 61 6d 65 20 74 |ute shot flame t
+23c0 68 72 6f 77 65 72 00 73 65 6e 74 69 6e 61 6c 20 |hrower sentinal 
+23d0 67 75 6e 00 63 6c 61 79 6d 6f 72 65 20 67 72 65 |gun claymore gre
+23e0 6e 61 64 65 00 66 69 72 65 62 6f 6d 62 20 67 72 |nade firebomb gr
+23f0 65 6e 61 64 65 00 65 6c 65 70 68 61 6e 74 20 74 |enade elephant t
+2400 75 72 72 65 74 00 73 70 65 63 74 72 65 20 64 72 |urret spectre dr
+2410 69 76 65 72 00 73 70 65 63 74 72 65 20 67 75 6e |iver spectre gun
+2420 6e 65 72 00 74 61 6e 6b 00 63 68 6f 70 70 65 72 |ner tank chopper
+2430 00 68 6f 72 6e 65 74 00 6d 61 6e 74 69 73 00 6d | hornet mantis m
+2440 61 75 6c 65 72 00 73 65 6e 74 69 6e 65 6c 20 62 |auler sentinel b
+2450 65 61 6d 00 73 65 6e 74 69 6e 65 6c 20 72 70 67 |eam sentinel rpg
+2460 00 70 72 6f 78 2d 6d 69 6e 65 00 66 6f 72 6b 6c | prox-mine forkl
+2470 69 66 74 00 73 61 62 72 65 00 67 6c 6f 62 61 6c |ift sabre global
+2480 5f 64 61 6d 61 67 65 5f 72 65 70 6f 72 74 69 6e |_damage_reportin
+2490 67 5f 65 6e 75 6d 5f 64 65 66 69 6e 69 74 69 6f |g_enum_definitio
+24a0 6e 00 46 45 4f 52 4f 42 4a 45 00 6d 61 67 6e 69 |n FEOROBJE magni
+24b0 66 69 63 61 74 69 6f 6e 20 6c 65 76 65 6c 73 00 |fication levels 
+24c0 6d 61 67 6e 69 66 69 63 61 74 69 6f 6e 20 72 61 |magnification ra
+24d0 6e 67 65 00 77 65 61 70 6f 6e 20 61 69 6d 20 61 |nge weapon aim a
+24e0 73 73 69 73 74 00 61 75 74 6f 61 69 6d 20 61 6e |ssist autoaim an
+24f0 67 6c 65 00 61 75 74 6f 61 69 6d 20 72 61 6e 67 |gle autoaim rang
+2500 65 00 61 75 74 6f 61 69 6d 20 66 61 6c 6c 6f 66 |e autoaim fallof
+2510 66 20 72 61 6e 67 65 00 61 75 74 6f 61 69 6d 20 |f range autoaim 
+2520 6e 65 61 72 20 66 61 6c 6c 6f 66 66 20 72 61 6e |near falloff ran
+2530 67 65 00 6d 61 67 6e 65 74 69 73 6d 20 61 6e 67 |ge magnetism ang
+2540 6c 65 00 6d 61 67 6e 65 74 69 73 6d 20 72 61 6e |le magnetism ran
+2550 67 65 00 6d 61 67 6e 65 74 69 73 6d 20 66 61 6c |ge magnetism fal
+2560 6c 6f 66 66 20 72 61 6e 67 65 00 6d 61 67 6e 65 |loff range magne
+2570 74 69 73 6d 20 6e 65 61 72 20 66 61 6c 6c 6f 66 |tism near fallof
+2580 66 20 72 61 6e 67 65 00 5a 48 56 00 43 56 59 47 |f range ZHV CVYG
+2590 50 4d 4c 4d 58 00 55 51 58 4b 4c 56 41 58 49 00 |PMLMX UQXKLVAXI 
+25a0 61 69 6d 5f 61 73 73 69 73 74 5f 73 74 72 75 63 |aim_assist_struc
+25b0 74 00 74 61 72 67 65 74 20 74 72 61 63 6b 69 6e |t target trackin
+25c0 67 00 74 72 61 63 6b 69 6e 67 20 74 79 70 65 73 |g tracking types
+25d0 00 74 72 61 63 6b 69 6e 67 20 74 79 70 65 00 74 | tracking type t
+25e0 72 61 63 6b 69 6e 67 5f 74 79 70 65 5f 62 6c 6f |racking_type_blo
+25f0 63 6b 00 61 63 71 75 69 72 65 20 74 69 6d 65 00 |ck acquire time 
+2600 67 72 61 63 65 20 74 69 6d 65 00 64 65 63 61 79 |grace time decay
+2610 20 74 69 6d 65 00 74 72 61 63 6b 69 6e 67 20 73 | time tracking s
+2620 6f 75 6e 64 00 6c 6f 63 6b 65 64 20 73 6f 75 6e |ound locked soun
+2630 64 00 67 6c 6f 62 61 6c 5f 74 61 72 67 65 74 5f |d global_target_
+2640 74 72 61 63 6b 69 6e 67 5f 70 61 72 61 6d 65 74 |tracking_paramet
+2650 65 72 73 5f 62 6c 6f 63 6b 00 62 61 6c 6c 69 73 |ers_block ballis
+2660 74 69 63 20 61 72 63 69 6e 67 20 66 69 72 69 6e |tic arcing firin
+2670 67 20 62 6f 75 6e 64 73 00 62 61 6c 6c 69 73 74 |g bounds ballist
+2680 69 63 20 61 72 63 69 6e 67 20 66 72 61 63 74 69 |ic arcing fracti
+2690 6f 6e 20 62 6f 75 6e 64 73 00 6d 6f 76 65 6d 65 |on bounds moveme
+26a0 6e 74 20 70 65 6e 61 6c 69 7a 65 64 00 77 68 65 |nt penalized whe
+26b0 6e 20 7a 6f 6f 6d 65 64 20 6f 72 20 72 65 6c 6f |n zoomed or relo
+26c0 61 64 69 6e 67 00 6d 6f 76 65 6d 65 6e 74 5f 70 |ading movement_p
+26d0 65 6e 61 6c 74 79 5f 6d 6f 64 65 73 00 47 54 49 |enalty_modes GTI
+26e0 58 56 52 50 41 00 66 6f 72 77 61 72 64 20 6d 6f |XVRPA forward mo
+26f0 76 65 6d 65 6e 74 20 70 65 6e 61 6c 74 79 00 73 |vement penalty s
+2700 69 64 65 77 61 79 73 20 6d 6f 76 65 6d 65 6e 74 |ideways movement
+2710 20 70 65 6e 61 6c 74 79 00 41 49 20 73 63 61 72 | penalty AI scar
+2720 69 6e 65 73 73 00 77 65 61 70 6f 6e 20 70 6f 77 |iness weapon pow
+2730 65 72 2d 6f 6e 20 74 69 6d 65 00 77 65 61 70 6f |er-on time weapo
+2740 6e 20 70 6f 77 65 72 2d 6f 66 66 20 74 69 6d 65 |n power-off time
+2750 00 77 65 61 70 6f 6e 20 70 6f 77 65 72 2d 6f 6e | weapon power-on
+2760 20 65 66 66 65 63 74 00 77 65 61 70 6f 6e 20 70 | effect weapon p
+2770 6f 77 65 72 2d 6f 66 66 20 65 66 66 65 63 74 00 |ower-off effect 
+2780 61 67 65 20 68 65 61 74 20 72 65 63 6f 76 65 72 |age heat recover
+2790 79 20 70 65 6e 61 6c 74 79 00 61 67 65 20 72 61 |y penalty age ra
+27a0 74 65 20 6f 66 20 66 69 72 65 20 70 65 6e 61 6c |te of fire penal
+27b0 74 79 00 61 67 65 20 6d 69 73 66 69 72 65 20 73 |ty age misfire s
+27c0 74 61 72 74 00 61 67 65 20 6d 69 73 66 69 72 65 |tart age misfire
+27d0 20 63 68 61 6e 63 65 00 70 69 63 6b 75 70 20 73 | chance pickup s
+27e0 6f 75 6e 64 00 7a 6f 6f 6d 2d 69 6e 20 73 6f 75 |ound zoom-in sou
+27f0 6e 64 00 7a 6f 6f 6d 2d 6f 75 74 20 73 6f 75 6e |nd zoom-out soun
+2800 64 00 61 63 74 69 76 65 20 63 61 6d 6f 20 64 69 |d active camo di
+2810 6e 67 00 68 61 6e 64 6c 65 20 6e 6f 64 65 00 77 |ng handle node w
+2820 65 61 70 6f 6e 20 63 6c 61 73 73 00 77 65 61 70 |eapon class weap
+2830 6f 6e 20 6e 61 6d 65 00 77 65 61 70 6f 6e 20 74 |on name weapon t
+2840 79 70 65 00 75 6e 64 65 66 69 6e 65 64 00 65 6e |ype undefined en
+2850 65 72 67 79 20 62 6c 61 64 65 00 73 70 6c 61 73 |ergy blade splas
+2860 65 72 00 73 68 69 65 6c 64 00 73 63 61 72 61 62 |er shield scarab
+2870 20 67 75 6e 00 77 6f 6c 76 65 72 69 6e 65 20 71 | gun wolverine q
+2880 75 61 64 00 77 65 61 70 6f 6e 5f 74 79 70 65 73 |uad weapon_types
+2890 00 4d 57 54 50 00 70 6c 61 79 65 72 20 69 6e 74 | MWTP player int
+28a0 65 72 66 61 63 65 00 66 69 72 73 74 20 70 65 72 |erface first per
+28b0 73 6f 6e 00 66 69 72 73 74 20 70 65 72 73 6f 6e |son first person
+28c0 20 6d 6f 64 65 6c 00 66 69 72 73 74 20 70 65 72 | model first per
+28d0 73 6f 6e 20 61 6e 69 6d 61 74 69 6f 6e 73 00 77 |son animations w
+28e0 65 61 70 6f 6e 5f 66 69 72 73 74 5f 70 65 72 73 |eapon_first_pers
+28f0 6f 6e 5f 69 6e 74 65 72 66 61 63 65 5f 62 6c 6f |on_interface_blo
+2900 63 6b 00 63 68 75 64 20 69 6e 74 65 72 66 61 63 |ck chud interfac
+2910 65 00 61 6c 74 20 73 74 61 74 65 20 63 68 75 64 |e alt state chud
+2920 20 69 6e 74 65 72 66 61 63 65 00 77 65 61 70 6f | interface weapo
+2930 6e 5f 69 6e 74 65 72 66 61 63 65 5f 73 74 72 75 |n_interface_stru
+2940 63 74 00 70 72 65 64 69 63 74 65 64 20 72 65 73 |ct predicted res
+2950 6f 75 72 63 65 73 00 67 5f 6e 75 6c 6c 5f 62 6c |ources g_null_bl
+2960 6f 63 6b 00 6d 61 67 61 7a 69 6e 65 73 00 77 61 |ock magazines wa
+2970 73 74 65 73 20 72 6f 75 6e 64 73 20 77 68 65 6e |stes rounds when
+2980 20 72 65 6c 6f 61 64 65 64 00 65 76 65 72 79 20 | reloaded every 
+2990 72 6f 75 6e 64 20 6d 75 73 74 20 62 65 20 63 68 |round must be ch
+29a0 61 6d 62 65 72 65 64 00 6d 61 67 61 7a 69 6e 65 |ambered magazine
+29b0 5f 66 6c 61 67 73 00 72 6f 75 6e 64 73 20 72 65 |_flags rounds re
+29c0 63 68 61 72 67 65 64 00 72 6f 75 6e 64 73 20 74 |charged rounds t
+29d0 6f 74 61 6c 20 69 6e 69 74 69 61 6c 00 72 6f 75 |otal initial rou
+29e0 6e 64 73 20 74 6f 74 61 6c 20 6d 61 78 69 6d 75 |nds total maximu
+29f0 6d 00 72 6f 75 6e 64 73 20 6c 6f 61 64 65 64 20 |m rounds loaded 
+2a00 6d 61 78 69 6d 75 6d 00 72 75 6e 74 69 6d 65 20 |maximum runtime 
+2a10 72 6f 75 6e 64 73 20 69 6e 76 65 6e 74 6f 72 79 |rounds inventory
+2a20 20 6d 61 78 69 6d 75 6d 00 72 6f 75 6e 64 73 20 | maximum rounds 
+2a30 72 65 6c 6f 61 64 65 64 00 72 65 6c 6f 61 64 20 |reloaded reload 
+2a40 64 69 61 6c 6f 67 75 65 20 74 69 6d 65 00 72 65 |dialogue time re
+2a50 6c 6f 61 64 69 6e 67 20 65 66 66 65 63 74 00 72 |loading effect r
+2a60 65 6c 6f 61 64 69 6e 67 20 64 61 6d 61 67 65 20 |eloading damage 
+2a70 65 66 66 65 63 74 00 63 68 61 6d 62 65 72 69 6e |effect chamberin
+2a80 67 20 65 66 66 65 63 74 00 63 68 61 6d 62 65 72 |g effect chamber
+2a90 69 6e 67 20 64 61 6d 61 67 65 20 65 66 66 65 63 |ing damage effec
+2aa0 74 00 72 6f 75 6e 64 73 00 44 54 44 50 59 00 6d |t rounds DTDPY m
+2ab0 61 67 61 7a 69 6e 65 5f 6f 62 6a 65 63 74 73 00 |agazine_objects 
+2ac0 6e 65 77 20 74 72 69 67 67 65 72 73 00 61 75 74 |new triggers aut
+2ad0 6f 66 69 72 65 20 73 69 6e 67 6c 65 20 61 63 74 |ofire single act
+2ae0 69 6f 6e 20 6f 6e 6c 79 00 77 65 61 70 6f 6e 5f |ion only weapon_
+2af0 74 72 69 67 67 65 72 5f 64 65 66 69 6e 69 74 69 |trigger_definiti
+2b00 6f 6e 5f 66 6c 61 67 73 00 69 6e 70 75 74 00 72 |on_flags input r
+2b10 69 67 68 74 20 74 72 69 67 67 65 72 00 6c 65 66 |ight trigger lef
+2b20 74 20 74 72 69 67 67 65 72 00 77 65 61 70 6f 6e |t trigger weapon
+2b30 5f 74 72 69 67 67 65 72 5f 69 6e 70 75 74 73 00 |_trigger_inputs 
+2b40 62 65 68 61 76 69 6f 72 00 73 70 65 77 00 6c 61 |behavior spew la
+2b50 74 63 68 00 6c 61 74 63 68 2d 61 75 74 6f 66 69 |tch latch-autofi
+2b60 72 65 00 6c 61 74 63 68 2d 74 65 74 68 65 72 00 |re latch-tether 
+2b70 63 68 61 72 67 65 00 6c 61 74 63 68 2d 7a 6f 6f |charge latch-zoo
+2b80 6d 00 73 70 65 77 2d 63 68 61 72 67 65 00 73 77 |m spew-charge sw
+2b90 6f 72 64 2d 63 68 61 72 67 65 00 77 65 61 70 6f |ord-charge weapo
+2ba0 6e 5f 74 72 69 67 67 65 72 5f 62 65 68 61 76 69 |n_trigger_behavi
+2bb0 6f 72 73 00 70 72 69 6d 61 72 79 20 62 61 72 72 |ors primary barr
+2bc0 65 6c 00 73 68 6f 72 74 20 62 6c 6f 63 6b 20 69 |el short block i
+2bd0 6e 64 65 78 00 72 61 6e 64 6f 6d 20 66 69 72 69 |ndex random firi
+2be0 6e 67 20 65 66 66 65 63 74 73 00 63 61 6e 20 66 |ng effects can f
+2bf0 69 72 65 20 77 69 74 68 20 70 61 72 74 69 61 6c |ire with partial
+2c00 20 61 6d 6d 6f 00 70 72 6f 6a 65 63 74 69 6c 65 | ammo projectile
+2c10 73 20 75 73 65 20 77 65 61 70 6f 6e 20 6f 72 69 |s use weapon ori
+2c20 67 69 6e 00 65 6a 65 63 74 73 20 64 75 72 69 6e |gin ejects durin
+2c30 67 20 63 68 61 6d 62 65 72 00 70 72 6f 6a 65 63 |g chamber projec
+2c40 74 69 6c 65 20 76 65 63 74 6f 72 20 63 61 6e 6e |tile vector cann
+2c50 6f 74 20 62 65 20 61 64 6a 75 73 74 65 64 00 70 |ot be adjusted p
+2c60 72 6f 6a 65 63 74 69 6c 65 73 20 68 61 76 65 20 |rojectiles have 
+2c70 69 64 65 6e 74 69 63 61 6c 20 65 72 72 6f 72 00 |identical error 
+2c80 70 72 6f 6a 65 63 74 69 6c 65 73 20 66 69 72 65 |projectiles fire
+2c90 20 70 61 72 61 6c 6c 65 6c 00 63 61 6e 74 20 66 | parallel cant f
+2ca0 69 72 65 20 77 68 65 6e 20 6f 74 68 65 72 73 20 |ire when others 
+2cb0 66 69 72 69 6e 67 00 63 61 6e 74 20 66 69 72 65 |firing cant fire
+2cc0 20 77 68 65 6e 20 6f 74 68 65 72 73 20 72 65 63 | when others rec
+2cd0 6f 76 65 72 69 6e 67 00 64 6f 6e 27 74 20 63 6c |overing don't cl
+2ce0 65 61 72 20 66 69 72 65 20 62 69 74 20 61 66 74 |ear fire bit aft
+2cf0 65 72 20 72 65 63 6f 76 65 72 69 6e 67 00 73 74 |er recovering st
+2d00 61 67 67 65 72 20 66 69 72 65 20 61 63 72 6f 73 |agger fire acros
+2d10 73 20 6d 75 6c 74 69 70 6c 65 20 6d 61 72 6b 65 |s multiple marke
+2d20 72 73 00 63 61 6e 20 66 69 72 65 20 61 74 20 6d |rs can fire at m
+2d30 61 78 69 6d 75 6d 20 61 67 65 00 75 73 65 20 31 |aximum age use 1
+2d40 20 66 69 72 69 6e 67 20 65 66 66 65 63 74 20 70 | firing effect p
+2d50 65 72 20 62 75 72 73 74 00 70 72 65 76 65 6e 74 |er burst prevent
+2d60 20 6d 61 72 6b 65 72 20 64 65 76 69 61 74 69 6f | marker deviatio
+2d70 6e 00 65 72 72 6f 72 20 69 67 6e 6f 72 65 73 20 |n error ignores 
+2d80 7a 6f 6f 6d 00 70 72 6f 6a 65 63 74 69 6c 65 20 |zoom projectile 
+2d90 66 69 72 65 73 20 69 6e 20 6d 61 72 6b 65 72 20 |fires in marker 
+2da0 64 69 72 65 63 74 69 6f 6e 00 77 65 61 70 6f 6e |direction weapon
+2db0 5f 62 61 72 72 65 6c 5f 66 6c 61 67 73 00 72 6f |_barrel_flags ro
+2dc0 75 6e 64 73 20 70 65 72 20 73 65 63 6f 6e 64 00 |unds per second 
+2dd0 72 61 74 65 20 6f 66 20 66 69 72 65 20 61 63 63 |rate of fire acc
+2de0 65 6c 65 72 61 74 69 6f 6e 00 61 63 63 65 6c 65 |eleration accele
+2df0 72 61 74 69 6f 6e 20 74 69 6d 65 00 72 61 74 65 |ration time rate
+2e00 20 6f 66 20 66 69 72 65 20 64 65 63 65 6c 65 72 | of fire deceler
+2e10 61 74 69 6f 6e 00 64 65 63 65 6c 65 72 61 74 69 |ation decelerati
+2e20 6f 6e 20 74 69 6d 65 00 62 61 72 72 65 6c 20 73 |on time barrel s
+2e30 70 69 6e 20 73 63 61 6c 65 00 62 6c 75 72 72 65 |pin scale blurre
+2e40 64 20 72 61 74 65 20 6f 66 20 66 69 72 65 00 73 |d rate of fire s
+2e50 68 6f 74 73 20 70 65 72 20 66 69 72 65 00 73 68 |hots per fire sh
+2e60 6f 72 74 20 69 6e 74 65 67 65 72 20 62 6f 75 6e |ort integer boun
+2e70 64 73 00 66 69 72 65 20 72 65 63 6f 76 65 72 79 |ds fire recovery
+2e80 20 74 69 6d 65 00 73 6f 66 74 20 72 65 63 6f 76 | time soft recov
+2e90 65 72 79 20 66 72 61 63 74 69 6f 6e 00 6d 65 6c |ery fraction mel
+2ea0 65 65 20 20 66 69 72 65 20 72 65 63 6f 76 65 72 |ee  fire recover
+2eb0 79 20 74 69 6d 65 00 6d 65 6c 65 65 20 73 6f 66 |y time melee sof
+2ec0 74 20 72 65 63 6f 76 65 72 79 20 66 72 61 63 74 |t recovery fract
+2ed0 69 6f 6e 00 77 65 61 70 6f 6e 5f 62 61 72 72 65 |ion weapon_barre
+2ee0 6c 5f 66 69 72 69 6e 67 5f 70 61 72 61 6d 65 74 |l_firing_paramet
+2ef0 65 72 73 5f 73 74 72 75 63 74 00 6d 61 67 61 7a |ers_struct magaz
+2f00 69 6e 65 00 72 6f 75 6e 64 73 20 70 65 72 20 73 |ine rounds per s
+2f10 68 6f 74 00 6d 69 6e 69 6d 75 6d 20 72 6f 75 6e |hot minimum roun
+2f20 64 73 20 6c 6f 61 64 65 64 00 72 6f 75 6e 64 73 |ds loaded rounds
+2f30 20 62 65 74 77 65 65 6e 20 74 72 61 63 65 72 73 | between tracers
+2f40 00 6f 70 74 69 6f 6e 61 6c 20 62 61 72 72 65 6c | optional barrel
+2f50 20 6d 61 72 6b 65 72 20 6e 61 6d 65 00 66 69 72 | marker name fir
+2f60 69 6e 67 20 6e 6f 69 73 65 00 73 69 6c 65 6e 74 |ing noise silent
+2f70 00 71 75 69 65 74 00 73 68 6f 75 74 00 6c 6f 75 | quiet shout lou
+2f80 64 00 61 69 5f 73 6f 75 6e 64 5f 76 6f 6c 75 6d |d ai_sound_volum
+2f90 65 5f 65 6e 75 6d 00 70 72 65 64 69 63 74 69 6f |e_enum predictio
+2fa0 6e 20 74 79 70 65 00 63 6f 6e 74 69 6e 75 6f 75 |n type continuou
+2fb0 73 00 69 6e 73 74 61 6e 74 00 62 61 72 72 65 6c |s instant barrel
+2fc0 5f 70 72 65 64 69 63 74 69 6f 6e 5f 74 79 70 65 |_prediction_type
+2fd0 5f 65 6e 75 6d 00 65 76 65 6e 74 5f 73 79 6e 63 |_enum event_sync
+2fe0 68 72 6f 6e 69 7a 65 64 5f 70 72 6f 6a 65 63 74 |hronized_project
+2ff0 69 6c 65 73 5f 70 65 72 5f 73 65 63 6f 6e 64 00 |iles_per_second 
+3000 6d 61 78 69 6d 75 6d 5f 62 61 72 72 65 6c 5f 65 |maximum_barrel_e
+3010 72 72 6f 72 5f 66 6f 72 5f 65 76 65 6e 74 5f 73 |rror_for_event_s
+3020 79 6e 63 68 72 6f 6e 69 7a 61 74 69 6f 6e 00 66 |ynchronization f
+3030 69 72 69 6e 67 20 65 72 72 6f 72 00 64 61 6d 61 |iring error dama
+3040 67 65 20 65 72 72 6f 72 00 6d 69 6e 20 65 72 72 |ge error min err
+3050 6f 72 20 6c 6f 6f 6b 20 70 69 74 63 68 20 72 61 |or look pitch ra
+3060 74 65 00 66 75 6c 6c 20 65 72 72 6f 72 20 6c 6f |te full error lo
+3070 6f 6b 20 70 69 74 63 68 20 72 61 74 65 00 6c 6f |ok pitch rate lo
+3080 6f 6b 20 70 69 74 63 68 20 65 72 72 6f 72 20 70 |ok pitch error p
+3090 6f 77 65 72 00 77 65 61 70 6f 6e 5f 62 61 72 72 |ower weapon_barr
+30a0 65 6c 5f 66 69 72 69 6e 67 5f 65 72 72 6f 72 5f |el_firing_error_
+30b0 73 74 72 75 63 74 00 64 69 73 74 72 69 62 75 74 |struct distribut
+30c0 69 6f 6e 20 66 75 6e 63 74 69 6f 6e 00 70 6f 69 |ion function poi
+30d0 6e 74 00 68 6f 72 69 7a 6f 6e 74 61 6c 20 66 61 |nt horizontal fa
+30e0 6e 00 77 65 61 70 6f 6e 5f 62 61 72 72 65 6c 5f |n weapon_barrel_
+30f0 64 69 73 74 72 69 62 75 74 69 6f 6e 5f 66 75 6e |distribution_fun
+3100 63 74 69 6f 6e 73 00 70 72 6f 6a 65 63 74 69 6c |ctions projectil
+3110 65 73 20 70 65 72 20 73 68 6f 74 00 64 69 73 74 |es per shot dist
+3120 72 69 62 75 74 69 6f 6e 20 61 6e 67 6c 65 00 6d |ribution angle m
+3130 69 6e 69 6d 75 6d 20 65 72 72 6f 72 00 65 72 72 |inimum error err
+3140 6f 72 20 61 6e 67 6c 65 00 61 63 63 75 72 61 63 |or angle accurac
+3150 79 20 70 65 6e 61 6c 74 69 65 73 00 72 65 6c 6f |y penalties relo
+3160 61 64 20 70 65 6e 61 6c 74 79 00 73 77 69 74 63 |ad penalty switc
+3170 68 20 70 65 6e 61 6c 74 79 00 7a 6f 6f 6d 20 70 |h penalty zoom p
+3180 65 6e 61 6c 74 79 00 6a 75 6d 70 20 70 65 6e 61 |enalty jump pena
+3190 6c 74 79 00 73 69 6e 67 6c 65 20 77 69 65 6c 64 |lty single wield
+31a0 20 70 65 6e 61 6c 74 69 65 73 00 66 69 72 69 6e | penalties firin
+31b0 67 20 70 65 6e 61 6c 74 79 20 66 75 6e 63 74 69 |g penalty functi
+31c0 6f 6e 00 73 63 61 6c 61 72 5f 66 75 6e 63 74 69 |on scalar_functi
+31d0 6f 6e 5f 6e 61 6d 65 64 5f 73 74 72 75 63 74 00 |on_named_struct 
+31e0 77 65 61 70 6f 6e 5f 62 61 72 72 65 6c 5f 66 75 |weapon_barrel_fu
+31f0 6e 63 74 69 6f 6e 5f 62 6c 6f 63 6b 00 66 69 72 |nction_block fir
+3200 69 6e 67 20 63 72 6f 75 63 68 65 64 20 70 65 6e |ing crouched pen
+3210 61 6c 74 79 20 66 75 6e 63 74 69 6f 6e 00 6d 6f |alty function mo
+3220 76 69 6e 67 20 70 65 6e 61 6c 74 79 20 66 75 6e |ving penalty fun
+3230 63 74 69 6f 6e 00 74 75 72 6e 69 6e 67 20 70 65 |ction turning pe
+3240 6e 61 6c 74 79 20 66 75 6e 63 74 69 6f 6e 00 65 |nalty function e
+3250 72 72 6f 72 20 61 6e 67 6c 65 20 6d 61 78 20 72 |rror angle max r
+3260 6f 74 61 74 69 6f 6e 00 77 65 61 70 6f 6e 5f 62 |otation weapon_b
+3270 61 72 72 65 6c 5f 70 72 6f 6a 65 63 74 69 6c 65 |arrel_projectile
+3280 5f 61 63 63 75 72 61 63 79 5f 70 65 6e 61 6c 74 |_accuracy_penalt
+3290 79 5f 66 75 6e 63 74 69 6f 6e 5f 73 74 72 75 63 |y_function_struc
+32a0 74 00 64 75 61 6c 20 77 69 65 6c 64 20 70 65 6e |t dual wield pen
+32b0 61 6c 74 69 65 73 00 77 65 61 70 6f 6e 5f 62 61 |alties weapon_ba
+32c0 72 72 65 6c 5f 70 72 6f 6a 65 63 74 69 6c 65 5f |rrel_projectile_
+32d0 61 63 63 75 72 61 63 79 5f 70 65 6e 61 6c 74 79 |accuracy_penalty
+32e0 5f 73 74 72 75 63 74 00 66 69 72 73 74 20 70 65 |_struct first pe
+32f0 72 73 6f 6e 20 6f 66 66 73 65 74 00 77 65 61 70 |rson offset weap
+3300 6f 6e 5f 62 61 72 72 65 6c 5f 66 69 72 73 74 5f |on_barrel_first_
+3310 70 65 72 73 6f 6e 5f 6f 66 66 73 65 74 5f 62 6c |person_offset_bl
+3320 6f 63 6b 00 64 61 6d 61 67 65 20 65 66 66 65 63 |ock damage effec
+3330 74 20 72 65 70 6f 72 74 69 6e 67 20 74 79 70 65 |t reporting type
+3340 00 44 47 53 58 51 00 6f 70 74 69 6f 6e 61 6c 20 | DGSXQ optional 
+3350 73 65 63 6f 6e 64 61 72 79 20 70 72 6f 6a 65 63 |secondary projec
+3360 74 69 6c 65 00 65 68 00 77 65 61 70 6f 6e 5f 62 |tile eh weapon_b
+3370 61 72 72 65 6c 5f 64 61 6d 61 67 65 5f 65 66 66 |arrel_damage_eff
+3380 65 63 74 5f 73 74 72 75 63 74 00 63 72 61 74 65 |ect_struct crate
+3390 20 70 72 6f 6a 65 63 74 69 6c 65 00 63 72 61 74 | projectile crat
+33a0 65 20 70 72 6f 6a 65 63 74 69 6c 65 20 73 70 65 |e projectile spe
+33b0 65 64 00 65 6a 65 63 74 69 6f 6e 20 70 6f 72 74 |ed ejection port
+33c0 20 72 65 63 6f 76 65 72 79 20 74 69 6d 65 00 69 | recovery time i
+33d0 6c 6c 75 6d 69 6e 61 74 69 6f 6e 20 72 65 63 6f |llumination reco
+33e0 76 65 72 79 20 74 69 6d 65 00 68 65 61 74 20 67 |very time heat g
+33f0 65 6e 65 72 61 74 65 64 20 70 65 72 20 72 6f 75 |enerated per rou
+3400 6e 64 00 68 65 61 74 20 67 65 6e 65 72 61 74 65 |nd heat generate
+3410 64 20 70 65 72 20 72 6f 75 6e 64 20 66 75 6e 63 |d per round func
+3420 74 69 6f 6e 00 61 67 65 20 67 65 6e 65 72 61 74 |tion age generat
+3430 65 64 20 70 65 72 20 72 6f 75 6e 64 00 43 41 4d |ed per round CAM
+3440 50 41 49 47 4e 20 61 67 65 20 67 65 6e 65 72 61 |PAIGN age genera
+3450 74 65 64 20 70 65 72 20 72 6f 75 6e 64 00 6f 76 |ted per round ov
+3460 65 72 6c 6f 61 64 20 74 69 6d 65 00 72 75 6e 74 |erload time runt
+3470 69 6d 65 20 69 6c 6c 75 6d 69 6e 61 74 69 6f 6e |ime illumination
+3480 20 72 65 63 6f 76 65 72 79 20 72 61 74 65 00 72 | recovery rate r
+3490 75 6e 74 69 6d 65 20 65 6a 65 63 74 69 6f 6e 20 |untime ejection 
+34a0 70 6f 72 74 20 72 65 63 6f 76 65 72 79 20 72 61 |port recovery ra
+34b0 74 65 00 72 75 6e 74 69 6d 65 20 72 61 74 65 20 |te runtime rate 
+34c0 6f 66 20 66 69 72 65 20 61 63 63 65 6c 65 72 61 |of fire accelera
+34d0 74 69 6f 6e 20 72 61 74 65 00 72 75 6e 74 69 6d |tion rate runtim
+34e0 65 20 72 61 74 65 20 6f 66 20 66 69 72 65 20 64 |e rate of fire d
+34f0 65 63 65 6c 65 72 61 74 69 6f 6e 20 72 61 74 65 |eceleration rate
+3500 00 72 75 6e 74 69 6d 65 20 65 72 72 6f 72 20 64 | runtime error d
+3510 65 63 65 6c 65 72 61 74 69 6f 6e 20 72 61 74 65 |eceleration rate
+3520 00 73 68 6f 74 20 63 6f 75 6e 74 20 6c 6f 77 65 | shot count lowe
+3530 72 20 62 6f 75 6e 64 00 73 68 6f 74 20 63 6f 75 |r bound shot cou
+3540 6e 74 20 75 70 70 65 72 20 62 6f 75 6e 64 00 66 |nt upper bound f
+3550 69 72 69 6e 67 20 65 66 66 65 63 74 00 6d 69 73 |iring effect mis
+3560 66 69 72 65 20 65 66 66 65 63 74 00 65 6d 70 74 |fire effect empt
+3570 79 20 65 66 66 65 63 74 00 6f 70 74 69 6f 6e 61 |y effect optiona
+3580 6c 20 73 65 63 6f 6e 64 61 72 79 20 66 69 72 69 |l secondary firi
+3590 6e 67 20 65 66 66 65 63 74 00 66 69 72 69 6e 67 |ng effect firing
+35a0 20 64 61 6d 61 67 65 00 6d 69 73 66 69 72 65 20 | damage misfire 
+35b0 64 61 6d 61 67 65 00 65 6d 70 74 79 20 64 61 6d |damage empty dam
+35c0 61 67 65 00 6f 70 74 69 6f 6e 61 6c 20 73 65 63 |age optional sec
+35d0 6f 6e 64 61 72 79 20 66 69 72 69 6e 67 20 64 61 |ondary firing da
+35e0 6d 61 67 65 00 66 69 72 69 6e 67 20 72 69 64 65 |mage firing ride
+35f0 72 20 64 61 6d 61 67 65 00 6d 69 73 66 69 72 65 |r damage misfire
+3600 20 72 69 64 65 72 20 64 61 6d 61 67 65 00 65 6d | rider damage em
+3610 70 74 79 20 72 69 64 65 72 20 64 61 6d 61 67 65 |pty rider damage
+3620 00 6f 70 74 69 6f 6e 61 6c 20 73 65 63 6f 6e 64 | optional second
+3630 61 72 79 20 66 69 72 69 6e 67 20 72 69 64 65 72 |ary firing rider
+3640 20 64 61 6d 61 67 65 00 62 61 72 72 65 6c 5f 66 | damage barrel_f
+3650 69 72 69 6e 67 5f 65 66 66 65 63 74 5f 62 6c 6f |iring_effect_blo
+3660 63 6b 00 77 65 61 70 6f 6e 5f 62 61 72 72 65 6c |ck weapon_barrel
+3670 73 00 73 65 63 6f 6e 64 61 72 79 20 62 61 72 72 |s secondary barr
+3680 65 6c 00 70 72 65 64 69 63 74 69 6f 6e 00 74 72 |el prediction tr
+3690 69 67 67 65 72 5f 70 72 65 64 69 63 74 69 6f 6e |igger_prediction
+36a0 5f 74 79 70 65 5f 65 6e 75 6d 00 47 4e 46 52 00 |_type_enum GNFR 
+36b0 61 75 74 6f 66 69 72 65 20 74 69 6d 65 00 61 75 |autofire time au
+36c0 74 6f 66 69 72 65 20 74 68 72 6f 77 00 73 65 63 |tofire throw sec
+36d0 6f 6e 64 61 72 79 20 61 63 74 69 6f 6e 00 66 69 |ondary action fi
+36e0 72 65 20 6f 74 68 65 72 00 77 65 61 70 6f 6e 5f |re other weapon_
+36f0 74 72 69 67 67 65 72 5f 61 75 74 6f 66 69 72 65 |trigger_autofire
+3700 5f 61 63 74 69 6f 6e 73 00 70 72 69 6d 61 72 79 |_actions primary
+3710 20 61 63 74 69 6f 6e 00 77 65 61 70 6f 6e 5f 74 | action weapon_t
+3720 72 69 67 67 65 72 5f 61 75 74 6f 66 69 72 65 5f |rigger_autofire_
+3730 73 74 72 75 63 74 00 63 68 61 72 67 69 6e 67 00 |struct charging 
+3740 63 68 61 72 67 69 6e 67 20 74 69 6d 65 00 63 68 |charging time ch
+3750 61 72 67 65 64 20 74 69 6d 65 00 6f 76 65 72 63 |arged time overc
+3760 68 61 72 67 65 64 20 61 63 74 69 6f 6e 00 65 78 |harged action ex
+3770 70 6c 6f 64 65 00 64 69 73 63 68 61 72 67 65 00 |plode discharge 
+3780 77 65 61 70 6f 6e 5f 74 72 69 67 67 65 72 5f 6f |weapon_trigger_o
+3790 76 65 72 63 68 61 72 67 65 64 5f 61 63 74 69 6f |vercharged_actio
+37a0 6e 73 00 63 61 6e 20 66 69 72 65 20 66 72 6f 6d |ns can fire from
+37b0 20 70 61 72 74 69 61 6c 20 63 68 61 72 67 65 00 | partial charge 
+37c0 77 65 61 70 6f 6e 5f 74 72 69 67 67 65 72 5f 63 |weapon_trigger_c
+37d0 68 61 72 67 69 6e 67 5f 66 6c 61 67 73 00 63 61 |harging_flags ca
+37e0 6e 63 65 6c 6c 65 64 20 74 72 69 67 67 65 72 20 |ncelled trigger 
+37f0 74 68 72 6f 77 00 63 68 61 72 67 65 64 20 69 6c |throw charged il
+3800 6c 75 6d 69 6e 61 74 69 6f 6e 00 63 68 61 72 67 |lumination charg
+3810 69 6e 67 20 65 66 66 65 63 74 00 63 68 61 72 67 |ing effect charg
+3820 69 6e 67 20 64 61 6d 61 67 65 20 65 66 66 65 63 |ing damage effec
+3830 74 00 63 68 61 72 67 69 6e 67 20 63 6f 6e 74 69 |t charging conti
+3840 6e 75 6f 75 73 20 64 61 6d 61 67 65 20 72 65 73 |nuous damage res
+3850 70 6f 6e 73 65 00 63 68 61 72 67 65 64 20 64 72 |ponse charged dr
+3860 61 69 6e 20 72 61 74 65 00 64 69 73 63 68 61 72 |ain rate dischar
+3870 67 65 20 65 66 66 65 63 74 00 64 69 73 63 68 61 |ge effect discha
+3880 72 67 65 20 64 61 6d 61 67 65 20 65 66 66 65 63 |rge damage effec
+3890 74 00 66 69 72 65 20 66 72 61 63 74 69 6f 6e 73 |t fire fractions
+38a0 00 63 68 61 72 67 65 20 66 72 61 63 74 69 6f 6e | charge fraction
+38b0 00 77 65 61 70 6f 6e 5f 74 72 69 67 67 65 72 5f | weapon_trigger_
+38c0 63 68 61 72 67 69 6e 67 5f 66 69 72 65 5f 66 72 |charging_fire_fr
+38d0 61 63 74 69 6f 6e 00 77 65 61 70 6f 6e 5f 74 72 |action weapon_tr
+38e0 69 67 67 65 72 5f 63 68 61 72 67 69 6e 67 5f 73 |igger_charging_s
+38f0 74 72 75 63 74 00 77 65 61 70 6f 6e 5f 74 72 69 |truct weapon_tri
+3900 67 67 65 72 73 00 72 75 6e 74 69 6d 65 20 77 65 |ggers runtime we
+3910 61 70 6f 6e 20 70 6f 77 65 72 20 6f 6e 20 76 65 |apon power on ve
+3920 6c 6f 63 69 74 79 00 72 75 6e 74 69 6d 65 20 77 |locity runtime w
+3930 65 61 70 6f 6e 20 70 6f 77 65 72 20 6f 66 66 20 |eapon power off 
+3940 76 65 6c 6f 63 69 74 79 00 6d 61 78 20 6d 6f 76 |velocity max mov
+3950 65 6d 65 6e 74 20 61 63 63 65 6c 65 72 61 74 69 |ement accelerati
+3960 6f 6e 00 6d 61 78 20 6d 6f 76 65 6d 65 6e 74 20 |on max movement 
+3970 76 65 6c 6f 63 69 74 79 00 6d 61 78 20 74 75 72 |velocity max tur
+3980 6e 69 6e 67 20 61 63 63 65 6c 65 72 61 74 69 6f |ning acceleratio
+3990 6e 00 6d 61 78 20 74 75 72 6e 69 6e 67 20 76 65 |n max turning ve
+39a0 6c 6f 63 69 74 79 00 64 65 70 6c 6f 79 65 64 20 |locity deployed 
+39b0 76 65 68 69 63 6c 65 00 74 6f 73 73 65 64 20 77 |vehicle tossed w
+39c0 65 61 70 6f 6e 00 61 67 65 64 20 6d 61 74 65 72 |eapon aged mater
+39d0 69 61 6c 20 65 66 66 65 63 74 73 00 65 78 74 65 |ial effects exte
+39e0 72 6e 61 6c 20 61 67 69 6e 67 20 61 6d 6f 75 6e |rnal aging amoun
+39f0 74 00 63 61 6d 70 61 69 67 6e 20 65 78 74 65 72 |t campaign exter
+3a00 6e 61 6c 20 61 67 69 6e 67 20 61 6d 6f 75 6e 74 |nal aging amount
+3a10 00 65 78 74 65 72 6e 61 6c 20 68 65 61 74 20 61 | external heat a
+3a20 6d 6f 75 6e 74 00 66 69 72 73 74 20 70 65 72 73 |mount first pers
+3a30 6f 6e 20 77 65 61 70 6f 6e 20 6f 66 66 73 65 74 |on weapon offset
+3a40 00 72 65 61 6c 20 76 65 63 74 6f 72 20 33 64 00 | real vector 3d 
+3a50 66 69 72 73 74 20 70 65 72 73 6f 6e 20 77 65 61 |first person wea
+3a60 70 6f 6e 20 6f 66 66 73 65 74 20 6f 76 65 72 72 |pon offset overr
+3a70 69 64 65 00 66 69 72 73 74 20 70 65 72 73 6f 6e |ide first person
+3a80 20 73 63 6f 70 65 20 73 69 7a 65 00 72 65 61 6c | scope size real
+3a90 20 76 65 63 74 6f 72 20 32 64 00 73 75 70 70 6f | vector 2d suppo
+3aa0 72 74 20 74 68 69 72 64 20 70 65 72 73 6f 6e 20 |rt third person 
+3ab0 63 61 6d 65 72 61 20 72 61 6e 67 65 00 77 65 61 |camera range wea
+3ac0 70 6f 6e 20 7a 6f 6f 6d 20 74 69 6d 65 00 77 65 |pon zoom time we
+3ad0 61 70 6f 6e 20 72 65 61 64 79 2d 66 6f 72 2d 75 |apon ready-for-u
+3ae0 73 65 20 74 69 6d 65 00 75 6e 69 74 20 73 74 6f |se time unit sto
+3af0 77 20 61 6e 63 68 6f 72 20 6e 61 6d 65 00 73 63 |w anchor name sc
+3b00 72 65 65 6e 20 65 66 66 65 63 74 73 00 6f 76 65 |reen effects ove
+3b10 72 72 69 64 65 73 20 75 6e 69 74 20 61 6e 64 20 |rrides unit and 
+3b20 63 61 6d 65 72 61 20 73 63 72 65 65 6e 20 65 66 |camera screen ef
+3b30 66 65 63 74 73 00 75 6e 7a 6f 6f 6d 65 64 00 7a |fects unzoomed z
+3b40 6f 6f 6d 20 6c 65 76 65 6c 20 31 00 7a 6f 6f 6d |oom level 1 zoom
+3b50 20 6c 65 76 65 6c 20 32 00 77 65 61 70 6f 6e 5f | level 2 weapon_
+3b60 73 63 72 65 65 6e 5f 65 66 66 65 63 74 5f 66 6c |screen_effect_fl
+3b70 61 67 73 00 4c 4b 53 5a 4a 46 53 45 00 73 63 72 |ags LKSZJFSE scr
+3b80 65 65 6e 20 65 66 66 65 63 74 00 77 65 61 70 6f |een effect weapo
+3b90 6e 5f 73 63 72 65 65 6e 5f 65 66 66 65 63 74 5f |n_screen_effect_
+3ba0 62 6c 6f 63 6b 00 77 65 61 70 6f 6e 5f 73 74 72 |block weapon_str
+3bb0 75 63 74 5f 64 65 66 69 6e 69 74 69 6f 6e 00 77 |uct_definition w
+3bc0 65 61 70 6f 6e 5f 62 6c 6f 63 6b 00 78 2b 7a 73 |eapon_block x+zs
+3bd0 00 00 00 00 10 05 00 00 57 00 00 00 a6 00 00 00 |        W       
+3be0 bb 00 00 00 ea 00 00 00 09 01 00 00 24 01 00 00 |            $   
+3bf0 38 01 00 00 58 01 00 00 64 01 00 00 82 01 00 00 |8   X   d       
+3c00 9c 01 00 00 bc 01 00 00 f3 01 00 00 36 02 00 00 |            6   
+3c10 53 02 00 00 6d 02 00 00 90 02 00 00 b3 02 00 00 |S   m           
+3c20 d2 03 00 00 da 03 00 00 e0 03 00 00 e7 03 00 00 |                
+3c30 d2 03 00 00 1f 04 00 00 25 04 00 00 2c 04 00 00 |        %   ,   
+3c40 d2 03 00 00 54 04 00 00 5a 04 00 00 62 04 00 00 |    T   Z   b   
+3c50 6a 04 00 00 71 04 00 00 7e 04 00 00 38 06 00 00 |j   q   ~   8   
+3c60 49 06 00 00 66 06 00 00 74 06 00 00 88 06 00 00 |I   f   t       
+3c70 a2 06 00 00 b5 06 00 00 c6 06 00 00 d2 03 00 00 |                
+3c80 19 07 00 00 1f 04 00 00 25 04 00 00 2c 04 00 00 |        %   ,   
+3c90 1e 07 00 00 23 07 00 00 49 07 00 00 4e 07 00 00 |    #   I   N   
+3ca0 53 07 00 00 58 07 00 00 5f 07 00 00 65 07 00 00 |S   X   _   e   
+3cb0 6c 07 00 00 72 07 00 00 bb 07 00 00 c2 07 00 00 |l   r           
+3cc0 e3 07 00 00 f1 07 00 00 04 08 00 00 19 08 00 00 |                
+3cd0 0a 09 00 00 1c 09 00 00 30 09 00 00 3e 09 00 00 |        0   >   
+3ce0 7e 04 00 00 a2 0a 00 00 aa 0a 00 00 b4 0a 00 00 |~               
+3cf0 bd 0a 00 00 f3 0a 00 00 6f 0b 00 00 7d 0b 00 00 |        o   }   
+3d00 f7 0d 00 00 04 0e 00 00 7e 04 00 00 93 0e 00 00 |        ~       
+3d10 9b 0e 00 00 ab 0e 00 00 b4 0e 00 00 db 0e 00 00 |                
+3d20 e4 0e 00 00 eb 0e 00 00 f3 0e 00 00 fe 0e 00 00 |                
+3d30 06 0f 00 00 10 0f 00 00 1a 0f 00 00 2d 0f 00 00 |            -   
+3d40 40 0f 00 00 4f 0f 00 00 56 0f 00 00 5d 0f 00 00 |@   O   V   ]   
+3d50 6d 0f 00 00 7f 0f 00 00 93 0f 00 00 a9 0f 00 00 |m               
+3d60 bd 0f 00 00 d1 0f 00 00 e3 0f 00 00 f7 0f 00 00 |                
+3d70 03 10 00 00 1b 10 00 00 33 10 00 00 4b 10 00 00 |        3   K   
+3d80 63 10 00 00 6f 10 00 00 7b 10 00 00 c4 10 00 00 |c   o   {       
+3d90 d5 10 00 00 ef 10 00 00 09 11 00 00 1f 11 00 00 |                
+3da0 ae 11 00 00 b5 11 00 00 bc 11 00 00 97 0e 00 00 |                
+3db0 f8 11 00 00 08 12 00 00 6f 12 00 00 86 12 00 00 |        o       
+3dc0 9e 12 00 00 b9 12 00 00 d4 12 00 00 f0 12 00 00 |                
+3dd0 0a 13 00 00 1c 15 00 00 53 17 00 00 63 17 00 00 |        S   c   
+3de0 80 17 00 00 9d 17 00 00 b7 17 00 00 cd 17 00 00 |                
+3df0 e4 17 00 00 ff 17 00 00 24 18 00 00 33 18 00 00 |        $   3   
+3e00 4f 18 00 00 61 18 00 00 7a 18 00 00 8d 18 00 00 |O   a   z       
+3e10 a8 18 00 00 c1 18 00 00 d8 18 00 00 ec 18 00 00 |                
+3e20 05 19 00 00 10 19 00 00 29 19 00 00 44 19 00 00 |        )   D   
+3e30 59 19 00 00 72 19 00 00 8b 19 00 00 a2 19 00 00 |Y   r           
+3e40 d0 19 00 00 ec 19 00 00 0b 1a 00 00 29 1a 00 00 |            )   
+3e50 48 1a 00 00 64 1a 00 00 77 1a 00 00 87 1a 00 00 |H   d   w       
+3e60 b2 1a 00 00 c9 1a 00 00 dd 1a 00 00 3a 1b 00 00 |            :   
+3e70 41 1b 00 00 53 1b 00 00 64 1b 00 00 7e 1b 00 00 |A   S   d   ~   
+3e80 5a 1f 00 00 62 1f 00 00 70 1f 00 00 7a 1f 00 00 |Z   b   p   z   
+3e90 85 1f 00 00 93 1f 00 00 a1 1f 00 00 b0 1f 00 00 |                
+3ea0 b8 1f 00 00 c5 1f 00 00 d5 1f 00 00 e3 1f 00 00 |                
+3eb0 f0 1f 00 00 01 20 00 00 0f 20 00 00 17 20 00 00 |                
+3ec0 24 20 00 00 34 20 00 00 41 20 00 00 4d 20 00 00 |$   4   A   M   
+3ed0 5d 20 00 00 6c 20 00 00 79 20 00 00 88 20 00 00 |]   l   y       
+3ee0 94 20 00 00 9a 20 00 00 aa 20 00 00 ba 20 00 00 |                
+3ef0 c1 20 00 00 d6 20 00 00 de 20 00 00 eb 20 00 00 |                
+3f00 f2 20 00 00 fb 20 00 00 0a 21 00 00 19 21 00 00 |         !   !  
+3f10 2e 21 00 00 44 21 00 00 4d 21 00 00 5d 21 00 00 |.!  D!  M!  ]!  
+3f20 6b 21 00 00 79 21 00 00 88 21 00 00 a1 21 00 00 |k!  y!   !   !  
+3f30 b6 21 00 00 c8 21 00 00 e1 21 00 00 f3 21 00 00 | !   !   !   !  
+3f40 05 22 00 00 1b 22 00 00 2d 22 00 00 38 22 00 00 | "   "  -"  8"  
+3f50 48 22 00 00 59 22 00 00 63 22 00 00 70 22 00 00 |H"  Y"  c"  p"  
+3f60 7e 22 00 00 8c 22 00 00 9a 22 00 00 a7 22 00 00 |~"   "   "   "  
+3f70 b1 22 00 00 b5 22 00 00 c2 22 00 00 ca 22 00 00 | "   "   "   "  
+3f80 d5 22 00 00 e1 22 00 00 f2 22 00 00 fd 22 00 00 | "   "   "   "  
+3f90 0b 23 00 00 18 23 00 00 29 23 00 00 3a 23 00 00 | #   #  )#  :#  
+3fa0 4a 23 00 00 59 23 00 00 68 23 00 00 6d 23 00 00 |J#  Y#  h#  m#  
+3fb0 75 23 00 00 7c 23 00 00 83 23 00 00 8a 23 00 00 |u#  |#   #   #  
+3fc0 98 23 00 00 a5 23 00 00 af 23 00 00 b8 23 00 00 | #   #   #   #  
+3fd0 e0 03 00 00 91 17 00 00 f1 25 00 00 88 27 00 00 |         %   '  
+3fe0 b0 1f 00 00 0f 20 00 00 01 20 00 00 17 20 00 00 |                
+3ff0 c5 1f 00 00 92 27 00 00 9f 27 00 00 a7 27 00 00 |     '   '   '  
+4000 ae 27 00 00 b9 27 00 00 d5 22 00 00 4d 20 00 00 | '   '   "  M   
+4010 b2 28 00 00 ce 28 00 00 11 2a 00 00 53 2a 00 00 | (   (   *  S*  
+4020 61 2a 00 00 c0 17 00 00 8d 2a 00 00 92 2a 00 00 |a*       *   *  
+4030 98 2a 00 00 a7 2a 00 00 b4 2a 00 00 bb 2a 00 00 | *   *   *   *  
+4040 c6 2a 00 00 d2 2a 00 00 19 2b 00 00 2f 2b 00 00 | *   *   +  /+  
+4050 4a 2b 00 00 68 2b 00 00 7e 2b 00 00 a3 2b 00 00 |J+  h+  ~+   +  
+4060 c4 2b 00 00 de 2b 00 00 fb 2b 00 00 1c 2c 00 00 | +   +   +   ,  
+4070 42 2c 00 00 67 2c 00 00 7f 2c 00 00 9d 2c 00 00 |B,  g,   ,   ,  
+4080 b6 2c 00 00 c9 2c 00 00 ae 2e 00 00 b5 2e 00 00 | ,   ,   .   .  
+4090 25 04 00 00 bb 2e 00 00 c1 2e 00 00 7e 04 00 00 |%    .   .  ~   
+40a0 eb 2e 00 00 f6 2e 00 00 11 30 00 00 17 30 00 00 | .   .   0   0  
+40b0 7e 04 00 00 8d 2a 00 00 b4 2a 00 00 a2 2a 00 00 |~    *   *   *  
+40c0 b4 2a 00 00 22 36 00 00 7e 04 00 00 b2 36 00 00 | *  "6  ~    6  
+40d0 ba 36 00 00 e7 36 00 00 51 3a 00 00 7a 3a 00 00 | 6   6  Q:  z:  
+40e0 83 3a 00 00 90 3a 00 00 5d 5b 7a 73 00 00 00 00 | :   :  ][zs    
+40f0 e0 01 00 00 79 00 00 00 01 00 00 00 00 00 00 00 |    y           
+4100 f7 02 00 00 11 00 00 00 01 00 00 00 ec 03 00 00 |                
+4110 04 00 00 00 12 00 00 00 32 04 00 00 04 00 00 00 |        2       
+4120 16 00 00 00 83 04 00 00 07 00 00 00 1a 00 00 00 |                
+4130 df 06 00 00 08 00 00 00 21 00 00 00 2c 07 00 00 |        !   ,   
+4140 07 00 00 00 29 00 00 00 7b 07 00 00 08 00 00 00 |    )   {       
+4150 30 00 00 00 36 08 00 00 06 00 00 00 38 00 00 00 |0   6       8   
+4160 49 09 00 00 04 00 00 00 3e 00 00 00 c8 0a 00 00 |I       >       
+4170 05 00 00 00 42 00 00 00 03 0b 00 00 01 00 00 00 |    B           
+4180 47 00 00 00 8a 0b 00 00 02 00 00 00 48 00 00 00 |G           H   
+4190 13 0e 00 00 02 00 00 00 4a 00 00 00 bd 0e 00 00 |        J       
+41a0 05 00 00 00 4c 00 00 00 95 10 00 00 1c 00 00 00 |    L           
+41b0 51 00 00 00 31 11 00 00 05 00 00 00 6d 00 00 00 |Q   1       m   
+41c0 c5 11 00 00 04 00 00 00 72 00 00 00 1e 12 00 00 |        r       
+41d0 02 00 00 00 76 00 00 00 33 13 00 00 07 00 00 00 |    v   3       
+41e0 78 00 00 00 32 15 00 00 01 00 00 00 7f 00 00 00 |x   2           
+41f0 b8 19 00 00 1a 00 00 00 80 00 00 00 01 1b 00 00 |                
+4200 0b 00 00 00 9a 00 00 00 a0 1b 00 00 05 00 00 00 |                
+4210 a5 00 00 00 be 23 00 00 54 00 00 00 aa 00 00 00 |     #  T       
+4220 0a 26 00 00 03 00 00 00 fe 00 00 00 c8 27 00 00 | &           '  
+4230 0d 00 00 00 01 01 00 00 ec 28 00 00 02 00 00 00 |         (      
+4240 0e 01 00 00 2d 2a 00 00 01 00 00 00 10 01 00 00 |    -*          
+4250 6e 2a 00 00 03 00 00 00 11 01 00 00 df 2a 00 00 |n*           *  
+4260 08 00 00 00 14 01 00 00 ee 2c 00 00 10 00 00 00 |         ,      
+4270 1c 01 00 00 c6 2e 00 00 05 00 00 00 2c 01 00 00 |     .      ,   
+4280 fe 2e 00 00 03 00 00 00 31 01 00 00 26 30 00 00 | .      1   &0  
+4290 02 00 00 00 34 01 00 00 d2 35 00 00 03 00 00 00 |    4    5      
+42a0 36 01 00 00 2d 36 00 00 03 00 00 00 39 01 00 00 |6   -6      9   
+42b0 c4 36 00 00 03 00 00 00 3c 01 00 00 04 37 00 00 | 6      <    7  
+42c0 01 00 00 00 3f 01 00 00 9d 3a 00 00 04 00 00 00 |    ?    :      
+42d0 40 01 00 00 6e 62 73 63 00 00 00 00 00 00 00 00 |@   nbsc        
+42e0 6d 6e 74 64 00 00 00 00 04 00 00 00 ac 08 00 00 |mntd            
+42f0 21 72 72 61 00 00 00 00 00 00 00 00 74 66 67 74 |!rra        tfgt
+4300 00 00 00 00 74 01 00 00 05 00 00 00 00 00 00 00 |    t           
+4310 01 00 00 00 13 00 00 00 00 00 00 00 00 00 00 00 |                
+4320 2e 00 00 00 02 00 00 00 00 00 00 00 4c 00 00 00 |.           L   
+4330 02 00 00 00 00 00 00 00 9b 00 00 00 04 00 00 00 |                
+4340 00 00 00 00 1d 03 00 00 04 00 00 00 00 00 00 00 |                
+4350 3a 03 00 00 04 00 00 00 00 00 00 00 4f 03 00 00 |:           O   
+4360 0c 00 00 00 00 00 00 00 c7 03 00 00 02 00 00 00 |                
+4370 00 00 00 00 15 04 00 00 01 00 00 00 00 00 00 00 |                
+4380 e4 04 00 00 04 00 00 00 01 00 00 00 00 05 00 00 |                
+4390 10 00 00 00 01 00 00 00 79 05 00 00 0c 00 00 00 |        y       
+43a0 01 00 00 00 b5 05 00 00 0c 00 00 00 00 00 00 00 |                
+43b0 ca 05 00 00 00 00 00 00 00 00 00 00 a7 08 00 00 |                
+43c0 14 00 00 00 01 00 00 00 00 09 00 00 04 00 00 00 |                
+43d0 00 00 00 00 de 09 00 00 04 00 00 00 00 00 00 00 |                
+43e0 87 0a 00 00 04 00 00 00 01 00 00 00 e8 0a 00 00 |                
+43f0 01 00 00 00 00 00 00 00 20 0b 00 00 00 00 00 00 |                
+4400 00 00 00 00 f5 0c 00 00 08 00 00 00 00 00 00 00 |                
+4410 95 0d 00 00 0c 00 00 00 00 00 00 00 48 16 00 00 |            H   
+4420 08 00 00 00 00 00 00 00 28 1c 00 00 04 00 00 00 |        (       
+4430 00 00 00 00 93 1d 00 00 08 00 00 00 00 00 00 00 |                
+4440 ef 0c 00 00 04 00 00 00 00 00 00 00 07 2b 00 00 |             +  
+4450 02 00 00 00 00 00 00 00 a2 2d 00 00 04 00 00 00 |         -      
+4460 00 00 00 00 85 39 00 00 0c 00 00 00 00 00 00 00 |     9          
+4470 d0 39 00 00 08 00 00 00 00 00 00 00 73 61 72 67 | 9          sarg
+4480 00 00 00 00 c0 18 00 00 7f 05 00 00 0a 00 00 00 |                
+4490 00 00 00 00 89 05 00 00 05 00 00 00 00 00 00 00 |                
+44a0 9c 05 00 00 06 00 00 00 00 00 00 00 9f 05 00 00 |                
+44b0 06 00 00 00 00 00 00 00 a2 05 00 00 06 00 00 00 |                
+44c0 00 00 00 00 a5 05 00 00 06 00 00 00 00 00 00 00 |                
+44d0 a8 05 00 00 06 00 00 00 00 00 00 00 ab 05 00 00 |                
+44e0 06 00 00 00 00 00 00 00 ae 05 00 00 0d 00 00 00 |                
+44f0 00 00 00 00 04 00 00 00 0e 00 00 00 00 00 00 00 |                
+4500 2f 06 00 00 04 00 00 00 05 00 00 00 f3 06 00 00 |/               
+4510 0a 00 00 00 00 00 00 00 00 07 00 00 0a 00 00 00 |                
+4520 00 00 00 00 11 07 00 00 08 00 00 00 06 00 00 00 |                
+4530 39 07 00 00 08 00 00 00 07 00 00 00 04 00 00 00 |9               
+4540 0e 00 00 00 00 00 00 00 04 00 00 00 01 00 00 00 |                
+4550 00 00 00 00 a7 08 00 00 0f 00 00 00 00 00 00 00 |                
+4560 04 00 00 00 01 00 00 00 00 00 00 00 04 00 00 00 |                
+4570 0e 00 00 00 00 00 00 00 ed 08 00 00 10 00 00 00 |                
+4580 09 00 00 00 71 09 00 00 06 00 00 00 00 00 00 00 |    q           
+4590 23 09 00 00 06 00 00 00 00 00 00 00 04 00 00 00 |#               
+45a0 01 00 00 00 00 00 00 00 84 09 00 00 06 00 00 00 |                
+45b0 00 00 00 00 8d 09 00 00 06 00 00 00 00 00 00 00 |                
+45c0 96 09 00 00 06 00 00 00 00 00 00 00 04 00 00 00 |                
+45d0 0e 00 00 00 00 00 00 00 ef 09 00 00 05 00 00 00 |                
+45e0 00 00 00 00 04 00 00 00 0e 00 00 00 00 00 00 00 |                
+45f0 46 00 00 00 04 00 00 00 08 00 00 00 4c 08 00 00 |F           L   
+4600 0a 00 00 00 00 00 00 00 58 08 00 00 0a 00 00 00 |        X       
+4610 00 00 00 00 64 08 00 00 0a 00 00 00 00 00 00 00 |    d           
+4620 72 08 00 00 0a 00 00 00 00 00 00 00 8c 08 00 00 |r               
+4630 06 00 00 00 00 00 00 00 04 00 00 00 01 00 00 00 |                
+4640 00 00 00 00 96 08 00 00 00 00 00 00 06 00 00 00 |                
+4650 d6 08 00 00 0a 00 00 00 00 00 00 00 df 08 00 00 |                
+4660 0c 00 00 00 02 00 00 00 c3 09 00 00 11 00 00 00 |                
+4670 03 00 00 00 04 00 00 00 0e 00 00 00 00 00 00 00 |                
+4680 29 00 00 00 0b 00 00 00 00 00 00 00 04 00 00 00 |)               
+4690 01 00 00 00 00 00 00 00 80 0a 00 00 12 00 00 00 |                
+46a0 00 00 00 00 95 0a 00 00 09 00 00 00 0a 00 00 00 |                
+46b0 46 00 00 00 13 00 00 00 0b 00 00 00 1b 0b 00 00 |F               
+46c0 14 00 00 00 02 00 00 00 24 0b 00 00 0a 00 00 00 |        $       
+46d0 00 00 00 00 32 0b 00 00 0a 00 00 00 00 00 00 00 |    2           
+46e0 04 00 00 00 0e 00 00 00 00 00 00 00 04 00 00 00 |                
+46f0 01 00 00 00 00 00 00 00 de 0b 00 00 00 00 00 00 |                
+4700 06 00 00 00 f3 0b 00 00 06 00 00 00 00 00 00 00 |                
+4710 04 00 00 00 0e 00 00 00 00 00 00 00 04 00 00 00 |                
+4720 01 00 00 00 00 00 00 00 d5 0b 00 00 00 00 00 00 |                
+4730 0d 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+4740 04 00 00 00 01 00 00 00 00 00 00 00 1e 0c 00 00 |                
+4750 00 00 00 00 0d 00 00 00 04 00 00 00 01 00 00 00 |                
+4760 00 00 00 00 26 0c 00 00 06 00 00 00 00 00 00 00 |    &           
+4770 35 0c 00 00 06 00 00 00 00 00 00 00 04 00 00 00 |5               
+4780 0e 00 00 00 00 00 00 00 cc 0b 00 00 0a 00 00 00 |                
+4790 00 00 00 00 c7 0b 00 00 00 00 00 00 0c 00 00 00 |                
+47a0 04 00 00 00 0e 00 00 00 00 00 00 00 46 00 00 00 |            F   
+47b0 03 00 00 00 0c 00 00 00 b6 0b 00 00 14 00 00 00 |                
+47c0 02 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+47d0 bb 0b 00 00 0a 00 00 00 00 00 00 00 33 03 00 00 |            3   
+47e0 06 00 00 00 00 00 00 00 c7 0b 00 00 0c 00 00 00 |                
+47f0 06 00 00 00 04 00 00 00 0e 00 00 00 00 00 00 00 |                
+4800 04 00 00 00 01 00 00 00 00 00 00 00 bb 0b 00 00 |                
+4810 0a 00 00 00 00 00 00 00 33 03 00 00 06 00 00 00 |        3       
+4820 00 00 00 00 be 0c 00 00 05 00 00 00 00 00 00 00 |                
+4830 cd 0c 00 00 06 00 00 00 00 00 00 00 e5 0c 00 00 |                
+4840 15 00 00 00 00 00 00 00 02 0d 00 00 15 00 00 00 |                
+4850 00 00 00 00 14 0d 00 00 06 00 00 00 00 00 00 00 |                
+4860 04 00 00 00 0e 00 00 00 00 00 00 00 29 00 00 00 |            )   
+4870 0b 00 00 00 00 00 00 00 04 00 00 00 0e 00 00 00 |                
+4880 00 00 00 00 7c 0d 00 00 06 00 00 00 00 00 00 00 |    |           
+4890 83 0d 00 00 16 00 00 00 00 00 00 00 a4 0d 00 00 |                
+48a0 16 00 00 00 00 00 00 00 b6 0d 00 00 0a 00 00 00 |                
+48b0 00 00 00 00 04 00 00 00 0e 00 00 00 00 00 00 00 |                
+48c0 eb 0d 00 00 04 00 00 00 0d 00 00 00 83 0d 00 00 |                
+48d0 16 00 00 00 00 00 00 00 a4 0d 00 00 16 00 00 00 |                
+48e0 00 00 00 00 32 0e 00 00 0a 00 00 00 00 00 00 00 |    2           
+48f0 d6 08 00 00 0a 00 00 00 00 00 00 00 04 00 00 00 |                
+4900 0e 00 00 00 00 00 00 00 67 0d 00 00 0c 00 00 00 |        g       
+4910 0a 00 00 00 b1 07 00 00 0c 00 00 00 0b 00 00 00 |                
+4920 04 00 00 00 0e 00 00 00 00 00 00 00 04 00 00 00 |                
+4930 01 00 00 00 00 00 00 00 81 0e 00 00 13 00 00 00 |                
+4940 0e 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+4950 29 00 00 00 09 00 00 00 0f 00 00 00 ad 10 00 00 |)               
+4960 13 00 00 00 10 00 00 00 4e 11 00 00 14 00 00 00 |        N       
+4970 01 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+4980 53 11 00 00 06 00 00 00 00 00 00 00 69 11 00 00 |S           i   
+4990 06 00 00 00 00 00 00 00 7d 11 00 00 06 00 00 00 |        }       
+49a0 00 00 00 00 8e 11 00 00 06 00 00 00 00 00 00 00 |                
+49b0 9f 11 00 00 09 00 00 00 11 00 00 00 04 00 00 00 |                
+49c0 01 00 00 00 00 00 00 00 e7 11 00 00 09 00 00 00 |                
+49d0 12 00 00 00 43 12 00 00 02 00 00 00 00 00 00 00 |    C           
+49e0 56 12 00 00 02 00 00 00 00 00 00 00 46 00 00 00 |V           F   
+49f0 03 00 00 00 13 00 00 00 04 00 00 00 01 00 00 00 |                
+4a00 00 00 00 00 4c 13 00 00 06 00 00 00 00 00 00 00 |    L           
+4a10 04 00 00 00 01 00 00 00 00 00 00 00 04 00 00 00 |                
+4a20 01 00 00 00 00 00 00 00 5a 13 00 00 0a 00 00 00 |        Z       
+4a30 00 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+4a40 71 13 00 00 0a 00 00 00 00 00 00 00 04 00 00 00 |q               
+4a50 01 00 00 00 00 00 00 00 8c 13 00 00 0b 00 00 00 |                
+4a60 00 00 00 00 9b 13 00 00 0a 00 00 00 00 00 00 00 |                
+4a70 04 00 00 00 01 00 00 00 00 00 00 00 b1 13 00 00 |                
+4a80 0b 00 00 00 00 00 00 00 ca 13 00 00 0b 00 00 00 |                
+4a90 00 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+4aa0 e1 13 00 00 0b 00 00 00 00 00 00 00 f8 13 00 00 |                
+4ab0 0b 00 00 00 00 00 00 00 04 00 00 00 01 00 00 00 |                
+4ac0 00 00 00 00 0d 14 00 00 0b 00 00 00 00 00 00 00 |                
+4ad0 26 14 00 00 0b 00 00 00 00 00 00 00 04 00 00 00 |&               
+4ae0 01 00 00 00 00 00 00 00 3d 14 00 00 0b 00 00 00 |        =       
+4af0 00 00 00 00 51 14 00 00 0b 00 00 00 00 00 00 00 |    Q           
+4b00 04 00 00 00 0e 00 00 00 00 00 00 00 04 00 00 00 |                
+4b10 01 00 00 00 00 00 00 00 a3 14 00 00 0b 00 00 00 |                
+4b20 00 00 00 00 bc 14 00 00 0b 00 00 00 00 00 00 00 |                
+4b30 d2 14 00 00 0b 00 00 00 00 00 00 00 04 00 00 00 |                
+4b40 0e 00 00 00 00 00 00 00 04 00 00 00 01 00 00 00 |                
+4b50 00 00 00 00 1a 00 00 00 02 00 00 00 00 00 00 00 |                
+4b60 3c 00 00 00 03 00 00 00 00 00 00 00 46 00 00 00 |<           F   
+4b70 04 00 00 00 01 00 00 00 0f 03 00 00 05 00 00 00 |                
+4b80 00 00 00 00 2a 03 00 00 06 00 00 00 00 00 00 00 |    *           
+4b90 3f 03 00 00 07 00 00 00 00 00 00 00 5d 03 00 00 |?           ]   
+4ba0 06 00 00 00 00 00 00 00 7b 03 00 00 06 00 00 00 |        {       
+4bb0 00 00 00 00 97 03 00 00 06 00 00 00 00 00 00 00 |                
+4bc0 b2 03 00 00 08 00 00 00 02 00 00 00 06 04 00 00 |                
+4bd0 09 00 00 00 03 00 00 00 46 04 00 00 09 00 00 00 |        F       
+4be0 04 00 00 00 9b 04 00 00 06 00 00 00 00 00 00 00 |                
+4bf0 b7 04 00 00 07 00 00 00 00 00 00 00 d3 04 00 00 |                
+4c00 0a 00 00 00 00 00 00 00 ee 04 00 00 0b 00 00 00 |                
+4c10 00 00 00 00 0e 05 00 00 0b 00 00 00 00 00 00 00 |                
+4c20 27 05 00 00 0a 00 00 00 00 00 00 00 3d 05 00 00 |'           =   
+4c30 0b 00 00 00 00 00 00 00 43 05 00 00 0b 00 00 00 |        C       
+4c40 00 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+4c50 47 01 00 00 0b 00 00 00 00 00 00 00 50 05 00 00 |G           P   
+4c60 0b 00 00 00 00 00 00 00 69 05 00 00 0c 00 00 00 |        i       
+4c70 00 00 00 00 f4 05 00 00 0b 00 00 00 00 00 00 00 |                
+4c80 04 06 00 00 0b 00 00 00 00 00 00 00 15 06 00 00 |                
+4c90 0b 00 00 00 00 00 00 00 21 06 00 00 0c 00 00 00 |        !       
+4ca0 01 00 00 00 b1 07 00 00 0c 00 00 00 04 00 00 00 |                
+4cb0 61 0a 00 00 0c 00 00 00 03 00 00 00 90 01 00 00 |a               
+4cc0 0c 00 00 00 05 00 00 00 61 0b 00 00 0c 00 00 00 |        a       
+4cd0 07 00 00 00 b6 0c 00 00 0c 00 00 00 08 00 00 00 |                
+4ce0 3d 0d 00 00 0c 00 00 00 09 00 00 00 59 0d 00 00 |=           Y   
+4cf0 0c 00 00 00 0c 00 00 00 6e 0e 00 00 0c 00 00 00 |        n       
+4d00 0d 00 00 00 7c 14 00 00 0b 00 00 00 00 00 00 00 |    |           
+4d10 95 14 00 00 0c 00 00 00 0e 00 00 00 04 00 00 00 |                
+4d20 01 00 00 00 00 00 00 00 04 00 00 00 0e 00 00 00 |                
+4d30 00 00 00 00 0c 00 00 00 00 00 00 00 02 00 00 00 |                
+4d40 04 00 00 00 01 00 00 00 00 00 00 00 46 00 00 00 |            F   
+4d50 04 00 00 00 14 00 00 00 04 00 00 00 01 00 00 00 |                
+4d60 00 00 00 00 48 15 00 00 0a 00 00 00 00 00 00 00 |    H           
+4d70 57 15 00 00 0a 00 00 00 00 00 00 00 64 15 00 00 |W           d   
+4d80 0a 00 00 00 00 00 00 00 7a 15 00 00 0a 00 00 00 |        z       
+4d90 00 00 00 00 8e 15 00 00 0a 00 00 00 00 00 00 00 |                
+4da0 9c 15 00 00 0a 00 00 00 00 00 00 00 aa 15 00 00 |                
+4db0 0a 00 00 00 00 00 00 00 c0 15 00 00 0a 00 00 00 |                
+4dc0 00 00 00 00 d1 15 00 00 0a 00 00 00 00 00 00 00 |                
+4dd0 eb 15 00 00 05 00 00 00 00 00 00 00 01 16 00 00 |                
+4de0 05 00 00 00 00 00 00 00 1e 16 00 00 0b 00 00 00 |                
+4df0 00 00 00 00 37 16 00 00 17 00 00 00 00 00 00 00 |    7           
+4e00 54 16 00 00 0b 00 00 00 00 00 00 00 66 16 00 00 |T           f   
+4e10 0b 00 00 00 00 00 00 00 04 00 00 00 01 00 00 00 |                
+4e20 00 00 00 00 78 16 00 00 06 00 00 00 00 00 00 00 |    x           
+4e30 85 16 00 00 06 00 00 00 00 00 00 00 98 16 00 00 |                
+4e40 06 00 00 00 00 00 00 00 ac 16 00 00 06 00 00 00 |                
+4e50 00 00 00 00 c0 16 00 00 06 00 00 00 00 00 00 00 |                
+4e60 d5 16 00 00 06 00 00 00 00 00 00 00 e8 16 00 00 |                
+4e70 06 00 00 00 00 00 00 00 fc 16 00 00 06 00 00 00 |                
+4e80 00 00 00 00 0e 17 00 00 06 00 00 00 00 00 00 00 |                
+4e90 21 17 00 00 0b 00 00 00 00 00 00 00 04 00 00 00 |!               
+4ea0 01 00 00 00 00 00 00 00 04 00 00 00 0e 00 00 00 |                
+4eb0 00 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+4ec0 7d 1d 00 00 19 00 00 00 00 00 00 00 a8 1d 00 00 |}               
+4ed0 06 00 00 00 00 00 00 00 bd 1d 00 00 06 00 00 00 |                
+4ee0 00 00 00 00 d1 1d 00 00 06 00 00 00 00 00 00 00 |                
+4ef0 ee 1d 00 00 06 00 00 00 00 00 00 00 42 18 00 00 |            B   
+4f00 0b 00 00 00 00 00 00 00 16 1e 00 00 0b 00 00 00 |                
+4f10 00 00 00 00 25 1e 00 00 0b 00 00 00 00 00 00 00 |    %           
+4f20 38 1e 00 00 0b 00 00 00 00 00 00 00 4d 1e 00 00 |8           M   
+4f30 0b 00 00 00 00 00 00 00 60 1e 00 00 0b 00 00 00 |        `       
+4f40 00 00 00 00 75 1e 00 00 0b 00 00 00 00 00 00 00 |    u           
+4f50 88 1e 00 00 0b 00 00 00 00 00 00 00 9d 1e 00 00 |                
+4f60 0b 00 00 00 00 00 00 00 c5 1e 00 00 0b 00 00 00 |                
+4f70 00 00 00 00 f6 1e 00 00 0b 00 00 00 00 00 00 00 |                
+4f80 04 00 00 00 0e 00 00 00 00 00 00 00 2a 24 00 00 |            *$  
+4f90 1a 00 00 00 00 00 00 00 38 24 00 00 06 00 00 00 |        8$      
+4fa0 00 00 00 00 46 24 00 00 06 00 00 00 00 00 00 00 |    F$          
+4fb0 5c 24 00 00 06 00 00 00 00 00 00 00 77 24 00 00 |\$          w$  
+4fc0 1a 00 00 00 00 00 00 00 87 24 00 00 06 00 00 00 |         $      
+4fd0 00 00 00 00 97 24 00 00 06 00 00 00 00 00 00 00 |     $          
+4fe0 af 24 00 00 06 00 00 00 00 00 00 00 92 19 00 00 | $              
+4ff0 1a 00 00 00 00 00 00 00 cc 24 00 00 14 00 00 00 |         $      
+5000 04 00 00 00 d0 24 00 00 14 00 00 00 10 00 00 00 |     $          
+5010 da 24 00 00 14 00 00 00 04 00 00 00 04 00 00 00 | $              
+5020 0e 00 00 00 00 00 00 00 15 25 00 00 0a 00 00 00 |         %      
+5030 00 00 00 00 04 00 00 00 0e 00 00 00 00 00 00 00 |                
+5040 06 25 00 00 0c 00 00 00 10 00 00 00 37 25 00 00 | %          7%  
+5050 06 00 00 00 00 00 00 00 44 25 00 00 06 00 00 00 |        D%      
+5060 00 00 00 00 4f 25 00 00 06 00 00 00 00 00 00 00 |    O%          
+5070 5a 25 00 00 0b 00 00 00 00 00 00 00 69 25 00 00 |Z%          i%  
+5080 0b 00 00 00 00 00 00 00 04 00 00 00 0e 00 00 00 |                
+5090 00 00 00 00 f8 27 00 00 0b 00 00 00 00 00 00 00 |     '          
+50a0 0b 28 00 00 0b 00 00 00 00 00 00 00 04 00 00 00 | (              
+50b0 0e 00 00 00 00 00 00 00 04 00 00 00 01 00 00 00 |                
+50c0 00 00 00 00 eb 27 00 00 0c 00 00 00 12 00 00 00 |     '          
+50d0 47 28 00 00 0b 00 00 00 00 00 00 00 56 28 00 00 |G(          V(  
+50e0 0b 00 00 00 00 00 00 00 04 00 00 00 0e 00 00 00 |                
+50f0 00 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+5100 04 00 00 00 0e 00 00 00 00 00 00 00 e6 29 00 00 |             )  
+5110 02 00 00 00 00 00 00 00 ed 29 00 00 14 00 00 00 |         )      
+5120 02 00 00 00 06 0f 00 00 0b 00 00 00 00 00 00 00 |                
+5130 04 00 00 00 0e 00 00 00 00 00 00 00 46 00 00 00 |            F   
+5140 04 00 00 00 1b 00 00 00 fb 28 00 00 02 00 00 00 |         (      
+5150 00 00 00 00 0c 29 00 00 02 00 00 00 00 00 00 00 |     )          
+5160 21 29 00 00 02 00 00 00 00 00 00 00 36 29 00 00 |!)          6)  
+5170 02 00 00 00 00 00 00 00 4c 29 00 00 02 00 00 00 |        L)      
+5180 00 00 00 00 6d 29 00 00 02 00 00 00 00 00 00 00 |    m)          
+5190 7d 29 00 00 06 00 00 00 00 00 00 00 92 29 00 00 |})           )  
+51a0 0b 00 00 00 00 00 00 00 a3 29 00 00 0b 00 00 00 |         )      
+51b0 00 00 00 00 bb 29 00 00 0b 00 00 00 00 00 00 00 |     )          
+51c0 cd 29 00 00 0b 00 00 00 00 00 00 00 a8 28 00 00 | )           (  
+51d0 0c 00 00 00 14 00 00 00 04 00 00 00 0e 00 00 00 |                
+51e0 00 00 00 00 02 2d 00 00 17 00 00 00 00 00 00 00 |     -          
+51f0 14 2d 00 00 0a 00 00 00 00 00 00 00 2e 2d 00 00 | -          .-  
+5200 06 00 00 00 00 00 00 00 40 2d 00 00 0a 00 00 00 |        @-      
+5210 00 00 00 00 5a 2d 00 00 06 00 00 00 00 00 00 00 |    Z-          
+5220 6c 2d 00 00 06 00 00 00 00 00 00 00 7e 2d 00 00 |l-          ~-  
+5230 18 00 00 00 00 00 00 00 93 2d 00 00 1c 00 00 00 |         -      
+5240 00 00 00 00 b7 2d 00 00 06 00 00 00 00 00 00 00 |     -          
+5250 ca 2d 00 00 18 00 00 00 00 00 00 00 e1 2d 00 00 | -           -  
+5260 06 00 00 00 00 00 00 00 fb 2d 00 00 18 00 00 00 |         -      
+5270 00 00 00 00 04 00 00 00 0e 00 00 00 00 00 00 00 |                
+5280 5a 2d 00 00 06 00 00 00 00 00 00 00 80 2f 00 00 |Z-           /  
+5290 17 00 00 00 00 00 00 00 8d 2f 00 00 1a 00 00 00 |         /      
+52a0 00 00 00 00 a7 2f 00 00 1a 00 00 00 00 00 00 00 |     /          
+52b0 c2 2f 00 00 06 00 00 00 00 00 00 00 04 00 00 00 | /              
+52c0 0e 00 00 00 00 00 00 00 04 00 00 00 01 00 00 00 |                
+52d0 00 00 00 00 9e 08 00 00 00 00 00 00 06 00 00 00 |                
+52e0 04 00 00 00 0e 00 00 00 00 00 00 00 9e 08 00 00 |                
+52f0 00 00 00 00 25 00 00 00 04 00 00 00 0e 00 00 00 |    %           
+5300 00 00 00 00 ef 30 00 00 0c 00 00 00 16 00 00 00 |     0          
+5310 41 31 00 00 0c 00 00 00 16 00 00 00 62 31 00 00 |A1          b1  
+5320 0c 00 00 00 16 00 00 00 7a 31 00 00 0c 00 00 00 |        z1      
+5330 16 00 00 00 93 31 00 00 06 00 00 00 00 00 00 00 |     1          
+5340 04 00 00 00 0e 00 00 00 00 00 00 00 04 00 00 00 |                
+5350 01 00 00 00 00 00 00 00 a0 30 00 00 06 00 00 00 |         0      
+5360 00 00 00 00 af 30 00 00 06 00 00 00 00 00 00 00 |     0          
+5370 be 30 00 00 06 00 00 00 00 00 00 00 cb 30 00 00 | 0           0  
+5380 06 00 00 00 00 00 00 00 04 00 00 00 01 00 00 00 |                
+5390 00 00 00 00 d8 30 00 00 00 00 00 00 23 00 00 00 |     0      #   
+53a0 04 00 00 00 01 00 00 00 00 00 00 00 04 00 00 00 |                
+53b0 01 00 00 00 00 00 00 00 e6 31 00 00 00 00 00 00 |         1      
+53c0 23 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |#               
+53d0 04 00 00 00 01 00 00 00 00 00 00 00 04 00 00 00 |                
+53e0 0e 00 00 00 00 00 00 00 2c 32 00 00 07 00 00 00 |        ,2      
+53f0 00 00 00 00 04 00 00 00 0e 00 00 00 00 00 00 00 |                
+5400 29 16 00 00 0b 00 00 00 00 00 00 00 04 00 00 00 |)               
+5410 0e 00 00 00 00 00 00 00 65 34 00 00 02 00 00 00 |        e4      
+5420 00 00 00 00 7c 34 00 00 02 00 00 00 00 00 00 00 |    |4          
+5430 93 34 00 00 0b 00 00 00 00 00 00 00 a1 34 00 00 | 4           4  
+5440 0b 00 00 00 00 00 00 00 b0 34 00 00 0b 00 00 00 |         4      
+5450 00 00 00 00 bd 34 00 00 0b 00 00 00 00 00 00 00 |     4          
+5460 de 34 00 00 0b 00 00 00 00 00 00 00 ec 34 00 00 | 4           4  
+5470 0b 00 00 00 00 00 00 00 fb 34 00 00 0b 00 00 00 |         4      
+5480 00 00 00 00 08 35 00 00 0b 00 00 00 00 00 00 00 |     5          
+5490 29 35 00 00 0b 00 00 00 00 00 00 00 3d 35 00 00 |)5          =5  
+54a0 0b 00 00 00 00 00 00 00 52 35 00 00 0b 00 00 00 |        R5      
+54b0 00 00 00 00 65 35 00 00 0b 00 00 00 00 00 00 00 |    e5          
+54c0 04 00 00 00 0e 00 00 00 00 00 00 00 46 00 00 00 |            F   
+54d0 04 00 00 00 1f 00 00 00 04 00 00 00 01 00 00 00 |                
+54e0 00 00 00 00 f4 2b 00 00 00 00 00 00 20 00 00 00 |     +          
+54f0 3f 2e 00 00 1b 00 00 00 15 00 00 00 48 2e 00 00 |?.          H.  
+5500 02 00 00 00 00 00 00 00 58 2e 00 00 02 00 00 00 |        X.      
+5510 00 00 00 00 6e 2e 00 00 02 00 00 00 00 00 00 00 |    n.          
+5520 04 00 00 00 01 00 00 00 00 00 00 00 85 2e 00 00 |             .  
+5530 0a 00 00 00 00 00 00 00 a1 2e 00 00 08 00 00 00 |         .      
+5540 20 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+5550 db 2e 00 00 08 00 00 00 21 00 00 00 1a 2f 00 00 | .      !    /  
+5560 06 00 00 00 00 00 00 00 44 2f 00 00 06 00 00 00 |        D/      
+5570 00 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+5580 73 2f 00 00 00 00 00 00 21 00 00 00 04 00 00 00 |s/      !       
+5590 01 00 00 00 00 00 00 00 fb 2f 00 00 08 00 00 00 |         /      
+55a0 22 00 00 00 4b 30 00 00 02 00 00 00 00 00 00 00 |"   K0          
+55b0 60 30 00 00 06 00 00 00 00 00 00 00 73 30 00 00 |`0          s0  
+55c0 1a 00 00 00 00 00 00 00 81 30 00 00 15 00 00 00 |         0      
+55d0 00 00 00 00 8d 30 00 00 00 00 00 00 22 00 00 00 |     0      "   
+55e0 2c 32 00 00 0c 00 00 00 17 00 00 00 68 32 00 00 |,2          h2  
+55f0 09 00 00 00 18 00 00 00 85 32 00 00 14 00 00 00 |         2      
+5600 03 00 00 00 f3 0e 00 00 0b 00 00 00 00 00 00 00 |                
+5610 8b 32 00 00 0b 00 00 00 00 00 00 00 a9 32 00 00 | 2           2  
+5620 00 00 00 00 27 00 00 00 cf 32 00 00 0b 00 00 00 |    '    2      
+5630 00 00 00 00 e0 32 00 00 06 00 00 00 00 00 00 00 |     2          
+5640 04 00 00 00 01 00 00 00 00 00 00 00 f7 32 00 00 |             2  
+5650 06 00 00 00 00 00 00 00 13 33 00 00 06 00 00 00 |         3      
+5660 00 00 00 00 2e 33 00 00 18 00 00 00 00 00 00 00 |    .3          
+5670 47 33 00 00 0a 00 00 00 00 00 00 00 69 33 00 00 |G3          i3  
+5680 18 00 00 00 00 00 00 00 81 33 00 00 18 00 00 00 |         3      
+5690 00 00 00 00 a2 33 00 00 06 00 00 00 00 00 00 00 |     3          
+56a0 b0 33 00 00 06 00 00 00 00 00 00 00 d3 33 00 00 | 3           3  
+56b0 06 00 00 00 00 00 00 00 f7 33 00 00 06 00 00 00 |         3      
+56c0 00 00 00 00 1e 34 00 00 06 00 00 00 00 00 00 00 |     4          
+56d0 45 34 00 00 06 00 00 00 00 00 00 00 20 2b 00 00 |E4           +  
+56e0 0c 00 00 00 18 00 00 00 04 00 00 00 0e 00 00 00 |                
+56f0 00 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+5700 f4 35 00 00 06 00 00 00 00 00 00 00 02 36 00 00 | 5           6  
+5710 06 00 00 00 00 00 00 00 11 36 00 00 08 00 00 00 |         6      
+5720 24 00 00 00 4d 36 00 00 08 00 00 00 24 00 00 00 |$   M6      $   
+5730 04 00 00 00 0e 00 00 00 00 00 00 00 e5 37 00 00 |             7  
+5740 18 00 00 00 00 00 00 00 04 00 00 00 0e 00 00 00 |                
+5750 00 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+5760 84 36 00 00 06 00 00 00 00 00 00 00 92 36 00 00 | 6           6  
+5770 06 00 00 00 00 00 00 00 9f 36 00 00 09 00 00 00 |         6      
+5780 25 00 00 00 46 00 00 00 13 00 00 00 26 00 00 00 |%   F       &   
+5790 22 37 00 00 02 00 00 00 00 00 00 00 3a 37 00 00 |"7          :7  
+57a0 06 00 00 00 00 00 00 00 4f 37 00 00 0b 00 00 00 |        O7      
+57b0 00 00 00 00 5f 37 00 00 0b 00 00 00 00 00 00 00 |    _7          
+57c0 76 37 00 00 0b 00 00 00 00 00 00 00 9a 37 00 00 |v7           7  
+57d0 06 00 00 00 00 00 00 00 ad 37 00 00 0b 00 00 00 |         7      
+57e0 00 00 00 00 be 37 00 00 0b 00 00 00 00 00 00 00 |     7          
+57f0 d6 37 00 00 0c 00 00 00 1a 00 00 00 04 00 00 00 | 7              
+5800 0e 00 00 00 00 00 00 00 46 00 00 00 04 00 00 00 |        F       
+5810 1c 00 00 00 4d 2a 00 00 08 00 00 00 1d 00 00 00 |    M*          
+5820 84 2a 00 00 08 00 00 00 1e 00 00 00 f8 2a 00 00 | *           *  
+5830 1b 00 00 00 19 00 00 00 b6 35 00 00 1b 00 00 00 |         5      
+5840 19 00 00 00 c7 35 00 00 08 00 00 00 23 00 00 00 |     5      #   
+5850 ef 35 00 00 14 00 00 00 02 00 00 00 9e 2a 00 00 | 5           *  
+5860 00 00 00 00 29 00 00 00 7b 36 00 00 00 00 00 00 |    )   {6      
+5870 2a 00 00 00 04 00 00 00 0e 00 00 00 00 00 00 00 |*               
+5880 46 00 00 00 13 00 00 00 27 00 00 00 b8 3a 00 00 |F       '    :  
+5890 14 00 00 00 03 00 00 00 c1 3a 00 00 0b 00 00 00 |         :      
+58a0 00 00 00 00 04 00 00 00 0e 00 00 00 00 00 00 00 |                
+58b0 00 00 00 00 00 00 00 00 01 00 00 00 04 00 00 00 |                
+58c0 01 00 00 00 00 00 00 00 04 00 00 00 01 00 00 00 |                
+58d0 00 00 00 00 46 00 00 00 04 00 00 00 15 00 00 00 |    F           
+58e0 3c 00 00 00 04 00 00 00 16 00 00 00 23 1b 00 00 |<           #   
+58f0 08 00 00 00 17 00 00 00 b8 1b 00 00 02 00 00 00 |                
+5900 00 00 00 00 d7 1b 00 00 06 00 00 00 00 00 00 00 |                
+5910 e4 1b 00 00 06 00 00 00 00 00 00 00 ef 1b 00 00 |                
+5920 0b 00 00 00 00 00 00 00 fc 1b 00 00 0b 00 00 00 |                
+5930 00 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+5940 10 1c 00 00 18 00 00 00 00 00 00 00 36 1c 00 00 |            6   
+5950 18 00 00 00 00 00 00 00 4b 1c 00 00 18 00 00 00 |        K       
+5960 00 00 00 00 65 1c 00 00 18 00 00 00 00 00 00 00 |    e           
+5970 7e 1c 00 00 18 00 00 00 00 00 00 00 93 1c 00 00 |~               
+5980 0a 00 00 00 00 00 00 00 9d 1c 00 00 0a 00 00 00 |                
+5990 00 00 00 00 af 1c 00 00 06 00 00 00 00 00 00 00 |                
+59a0 c1 1c 00 00 18 00 00 00 00 00 00 00 d8 1c 00 00 |                
+59b0 18 00 00 00 00 00 00 00 ea 1c 00 00 18 00 00 00 |                
+59c0 00 00 00 00 01 1d 00 00 18 00 00 00 00 00 00 00 |                
+59d0 21 1d 00 00 0a 00 00 00 00 00 00 00 36 1d 00 00 |!           6   
+59e0 0b 00 00 00 00 00 00 00 41 1d 00 00 0b 00 00 00 |        A       
+59f0 00 00 00 00 5a 1d 00 00 0b 00 00 00 00 00 00 00 |    Z           
+5a00 1e 16 00 00 0b 00 00 00 00 00 00 00 65 1d 00 00 |            e   
+5a10 0c 00 00 00 0f 00 00 00 31 1f 00 00 0b 00 00 00 |        1       
+5a20 00 00 00 00 3e 1f 00 00 09 00 00 00 18 00 00 00 |    >           
+5a30 e6 23 00 00 14 00 00 00 01 00 00 00 04 00 00 00 | #              
+5a40 01 00 00 00 00 00 00 00 ef 23 00 00 02 00 00 00 |         #      
+5a50 00 00 00 00 04 24 00 00 17 00 00 00 00 00 00 00 |     $          
+5a60 04 00 00 00 01 00 00 00 00 00 00 00 18 24 00 00 |             $  
+5a70 00 00 00 00 16 00 00 00 f6 24 00 00 0c 00 00 00 |         $      
+5a80 11 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+5a90 9e 25 00 00 17 00 00 00 00 00 00 00 bd 25 00 00 | %           %  
+5aa0 17 00 00 00 00 00 00 00 04 00 00 00 01 00 00 00 |                
+5ab0 00 00 00 00 de 25 00 00 08 00 00 00 19 00 00 00 |     %          
+5ac0 21 26 00 00 14 00 00 00 02 00 00 00 2a 26 00 00 |!&          *&  
+5ad0 18 00 00 00 00 00 00 00 43 26 00 00 18 00 00 00 |        C&      
+5ae0 00 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+5af0 5d 26 00 00 06 00 00 00 00 00 00 00 04 00 00 00 |]&              
+5b00 01 00 00 00 00 00 00 00 6a 26 00 00 06 00 00 00 |        j&      
+5b10 00 00 00 00 7f 26 00 00 06 00 00 00 00 00 00 00 |     &          
+5b20 95 26 00 00 0b 00 00 00 00 00 00 00 ac 26 00 00 | &           &  
+5b30 0b 00 00 00 00 00 00 00 c4 26 00 00 06 00 00 00 |         &      
+5b40 00 00 00 00 de 26 00 00 06 00 00 00 00 00 00 00 |     &          
+5b50 f7 26 00 00 18 00 00 00 00 00 00 00 09 27 00 00 | &           '  
+5b60 18 00 00 00 00 00 00 00 1c 27 00 00 0b 00 00 00 |         '      
+5b70 00 00 00 00 29 27 00 00 0b 00 00 00 00 00 00 00 |    )'          
+5b80 37 27 00 00 0b 00 00 00 00 00 00 00 46 27 00 00 |7'          F'  
+5b90 06 00 00 00 00 00 00 00 57 27 00 00 0a 00 00 00 |        W'      
+5ba0 00 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 |                
+5bb0 63 27 00 00 0a 00 00 00 00 00 00 00 70 27 00 00 |c'          p'  
+5bc0 0a 00 00 00 00 00 00 00 04 00 00 00 01 00 00 00 |                
+5bd0 00 00 00 00 7c 27 00 00 08 00 00 00 1a 00 00 00 |    |'          
+5be0 d5 27 00 00 14 00 00 00 02 00 00 00 da 27 00 00 | '           '  
+5bf0 00 00 00 00 19 00 00 00 87 28 00 00 0c 00 00 00 |         (      
+5c00 13 00 00 00 a8 28 00 00 0c 00 00 00 15 00 00 00 |     (          
+5c10 04 2a 00 00 0c 00 00 00 1b 00 00 00 ae 35 00 00 | *           5  
+5c20 0c 00 00 00 19 00 00 00 4a 38 00 00 06 00 00 00 |        J8      
+5c30 00 00 00 00 6b 38 00 00 06 00 00 00 00 00 00 00 |    k8          
+5c40 04 00 00 00 01 00 00 00 00 00 00 00 8d 38 00 00 |             8  
+5c50 06 00 00 00 00 00 00 00 a7 38 00 00 06 00 00 00 |         8      
+5c60 00 00 00 00 bd 38 00 00 06 00 00 00 00 00 00 00 |     8          
+5c70 d6 38 00 00 06 00 00 00 00 00 00 00 eb 38 00 00 | 8           8  
+5c80 0b 00 00 00 00 00 00 00 fc 38 00 00 0b 00 00 00 |         8      
+5c90 00 00 00 00 2c 16 00 00 0b 00 00 00 00 00 00 00 |    ,           
+5ca0 0a 39 00 00 0b 00 00 00 00 00 00 00 20 39 00 00 | 9           9  
+5cb0 06 00 00 00 00 00 00 00 36 39 00 00 06 00 00 00 |        69      
+5cc0 00 00 00 00 55 39 00 00 06 00 00 00 00 00 00 00 |    U9          
+5cd0 6a 39 00 00 1d 00 00 00 00 00 00 00 94 39 00 00 |j9           9  
+5ce0 1d 00 00 00 00 00 00 00 b8 39 00 00 1e 00 00 00 |         9      
+5cf0 00 00 00 00 df 39 00 00 17 00 00 00 00 00 00 00 |     9          
+5d00 01 3a 00 00 06 00 00 00 00 00 00 00 12 3a 00 00 | :           :  
+5d10 06 00 00 00 00 00 00 00 2c 3a 00 00 0a 00 00 00 |        ,:      
+5d20 00 00 00 00 42 3a 00 00 0c 00 00 00 1c 00 00 00 |    B:          
+5d30 04 00 00 00 01 00 00 00 00 00 00 00 04 00 00 00 |                
+5d40 0e 00 00 00 00 00 00 00 32 76 6c 62 00 00 00 00 |        2vlb    
+5d50 68 01 00 00 d7 05 00 00 01 00 00 00 03 00 00 00 |h               
+5d60 96 07 00 00 01 00 00 00 04 00 00 00 9f 09 00 00 |                
+5d70 02 00 00 00 07 00 00 00 1f 0a 00 00 00 01 00 00 |                
+5d80 08 00 00 00 4b 0a 00 00 00 01 00 00 05 00 00 00 |    K           
+5d90 42 0b 00 00 18 00 00 00 09 00 00 00 6a 0c 00 00 |B           j   
+5da0 00 02 00 00 0b 00 00 00 8a 0c 00 00 40 00 00 00 |            @   
+5db0 0a 00 00 00 24 0d 00 00 04 00 00 00 0e 00 00 00 |    $           
+5dc0 45 0d 00 00 04 00 00 00 0f 00 00 00 c3 0d 00 00 |E               
+5dd0 20 00 00 00 11 00 00 00 3c 0e 00 00 04 00 00 00 |        <       
+5de0 12 00 00 00 59 0e 00 00 04 00 00 00 10 00 00 00 |    Y           
+5df0 63 14 00 00 01 00 00 00 13 00 00 00 e8 14 00 00 |c               
+5e00 01 00 00 00 14 00 00 00 13 1f 00 00 02 00 00 00 |                
+5e10 15 00 00 00 23 25 00 00 10 00 00 00 18 00 00 00 |    #%          
+5e20 76 25 00 00 01 00 00 00 17 00 00 00 23 28 00 00 |v%          #(  
+5e30 02 00 00 00 1a 00 00 00 9b 28 00 00 00 00 00 00 |         (      
+5e40 1b 00 00 00 f3 29 00 00 08 00 00 00 1d 00 00 00 |     )          
+5e50 a8 28 00 00 02 00 00 00 1c 00 00 00 24 31 00 00 | (          $1  
+5e60 01 00 00 00 24 00 00 00 40 32 00 00 03 00 00 00 |    $   @2      
+5e70 26 00 00 00 8c 35 00 00 04 00 00 00 28 00 00 00 |&    5      (   
+5e80 a7 35 00 00 02 00 00 00 1f 00 00 00 f5 37 00 00 | 5           7  
+5e90 10 00 00 00 2b 00 00 00 3a 38 00 00 02 00 00 00 |    +   :8      
+5ea0 1e 00 00 00 cf 3a 00 00 04 00 00 00 2c 00 00 00 |     :      ,   
+5eb0 03 3b 00 00 01 00 00 00 00 00 00 00 32 76 63 72 | ;          2vcr
+5ec0 00 00 00 00 00 00 00 00 5b 3d 3d 5d 00 00 00 00 |        [==]    
+5ed0 00 00 00 00 32 76 74 73 00 00 00 00 38 04 00 00 |    2vts    8   
+5ee0 66 fb c6 ff c8 4e 90 88 60 91 8d b9 de 7c 0a fa |f    N  `    |  
+5ef0 ea 3a 00 00 ae 01 00 00 e3 f7 cd 21 3e 44 94 ad | :         !>D  
+5f00 8d 96 80 ae bf eb fb 8c 3c 17 00 00 b9 00 00 00 |        <       
+5f10 6c 5a a9 94 7a 45 fc f5 57 42 a4 88 f0 94 33 80 |lZ  zE  WB    3 
+5f20 03 15 00 00 90 00 00 00 ff ff d1 7a ff 48 aa aa |           z H  
+5f30 d4 77 36 cb 3b 0e e7 ff d7 05 00 00 00 00 00 00 | w6 ;           
+5f40 35 53 fb 26 7d 44 2e 71 52 7f f7 93 71 78 fd af |5S &}D.qR   qx  
+5f50 96 07 00 00 0a 00 00 00 e6 db ef d2 c2 4d ee 41 |             M A
+5f60 10 24 5f 80 d9 ba f5 82 4b 0a 00 00 1e 00 00 00 | $_     K       
+5f70 8f a9 14 5a 84 44 fa 53 d4 68 10 80 9e 45 f1 0a |   Z D S h   E  
+5f80 c5 08 00 00 10 00 00 00 3e 87 96 5a 1c 4c 0d ac |        >  Z L  
+5f90 41 65 0b 8a 2e 8d 28 46 9f 09 00 00 14 00 00 00 |Ae  . (F        
+5fa0 e6 db ef a2 c2 4d ee 4b 10 24 5f 30 d9 ba f5 32 |     M K $_0   2
+5fb0 1f 0a 00 00 1c 00 00 00 57 72 09 11 9c 42 75 47 |        Wr   BuG
+5fc0 33 d9 75 a7 3f 45 75 ee 42 0b 00 00 2a 00 00 00 |3 u ?Eu B   *   
+5fd0 c3 15 14 20 f8 45 4b 12 83 8f 11 b7 50 5b ad a4 |     EK     P[  
+5fe0 8a 0c 00 00 43 00 00 00 ba 02 0e 52 fa 44 60 23 |    C      R D`#
+5ff0 a7 78 53 a5 d2 f1 0a a4 6a 0c 00 00 40 00 00 00 | xS     j   @   
+6000 f2 ea e5 fc 59 40 2d 3e c2 8b 4c 8c d6 83 56 4f |    Y@->  L   VO
+6010 45 0c 00 00 37 00 00 00 f1 05 e7 c5 01 4e 0c aa |E   7        N  
+6020 53 40 1b 98 dc 22 cc 44 00 0c 00 00 33 00 00 00 |S@   " D    3   
+6030 72 a8 7a c4 c5 4b 22 0a 93 c9 77 9b ab 9c 96 79 |r z  K"   w    y
+6040 24 0d 00 00 4a 00 00 00 1e 9b 91 62 61 46 aa a5 |$   J      baF  
+6050 8a 7d 31 b8 aa dd c0 3a 45 0d 00 00 53 00 00 00 | }1    :E   S   
+6060 ad 56 b0 0a c9 41 32 8f 6a b2 db 9e fe f6 24 9b | V   A2 j     $ 
+6070 59 0e 00 00 60 00 00 00 79 3e 40 fc 2e 4d a6 a7 |Y   `   y>@ .M  
+6080 21 6c 0c ad 7b 6c a0 c2 c3 0d 00 00 55 00 00 00 |!l  {l      U   
+6090 7c cb 69 9f 58 4f 0d ba 0c a3 ce 96 28 9c a8 d0 || i XO      (   
+60a0 3c 0e 00 00 5a 00 00 00 63 02 7b 02 de 43 76 e9 |<   Z   c {  Cv 
+60b0 6b 53 73 b1 67 e4 ae 73 63 14 00 00 63 00 00 00 |kSs g  sc   c   
+60c0 28 65 a3 ca 30 4d d4 4b ec fe db 92 32 5c a7 a3 |(e  0M K    2\  
+60d0 e8 14 00 00 8b 00 00 00 2e a0 eb b9 6c a7 95 e8 |        .   l   
+60e0 74 ea 8b ab a5 c1 9c 40 13 1f 00 00 d9 00 00 00 |t      @        
+60f0 c9 0b 3f fd 08 46 de 19 b8 35 1a a9 27 57 c4 0a |  ?  F   5  'W  
+6100 e4 24 00 00 eb 00 00 00 a7 cd 0d 5c ba 44 92 2d | $         \ D -
+6110 eb e4 0b 94 22 0b d5 94 76 25 00 00 fa 00 00 00 |    "   v%      
+6120 d6 9a 36 1e a0 43 c0 88 5a 67 0a aa 50 26 76 e3 |  6  C  Zg  P&v 
+6130 23 25 00 00 f8 00 00 00 39 11 9d e1 cc 46 62 dc |#%      9    Fb 
+6140 bb db 9c 9b 72 55 68 5d 6f 28 00 00 04 01 00 00 |    rUh]o(      
+6150 0e d1 47 3b c2 4e 0c b5 32 eb 4b a6 86 5a 2f 71 |  G; N  2 K  Z/q
+6160 23 28 00 00 01 01 00 00 a6 48 7e 75 bc 4c ac 9c |#(       H~u L  
+6170 1c a1 46 bc f3 e2 f7 63 9b 28 00 00 09 01 00 00 |  F    c (      
+6180 a4 f9 fc b8 8e 4c 19 a0 c5 64 fe 8c 41 c0 cf b1 |     L   d  A   
+6190 a8 28 00 00 0f 01 00 00 72 39 f3 3e 51 4c ac c4 | (      r9 >QL  
+61a0 12 84 b5 96 ac d4 27 74 f3 29 00 00 0b 01 00 00 |      't )      
+61b0 94 ed 8c 90 da 4a 13 29 0a e1 00 96 66 d0 4e 2c |     J )    f N,
+61c0 3a 38 00 00 a0 01 00 00 b0 b3 d6 52 3b 42 34 32 |:8         R;B42
+61d0 72 5b 12 95 4a 71 44 fc a7 35 00 00 5b 01 00 00 |r[  JqD  5  [   
+61e0 ea 73 d6 85 ff 47 e1 92 ba e5 f3 b5 f3 96 17 10 | s   G          
+61f0 18 2e 00 00 1d 01 00 00 f5 72 67 b7 97 47 bb 98 | .       rg  G  
+6200 cd c6 2b bc 4e e1 c3 43 d9 2f 00 00 2a 01 00 00 |  + N  C /  *   
+6210 20 58 8c 05 3a 24 37 76 58 6e 03 2d 2b 97 c1 11 | X  :$7vXn -+   
+6220 fb 31 00 00 3b 01 00 00 08 a2 45 7d 19 4f 30 aa | 1  ;     E} O0 
+6230 f6 e6 7f 84 91 32 45 5b ac 31 00 00 35 01 00 00 |     2E[ 1  5   
+6240 50 bb b0 7d b6 4a 6d dd 28 09 68 b1 c8 e1 0a 13 |P  } Jm ( h     
+6250 24 31 00 00 33 01 00 00 89 92 cb 72 1e 48 76 02 |$1  3      r Hv 
+6260 51 a3 67 94 18 7c 6d f5 07 31 00 00 30 01 00 00 |Q g  |m  1  0   
+6270 d8 3e eb 0a 70 45 ed cd fd 29 0b a1 4a 10 a4 cf | >  pE   )  J   
+6280 40 32 00 00 48 01 00 00 c1 00 c0 0c bd 4f 21 6c |@2  H        O!l
+6290 4f f6 1d 8b 08 b4 5c c7 ac 32 00 00 4a 01 00 00 |O     \  2  J   
+62a0 00 fa bb 28 b0 42 68 75 d1 5c e7 94 e6 f4 e7 b8 |   ( Bhu \      
+62b0 8c 35 00 00 4c 01 00 00 44 00 88 2e a2 45 41 23 | 5  L   D  . EA#
+62c0 87 c3 3a 80 6c f2 4a b2 5c 36 00 00 89 01 00 00 |  : l J \6      
+62d0 86 d1 90 2a dd 48 fd d9 fa 03 90 87 18 71 89 3b |   * H       q ;
+62e0 1b 38 00 00 91 01 00 00 5c 2a 08 59 6e 45 86 89 | 8      \* YnE  
+62f0 9a 4b 03 bf 5e 0b 9b 22 f5 37 00 00 8f 01 00 00 | K  ^  " 7      
+6300 47 59 21 13 9c 4a db d5 e0 32 86 9d 3d 51 af fd |GY!  J   2  =Q  
+6310 cf 3a 00 00 aa 01 00 00 74 61 64 62 01 00 00 00 | :      tadb    
+6320 da 27 00 00 6c 62 67 74 00 00 00 00 ce 27 00 00 | '  lbgt     '  
+6330 01 00 00 00 00 00 00 00 02 00 00 00 00 20 00 00 |                
+6340 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6350 00 00 00 00 00 00 a0 3f 00 00 a0 3f 00 00 a0 3f |       ?   ?   ?
+6360 00 00 01 04 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6370 00 00 00 00 00 00 00 00 ff ff ff ff 00 00 00 00 |                
+6380 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 |                
+6390 00 00 00 00 ff ff ff ff 00 00 00 00 74 6d 6c 68 |            tmlh
+63a0 00 00 00 00 24 00 00 00 ff ff ff ff ff ff ff ff |    $           
+63b0 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff |                
+63c0 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff |                
+63d0 00 00 00 00 00 00 00 00 ff ff ff ff 00 00 00 00 |                
+63e0 00 00 00 00 00 00 00 00 ff ff ff ff 00 00 00 00 |                
+63f0 00 00 00 00 ff ff ff ff 74 6f 6f 66 00 00 00 00 |        toof    
+6400 22 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 |"               
+6410 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 |                
+6420 00 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00 |                
+6430 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 |                
+6440 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6450 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6460 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6470 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 |                
+6480 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 |                
+6490 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 |                
+64a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+64b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+64c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+64d0 ff ff ff ff 00 00 00 00 00 00 00 00 ff ff ff ff |                
+64e0 00 00 00 00 00 00 00 00 ff ff ff ff 00 00 00 00 |                
+64f0 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 |                
+6500 00 00 00 00 ff ff ff ff 66 66 a6 3f 66 66 66 3f |        ff ?fff?
+6510 66 66 66 3f 00 00 80 3f 00 00 80 3f 66 66 a6 3f |fff?   ?   ?ff ?
+6520 66 66 a6 3f 00 00 00 00 00 00 00 00 ff ff ff ff |ff ?            
+6530 00 00 00 00 00 00 00 00 ff ff ff ff 00 84 00 00 |                
+6540 08 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6550 ff ff ff ff 00 00 00 00 00 00 00 00 ff ff ff ff |                
+6560 ff ff ff ff 00 00 00 00 00 00 00 00 ff ff ff ff |                
+6570 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6580 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6590 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+65a0 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 |                
+65b0 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 |                
+65c0 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 |                
+65d0 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 |                
+65e0 ff ff ff ff 01 00 00 00 00 00 00 00 00 00 00 00 |                
+65f0 65 66 66 65 00 00 00 00 26 00 00 00 ff ff ff ff |effe    &       
+6600 2b 00 01 00 00 00 00 40 00 00 00 40 7c d9 20 3d |+      @   @|  =
+6610 00 00 90 41 00 00 10 41 00 00 00 00 7c d9 a0 3d |   A   A    |  =
+6620 00 00 90 41 00 00 10 41 00 00 80 3f 7c d9 20 3d |   A   A   ?|  =
+6630 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6640 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6650 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6660 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6670 00 00 00 40 00 00 00 00 00 00 00 00 ff ff ff ff |   @            
+6680 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff |                
+6690 00 00 00 00 00 00 00 00 ff ff ff ff 00 00 00 00 |                
+66a0 00 00 00 00 00 00 00 00 00 00 00 00 21 64 6e 73 |            !dns
+66b0 00 00 00 00 20 00 00 00 ff ff ff ff 21 64 6e 73 |            !dns
+66c0 00 00 00 00 23 00 00 00 ff ff ff ff 21 64 6e 73 |    #       !dns
+66d0 00 00 00 00 24 00 00 00 ff ff ff ff 9a 99 19 3f |    $          ?
+66e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+66f0 02 00 00 00 00 00 00 00 00 00 00 00 74 64 68 63 |            tdhc
+6700 00 00 00 00 0e 00 00 00 ff ff ff ff ff ff ff ff |                
+6710 00 00 00 00 00 00 00 00 ff ff ff ff 00 00 00 00 |                
+6720 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 |                
+6730 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 |                
+6740 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6750 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6760 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 |                
+6770 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 |                
+6780 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 |                
+6790 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 |                
+67a0 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 |                
+67b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+67c0 0a d7 a3 bb 8f c2 75 bc 00 00 00 00 00 00 00 00 |      u         
+67d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+67e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+67f0 74 73 67 74 02 23 00 00 02 23 00 00 74 73 67 74 |tsgt #   #  tsgt
+6800 fd 0d 00 00 fd 0d 00 00 74 73 67 74 10 0d 00 00 |        tsgt    
+6810 10 0d 00 00 69 73 67 74 00 00 00 00 00 00 00 00 |    isgt        
+6820 66 72 67 74 00 00 00 00 00 00 00 00 66 72 67 74 |frgt        frgt
+6830 00 00 00 00 00 00 00 00 69 73 67 74 00 00 00 00 |        isgt    
+6840 00 00 00 00 66 72 67 74 00 00 00 00 28 00 00 00 |    frgt    (   
+6850 74 6d 6c 68 6f 62 6a 65 63 74 73 5c 77 65 61 70 |tmlhobjects\weap
+6860 6f 6e 73 5c 70 69 73 74 6f 6c 5c 6d 61 67 6e 75 |ons\pistol\magnu
+6870 6d 5c 6d 61 67 6e 75 6d 66 72 67 74 00 00 00 00 |m\magnumfrgt    
+6880 00 00 00 00 66 72 67 74 00 00 00 00 00 00 00 00 |    frgt        
+6890 66 72 67 74 00 00 00 00 00 00 00 00 6c 62 67 74 |frgt        lbgt
+68a0 00 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00 |                
+68b0 66 72 67 74 00 00 00 00 00 00 00 00 66 72 67 74 |frgt        frgt
+68c0 00 00 00 00 26 00 00 00 74 6f 6f 66 66 78 5c 6d |    &   tooffx\m
+68d0 61 74 65 72 69 61 6c 5f 65 66 66 65 63 74 73 5c |aterial_effects\
+68e0 77 65 61 70 6f 6e 73 5c 6d 61 67 6e 75 6d 66 72 |weapons\magnumfr
+68f0 67 74 00 00 00 00 00 00 00 00 6c 62 67 74 00 00 |gt        lbgt  
+6900 00 00 08 00 00 00 00 00 00 00 00 00 00 00 6c 62 |              lb
+6910 67 74 00 00 00 00 bc 08 00 00 02 00 00 00 00 00 |gt              
+6920 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6930 00 00 00 00 00 00 00 00 00 00 68 03 00 00 00 00 |          h     
+6940 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 |                
+6950 00 00 01 00 00 00 00 00 00 00 00 00 00 00 ff ff |                
+6960 ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6970 00 00 00 00 00 00 00 00 00 00 68 03 00 00 00 00 |          h     
+6980 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 |                
+6990 00 00 01 00 00 00 00 00 00 00 00 00 00 00 ff ff |                
+69a0 ff ff 74 73 67 74 0b 04 00 00 0b 04 00 00 69 73 |  tsgt        is
+69b0 67 74 00 00 00 00 0d 00 00 00 74 68 72 6f 74 74 |gt        thrott
+69c0 6c 65 5f 73 69 64 65 69 73 67 74 00 00 00 00 16 |le_sideisgt     
+69d0 00 00 00 74 68 72 6f 74 74 6c 65 5f 73 69 64 65 |   throttle_side
+69e0 5f 72 65 6d 61 70 70 65 64 69 73 67 74 00 00 00 |_remappedisgt   
+69f0 00 00 00 00 00 69 73 67 74 00 00 00 00 00 00 00 |     isgt       
+6a00 00 74 73 67 74 74 03 00 00 74 03 00 00 61 64 67 | tsgtt   t   adg
+6a10 74 00 00 00 00 68 03 00 00 08 24 00 00 00 00 00 |t    h    $     
+6a20 00 00 00 80 3f 00 00 00 00 00 00 00 00 00 00 00 |    ?           
+6a30 00 00 00 00 00 14 00 00 00 01 00 00 00 04 00 00 |                
+6a40 cd ff ff 7f 7f 00 00 80 3f 00 00 00 00 01 00 00 |        ?       
+6a50 00 04 00 00 cd 00 00 00 00 00 00 00 00 00 00 80 |                
+6a60 3f 00 00 80 3f cd cd cd cd cd cd cd cd cd cd cd |?   ?           
+6a70 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6a80 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6a90 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6aa0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6ab0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6ac0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6ad0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6ae0 cd 01 00 00 00 04 00 00 cd 00 00 00 00 00 00 00 |                
+6af0 00 00 00 80 3f 00 00 80 3f cd cd cd cd cd cd cd |    ?   ?       
+6b00 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6b10 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6b20 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6b30 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6b40 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6b50 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6b60 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6b70 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6b80 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6b90 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6ba0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6bb0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6bc0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6bd0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6be0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6bf0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6c00 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6c10 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6c20 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6c30 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6c40 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6c50 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6c60 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6c70 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6c80 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6c90 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6ca0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6cb0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6cc0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6cd0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6ce0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6cf0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6d00 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6d10 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6d20 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6d30 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6d40 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6d50 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6d60 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6d70 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6d80 cd 69 73 67 74 00 00 00 00 00 00 00 00 6c 62 67 | isgt        lbg
+6d90 74 00 00 00 00 20 00 00 00 01 00 00 00 01 00 00 |t               
+6da0 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+6db0 00 00 00 00 00 9a 99 99 3e 74 73 67 74 11 04 00 |        >tsgt   
+6dc0 00 11 04 00 00 69 73 67 74 00 00 00 00 10 00 00 |     isgt       
+6dd0 00 74 68 72 6f 74 74 6c 65 5f 66 6f 72 77 61 72 | throttle_forwar
+6de0 64 69 73 67 74 00 00 00 00 19 00 00 00 74 68 72 |disgt        thr
+6df0 6f 74 74 6c 65 5f 66 6f 72 77 61 72 64 5f 72 65 |ottle_forward_re
+6e00 6d 61 70 70 65 64 69 73 67 74 00 00 00 00 00 00 |mappedisgt      
+6e10 00 00 69 73 67 74 00 00 00 00 00 00 00 00 74 73 |  isgt        ts
+6e20 67 74 74 03 00 00 74 03 00 00 61 64 67 74 00 00 |gtt   t   adgt  
+6e30 00 00 68 03 00 00 08 24 00 00 00 00 00 00 00 00 |  h    $        
+6e40 80 3f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ?              
+6e50 00 00 14 00 00 00 01 00 00 00 04 00 00 cd ff ff |                
+6e60 7f 7f 00 00 80 3f 00 00 00 00 01 00 00 00 04 00 |     ?          
+6e70 00 cd 00 00 00 00 00 00 00 00 00 00 80 3f 00 00 |             ?  
+6e80 80 3f cd cd cd cd cd cd cd cd cd cd cd cd cd cd | ?              
+6e90 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6ea0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6eb0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6ec0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6ed0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6ee0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6ef0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd 01 00 |                
+6f00 00 00 04 00 00 cd 00 00 00 00 00 00 00 00 00 00 |                
+6f10 80 3f 00 00 80 3f cd cd cd cd cd cd cd cd cd cd | ?   ?          
+6f20 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6f30 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6f40 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6f50 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6f60 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6f70 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6f80 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6f90 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6fa0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6fb0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6fc0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6fd0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6fe0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+6ff0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7000 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7010 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7020 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7030 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7040 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7050 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7060 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7070 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7080 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7090 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+70a0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+70b0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+70c0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+70d0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+70e0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+70f0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7100 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7110 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7120 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7130 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7140 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7150 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7160 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7170 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7180 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+7190 cd cd cd cd cd cd cd cd cd cd cd cd cd cd 69 73 |              is
+71a0 67 74 00 00 00 00 00 00 00 00 6c 62 67 74 00 00 |gt        lbgt  
+71b0 00 00 20 00 00 00 01 00 00 00 01 00 00 00 03 00 |                
+71c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+71d0 00 00 00 00 00 3f 6c 62 67 74 00 00 00 00 08 00 |     ?lbgt      
+71e0 00 00 00 00 00 00 01 00 00 00 6c 62 67 74 00 00 |          lbgt  
+71f0 00 00 52 01 00 00 02 00 00 00 00 00 00 00 68 67 |  R           hg
+7200 69 6c 00 00 00 00 2a 00 00 00 ff ff ff ff 00 00 |il    *         
+7210 00 00 00 00 00 00 00 00 00 00 00 00 00 00 68 67 |              hg
+7220 69 6c 00 00 00 00 2a 00 00 00 ff ff ff ff 00 00 |il    *         
+7230 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 73 |              ts
+7240 67 74 79 00 00 00 79 00 00 00 66 72 67 74 00 00 |gty   y   frgt  
+7250 00 00 2e 00 00 00 68 67 69 6c 6f 62 6a 65 63 74 |  .   hgilobject
+7260 73 5c 77 65 61 70 6f 6e 73 5c 70 69 73 74 6f 6c |s\weapons\pistol
+7270 5c 6d 61 67 6e 75 6d 5c 66 78 5c 66 69 72 69 6e |\magnum\fx\firin
+7280 67 5f 31 70 69 73 67 74 00 00 00 00 0f 00 00 00 |g_1pisgt        
+7290 70 72 69 6d 61 72 79 5f 74 72 69 67 67 65 72 69 |primary_triggeri
+72a0 73 67 74 00 00 00 00 0c 00 00 00 69 6c 6c 75 6d |sgt        illum
+72b0 69 6e 61 74 69 6f 6e 69 73 67 74 00 00 00 00 00 |inationisgt     
+72c0 00 00 00 74 73 67 74 79 00 00 00 79 00 00 00 66 |   tsgty   y   f
+72d0 72 67 74 00 00 00 00 2e 00 00 00 68 67 69 6c 6f |rgt    .   hgilo
+72e0 62 6a 65 63 74 73 5c 77 65 61 70 6f 6e 73 5c 70 |bjects\weapons\p
+72f0 69 73 74 6f 6c 5c 6d 61 67 6e 75 6d 5c 66 78 5c |istol\magnum\fx\
+7300 66 69 72 69 6e 67 5f 33 70 69 73 67 74 00 00 00 |firing_3pisgt   
+7310 00 0f 00 00 00 70 72 69 6d 61 72 79 5f 74 72 69 |     primary_tri
+7320 67 67 65 72 69 73 67 74 00 00 00 00 0c 00 00 00 |ggerisgt        
+7330 69 6c 6c 75 6d 69 6e 61 74 69 6f 6e 69 73 67 74 |illuminationisgt
+7340 00 00 00 00 00 00 00 00 6c 62 67 74 00 00 00 00 |        lbgt    
+7350 08 00 00 00 00 00 00 00 00 00 00 00 6c 62 67 74 |            lbgt
+7360 00 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00 |                
+7370 6c 62 67 74 00 00 00 00 08 00 00 00 00 00 00 00 |lbgt            
+7380 00 00 00 00 6c 62 67 74 00 00 00 00 08 00 00 00 |    lbgt        
+7390 00 00 00 00 00 00 00 00 6c 62 67 74 00 00 00 00 |        lbgt    
+73a0 60 01 00 00 01 00 00 00 00 00 00 00 00 01 00 00 |`               
+73b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+73c0 00 01 1e 00 3c 00 00 00 00 00 00 00 00 00 00 00 |    <           
+73d0 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 |                
+73e0 ff ff ff ff 00 00 00 00 ff ff ff ff 00 00 00 00 |                
+73f0 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 |                
+7400 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 |                
+7410 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 |                
+7420 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 |                
+7430 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 |                
+7440 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 |                
+7450 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 |                
+7460 00 00 00 00 ff ff ff ff 74 73 67 74 90 00 00 00 |        tsgt    
+7470 90 00 00 00 69 73 67 74 00 00 00 00 00 00 00 00 |    isgt        
+7480 69 73 67 74 00 00 00 00 00 00 00 00 66 72 67 74 |isgt        frgt
+7490 00 00 00 00 00 00 00 00 69 73 67 74 00 00 00 00 |        isgt    
+74a0 00 00 00 00 66 72 67 74 00 00 00 00 00 00 00 00 |    frgt        
+74b0 66 72 67 74 00 00 00 00 00 00 00 00 66 72 67 74 |frgt        frgt
+74c0 00 00 00 00 00 00 00 00 66 72 67 74 00 00 00 00 |        frgt    
+74d0 00 00 00 00 66 72 67 74 00 00 00 00 00 00 00 00 |    frgt        
+74e0 66 72 67 74 00 00 00 00 00 00 00 00 66 72 67 74 |frgt        frgt
+74f0 00 00 00 00 00 00 00 00 66 72 67 74 00 00 00 00 |        frgt    
+7500 00 00 00 00 66 72 67 74 00 00 00 00 00 00 00 00 |    frgt        
+7510 6c 62 67 74 00 00 00 00 08 00 00 00 00 00 00 00 |lbgt            
+7520 00 00 00 00 69 73 67 74 00 00 00 00 09 00 00 00 |    isgt        
+7530 6d 70 5f 70 69 63 6b 75 70 69 73 67 74 00 00 00 |mp_pickupisgt   
+7540 00 07 00 00 00 6d 70 5f 73 77 61 70 69 73 67 74 |     mp_swapisgt
+7550 00 00 00 00 07 00 00 00 6d 70 5f 64 75 61 6c 69 |        mp_duali
+7560 73 67 74 00 00 00 00 0c 00 00 00 6d 70 5f 64 75 |sgt        mp_du
+7570 61 6c 5f 73 77 61 70 69 73 67 74 00 00 00 00 0c |al_swapisgt     
+7580 00 00 00 6d 70 5f 70 69 63 6b 65 64 5f 75 70 69 |   mp_picked_upi
+7590 73 67 74 00 00 00 00 0c 00 00 00 6d 70 5f 73 77 |sgt        mp_sw
+75a0 69 74 63 68 5f 74 6f 69 73 67 74 00 00 00 00 0a |itch_toisgt     
+75b0 00 00 00 6d 70 5f 73 77 61 70 5f 61 69 69 73 67 |   mp_swap_aiisg
+75c0 74 00 00 00 00 00 00 00 00 69 73 67 74 00 00 00 |t        isgt   
+75d0 00 00 00 00 00 66 72 67 74 00 00 00 00 00 00 00 |     frgt       
+75e0 00 66 72 67 74 00 00 00 00 00 00 00 00 66 72 67 | frgt        frg
+75f0 74 00 00 00 00 00 00 00 00 66 72 67 74 00 00 00 |t        frgt   
+7600 00 00 00 00 00 66 72 67 74 00 00 00 00 00 00 00 |     frgt       
+7610 00 66 72 67 74 00 00 00 00 00 00 00 00 69 73 67 | frgt        isg
+7620 74 00 00 00 00 00 00 00 00 69 73 67 74 00 00 00 |t        isgt   
+7630 00 00 00 00 00 69 73 67 74 00 00 00 00 00 00 00 |     isgt       
+7640 00 66 72 67 74 00 00 00 00 00 00 00 00 66 72 67 | frgt        frg
+7650 74 00 00 00 00 00 00 00 00 66 72 67 74 00 00 00 |t        frgt   
+7660 00 00 00 00 00 66 72 67 74 00 00 00 00 00 00 00 |     frgt       
+7670 00 6c 62 67 74 00 00 00 00 71 02 00 00 01 00 00 | lbgt    q      
+7680 00 00 00 00 00 92 0a 86 3e 92 0a 86 3e 9a 99 19 |        >   >   
+7690 3f 00 00 80 3f 00 00 00 00 00 00 00 00 21 74 70 |?   ?        !tp
+76a0 6a 00 00 00 00 23 00 00 00 ff ff ff ff 21 74 70 |j    #       !tp
+76b0 6a 00 00 00 00 24 00 00 00 ff ff ff ff ff ff ff |j    $          
+76c0 ff 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff |                
+76d0 ff 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff |                
+76e0 ff 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff |                
+76f0 ff 00 00 00 00 00 00 00 00 ff ff ff ff 21 74 70 |             !tp
+7700 6a 00 00 00 00 2d 00 00 00 ff ff ff ff 66 64 72 |j    -       fdr
+7710 64 00 00 00 00 2b 00 00 00 ff ff ff ff 21 74 70 |d    +       !tp
+7720 6a 00 00 00 00 2f 00 00 00 ff ff ff ff 66 64 72 |j    /       fdr
+7730 64 00 00 00 00 2b 00 00 00 ff ff ff ff ff ff ff |d    +          
+7740 ff 00 00 00 00 00 00 00 00 ff ff ff ff 74 73 67 |             tsg
+7750 74 95 01 00 00 95 01 00 00 66 72 67 74 00 00 00 |t        frgt   
+7760 00 27 00 00 00 21 74 70 6a 67 6c 6f 62 61 6c 73 | '   !tpjglobals
+7770 5c 64 61 6d 61 67 65 5f 65 66 66 65 63 74 73 5c |\damage_effects\
+7780 73 74 72 69 6b 65 5f 6d 65 6c 65 65 66 72 67 74 |strike_meleefrgt
+7790 00 00 00 00 28 00 00 00 21 74 70 6a 67 6c 6f 62 |    (   !tpjglob
+77a0 61 6c 73 5c 64 61 6d 61 67 65 5f 65 66 66 65 63 |als\damage_effec
+77b0 74 73 5c 74 72 69 67 67 65 72 5f 6d 65 6c 65 65 |ts\trigger_melee
+77c0 66 72 67 74 00 00 00 00 00 00 00 00 66 72 67 74 |frgt        frgt
+77d0 00 00 00 00 00 00 00 00 66 72 67 74 00 00 00 00 |        frgt    
+77e0 00 00 00 00 66 72 67 74 00 00 00 00 00 00 00 00 |    frgt        
+77f0 66 72 67 74 00 00 00 00 31 00 00 00 21 74 70 6a |frgt    1   !tpj
+7800 67 6c 6f 62 61 6c 73 5c 64 61 6d 61 67 65 5f 65 |globals\damage_e
+7810 66 66 65 63 74 73 5c 67 75 6e 5f 74 6f 5f 67 75 |ffects\gun_to_gu
+7820 6e 5f 63 6c 61 6e 67 5f 6d 65 6c 65 65 66 72 67 |n_clang_meleefrg
+7830 74 00 00 00 00 2f 00 00 00 66 64 72 64 67 6c 6f |t    /   fdrdglo
+7840 62 61 6c 73 5c 64 61 6d 61 67 65 5f 72 65 73 70 |bals\damage_resp
+7850 6f 6e 73 65 73 5c 69 6d 70 61 63 74 5f 6d 65 6c |onses\impact_mel
+7860 65 65 5f 63 6c 61 6e 67 66 72 67 74 00 00 00 00 |ee_clangfrgt    
+7870 33 00 00 00 21 74 70 6a 67 6c 6f 62 61 6c 73 5c |3   !tpjglobals\
+7880 64 61 6d 61 67 65 5f 65 66 66 65 63 74 73 5c 67 |damage_effects\g
+7890 75 6e 5f 74 6f 5f 73 77 6f 72 64 5f 63 6c 61 6e |un_to_sword_clan
+78a0 67 5f 6d 65 6c 65 65 66 72 67 74 00 00 00 00 2f |g_meleefrgt    /
+78b0 00 00 00 66 64 72 64 67 6c 6f 62 61 6c 73 5c 64 |   fdrdglobals\d
+78c0 61 6d 61 67 65 5f 72 65 73 70 6f 6e 73 65 73 5c |amage_responses\
+78d0 69 6d 70 61 63 74 5f 6d 65 6c 65 65 5f 63 6c 61 |impact_melee_cla
+78e0 6e 67 66 72 67 74 00 00 00 00 00 00 00 00 66 72 |ngfrgt        fr
+78f0 67 74 00 00 00 00 2a 00 00 00 65 66 66 65 6f 62 |gt    *   effeob
+7900 6a 65 63 74 73 5c 77 65 61 70 6f 6e 73 5c 66 78 |jects\weapons\fx
+7910 5c 67 65 6e 65 72 69 63 5f 6d 65 6c 65 65 5f 63 |\generic_melee_c
+7920 6c 61 73 68 74 73 67 74 00 00 00 00 00 00 00 00 |lashtsgt        
+7930 6c 62 67 74 00 00 00 00 08 00 00 00 00 00 00 00 |lbgt            
+7940 00 00 00 00 66 72 67 74 00 00 00 00 00 00 00 00 |    frgt        
+7950 66 72 67 74 00 00 00 00 00 00 00 00 66 72 67 74 |frgt        frgt
+7960 00 00 00 00 24 00 00 00 21 64 6e 73 73 6f 75 6e |    $   !dnssoun
+7970 64 5c 77 65 61 70 6f 6e 73 5c 6d 61 67 6e 75 6d |d\weapons\magnum
+7980 5c 6d 61 67 6e 75 6d 5f 61 6d 6d 6f 66 72 67 74 |\magnum_ammofrgt
+7990 00 00 00 00 27 00 00 00 21 64 6e 73 73 6f 75 6e |    '   !dnssoun
+79a0 64 5c 77 65 61 70 6f 6e 73 5c 6d 61 67 6e 75 6d |d\weapons\magnum
+79b0 5c 6d 61 67 6e 75 6d 5f 7a 6f 6f 6d 5f 69 6e 66 |\magnum_zoom_inf
+79c0 72 67 74 00 00 00 00 28 00 00 00 21 64 6e 73 73 |rgt    (   !dnss
+79d0 6f 75 6e 64 5c 77 65 61 70 6f 6e 73 5c 6d 61 67 |ound\weapons\mag
+79e0 6e 75 6d 5c 6d 61 67 6e 75 6d 5f 7a 6f 6f 6d 5f |num\magnum_zoom_
+79f0 6f 75 74 69 73 67 74 00 00 00 00 00 00 00 00 69 |outisgt        i
+7a00 73 67 74 00 00 00 00 06 00 00 00 70 69 73 74 6f |sgt        pisto
+7a10 6c 69 73 67 74 00 00 00 00 02 00 00 00 68 70 74 |lisgt        hpt
+7a20 73 67 74 9d 01 00 00 9d 01 00 00 6c 62 67 74 00 |sgt        lbgt 
+7a30 00 00 00 67 01 00 00 02 00 00 00 00 00 00 00 65 |   g           e
+7a40 64 6f 6d 00 00 00 00 24 00 00 00 ff ff ff ff 64 |dom    $       d
+7a50 61 6d 6a 00 00 00 00 41 00 00 00 ff ff ff ff 65 |amj    A       e
+7a60 64 6f 6d 00 00 00 00 24 00 00 00 ff ff ff ff 64 |dom    $       d
+7a70 61 6d 6a 00 00 00 00 3e 00 00 00 ff ff ff ff 74 |amj    >       t
+7a80 73 67 74 85 00 00 00 85 00 00 00 66 72 67 74 00 |sgt        frgt 
+7a90 00 00 00 28 00 00 00 65 64 6f 6d 6f 62 6a 65 63 |   (   edomobjec
+7aa0 74 73 5c 77 65 61 70 6f 6e 73 5c 70 69 73 74 6f |ts\weapons\pisto
+7ab0 6c 5c 6d 61 67 6e 75 6d 5c 6d 61 67 6e 75 6d 66 |l\magnum\magnumf
+7ac0 72 67 74 00 00 00 00 45 00 00 00 64 61 6d 6a 6f |rgt    E   damjo
+7ad0 62 6a 65 63 74 73 5c 63 68 61 72 61 63 74 65 72 |bjects\character
+7ae0 73 5c 73 70 61 72 74 61 6e 73 5c 66 70 5c 77 65 |s\spartans\fp\we
+7af0 61 70 6f 6e 73 5c 70 69 73 74 6f 6c 5c 66 70 5f |apons\pistol\fp_
+7b00 6d 61 67 6e 75 6d 5c 66 70 5f 6d 61 67 6e 75 6d |magnum\fp_magnum
+7b10 74 73 67 74 82 00 00 00 82 00 00 00 66 72 67 74 |tsgt        frgt
+7b20 00 00 00 00 28 00 00 00 65 64 6f 6d 6f 62 6a 65 |    (   edomobje
+7b30 63 74 73 5c 77 65 61 70 6f 6e 73 5c 70 69 73 74 |cts\weapons\pist
+7b40 6f 6c 5c 6d 61 67 6e 75 6d 5c 6d 61 67 6e 75 6d |ol\magnum\magnum
+7b50 66 72 67 74 00 00 00 00 42 00 00 00 64 61 6d 6a |frgt    B   damj
+7b60 6f 62 6a 65 63 74 73 5c 63 68 61 72 61 63 74 65 |objects\characte
+7b70 72 73 5c 65 6c 69 74 65 5c 66 70 5c 77 65 61 70 |rs\elite\fp\weap
+7b80 6f 6e 73 5c 70 69 73 74 6f 6c 5c 66 70 5f 6d 61 |ons\pistol\fp_ma
+7b90 67 6e 75 6d 5c 66 70 5f 6d 61 67 6e 75 6d 66 72 |gnum\fp_magnumfr
+7ba0 67 74 00 00 00 00 12 00 00 00 74 64 68 63 75 69 |gt        tdhcui
+7bb0 5c 63 68 75 64 5c 6d 61 67 6e 75 6d 66 72 67 74 |\chud\magnumfrgt
+7bc0 00 00 00 00 00 00 00 00 6c 62 67 74 00 00 00 00 |        lbgt    
+7bd0 08 00 00 00 00 00 00 00 01 00 00 00 6c 62 67 74 |            lbgt
+7be0 00 00 00 00 15 01 00 00 01 00 00 00 00 00 00 00 |                
+7bf0 00 00 00 00 00 00 18 00 30 00 08 00 00 00 08 00 |        0       
+7c00 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 |                
+7c10 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 |                
+7c20 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 |                
+7c30 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 |                
+7c40 ff ff ff ff 01 00 00 00 00 00 00 00 00 00 00 00 |                
+7c50 74 73 67 74 a1 00 00 00 a1 00 00 00 66 72 67 74 |tsgt        frgt
+7c60 00 00 00 00 00 00 00 00 66 72 67 74 00 00 00 00 |        frgt    
+7c70 00 00 00 00 66 72 67 74 00 00 00 00 00 00 00 00 |    frgt        
+7c80 66 72 67 74 00 00 00 00 00 00 00 00 6c 62 67 74 |frgt        lbgt
+7c90 00 00 00 00 65 00 00 00 01 00 00 00 00 00 00 00 |    e           
+7ca0 00 00 00 00 70 69 71 65 00 00 00 00 2d 00 00 00 |    piqe    -   
+7cb0 ff ff ff ff 74 73 67 74 3d 00 00 00 3d 00 00 00 |    tsgt=   =   
+7cc0 66 72 67 74 00 00 00 00 31 00 00 00 70 69 71 65 |frgt    1   piqe
+7cd0 6f 62 6a 65 63 74 73 5c 67 65 61 72 5c 68 75 6d |objects\gear\hum
+7ce0 61 6e 5c 6d 69 6c 69 74 61 72 79 5c 61 6d 6d 6f |an\military\ammo
+7cf0 5f 62 6f 78 5c 61 6d 6d 6f 5f 62 6f 78 6c 62 67 |_box\ammo_boxlbg
+7d00 74 00 00 00 00 08 01 00 00 01 00 00 00 00 00 00 |t               
+7d10 00 00 00 00 00 00 00 01 00 00 00 ff ff 00 00 00 |                
+7d20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+7d30 00 00 00 00 00 00 00 00 00 00 00 00 00 ff ff ff |                
+7d40 ff 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff |                
+7d50 ff 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff |                
+7d60 ff 00 00 00 00 00 00 00 00 ff ff ff ff 00 00 00 |                
+7d70 00 ff ff ff ff 00 00 00 00 00 00 00 00 ff ff ff |                
+7d80 ff ff ff ff ff 00 00 00 00 00 00 00 00 ff ff ff |                
+7d90 ff 00 00 00 00 00 00 00 00 00 00 00 00 74 73 67 |             tsg
+7da0 74 68 00 00 00 68 00 00 00 74 73 67 74 00 00 00 |th   h   tsgt   
+7db0 00 00 00 00 00 74 73 67 74 50 00 00 00 50 00 00 |     tsgtP   P  
+7dc0 00 66 72 67 74 00 00 00 00 00 00 00 00 66 72 67 | frgt        frg
+7dd0 74 00 00 00 00 00 00 00 00 66 72 67 74 00 00 00 |t        frgt   
+7de0 00 00 00 00 00 66 72 67 74 00 00 00 00 00 00 00 |     frgt       
+7df0 00 66 72 67 74 00 00 00 00 00 00 00 00 6c 62 67 | frgt        lbg
+7e00 74 00 00 00 00 08 00 00 00 00 00 00 00 01 00 00 |t               
+7e10 00 6c 62 67 74 00 00 00 00 85 0c 00 00 01 00 00 | lbgt           
+7e20 00 00 00 00 00 00 02 00 00 00 00 00 00 00 00 00 |                
+7e30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+7e40 00 00 00 00 00 00 00 00 00 01 00 01 00 5c 8f 42 |             \ B
+7e50 3e 00 00 00 3f 00 00 00 00 00 00 00 00 00 00 01 |>   ?           
+7e60 00 00 00 00 00 00 00 00 00 04 00 02 00 00 00 00 |                
+7e70 00 00 00 00 00 66 66 26 3f 00 00 00 00 00 00 00 |     ff&?       
+7e80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 |                
+7e90 00 00 00 00 00 00 00 00 00 a6 92 2b 3c 35 fa 8e |           +<5  
+7ea0 3d 66 66 16 40 00 00 80 3f 00 00 00 00 00 00 00 |=ff @   ?       
+7eb0 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+7ec0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+7ed0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+7ee0 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 |                
+7ef0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+7f00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+7f10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+7f20 00 00 00 00 00 04 00 00 00 6a 6f 72 70 00 00 00 |         jorp   
+7f30 00 37 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 | 7              
+7f40 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 |                
+7f50 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 |                
+7f60 00 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 |                
+7f70 00 cd cc 4c 3d 00 00 00 00 00 00 00 00 00 00 00 |   L=           
+7f80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                
+7f90 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 |                
+7fa0 00 00 00 00 00 00 00 00 00 74 73 67 74 ed 0a 00 |         tsgt   
+7fb0 00 ed 0a 00 00 74 73 67 74 18 00 00 00 18 00 00 |     tsgt       
+7fc0 00 69 73 67 74 00 00 00 00 00 00 00 00 69 73 67 | isgt        isg
+7fd0 74 00 00 00 00 00 00 00 00 69 73 67 74 00 00 00 |t        isgt   
+7fe0 00 00 00 00 00 74 73 67 74 00 00 00 00 00 00 00 |     tsgt       
+7ff0 00 74 73 67 74 10 08 00 00 10 08 00 00 74 73 67 | tsgt        tsg
+8000 74 fc 03 00 00 fc 03 00 00 6c 62 67 74 00 00 00 |t        lbgt   
+8010 00 b4 03 00 00 01 00 00 00 00 00 00 00 68 03 00 |             h  
+8020 00 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 |                
+8030 00 74 73 67 74 8c 03 00 00 8c 03 00 00 74 73 67 | tsgt        tsg
+8040 74 80 03 00 00 80 03 00 00 74 73 67 74 74 03 00 |t        tsgtt  
+8050 00 74 03 00 00 61 64 67 74 00 00 00 00 68 03 00 | t   adgt    h  
+8060 00 08 24 00 00 00 00 00 00 00 00 80 3f 00 00 00 |  $         ?   
+8070 00 00 00 00 00 6f 12 83 3a 6f 12 03 3b 34 00 00 |     o  :o  ;4  
+8080 00 03 00 00 00 04 00 00 cd 29 5c 8f 3d 70 41 89 |         )\ =pA 
+8090 40 9a 99 19 3f 04 00 00 00 9a 99 99 3e 00 ac db |@   ?       >   
+80a0 3d 80 8a 64 3f 04 00 00 00 ff ff 7f 7f e7 6c 85 |=  d?         l 
+80b0 bf bf 6a 9e 3f 03 00 00 00 04 00 00 cd 00 00 00 |  j ?           
+80c0 00 9a 99 19 3f 29 5c 8f 3d 91 76 66 3f 33 33 73 |    ?)\ = vf?33s
+80d0 3f cd cc 4c 3d 00 00 80 3f 00 00 00 00 04 00 00 |?  L=   ?       
+80e0 cd 29 5c 8f 3d 91 76 66 3f 9a 99 99 3e 5a c7 6c | )\ = vf?   >Z l
+80f0 3f 33 33 73 3f cd cc 4c 3d 00 00 80 3f 00 00 00 |?33s?  L=   ?   
+8100 00 04 00 00 cd 9a 99 99 3e 5a c7 6c 3f 00 00 80 |        >Z l?   
+8110 3f bf ee 47 3e 33 33 73 3f cd cc 4c 3d 00 00 80 |?  G>33s?  L=   
+8120 3f 00 00 00 00 cd cd cd cd cd cd cd cd cd cd cd |?               
+8130 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8140 cd cd cd cd cd cd cd cd cd 01 00 00 00 04 00 00 |                
+8150 cd 00 00 00 00 00 00 00 00 00 00 80 3f 00 00 80 |            ?   
+8160 3f cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |?               
+8170 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8180 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8190 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+81a0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+81b0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+81c0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+81d0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+81e0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+81f0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8200 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8210 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8220 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8230 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8240 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8250 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8260 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8270 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8280 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8290 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+82a0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+82b0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+82c0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+82d0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+82e0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+82f0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8300 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8310 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8320 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8330 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8340 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8350 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8360 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8370 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8380 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8390 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+83a0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+83b0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+83c0 cd cd cd cd cd cd cd cd cd 6c 62 67 74 00 00 00 |         lbgt   
+83d0 00 08 00 00 00 00 00 00 00 00 00 00 00 6c 62 67 |             lbg
+83e0 74 00 00 00 00 08 00 00 00 00 00 00 00 00 00 00 |t               
+83f0 00 6c 62 67 74 00 00 00 00 08 00 00 00 00 00 00 | lbgt           
+8400 00 00 00 00 00 74 73 67 74 fc 03 00 00 fc 03 00 |     tsgt       
+8410 00 6c 62 67 74 00 00 00 00 b4 03 00 00 01 00 00 | lbgt           
+8420 00 00 00 00 00 68 03 00 00 00 00 00 00 ff ff ff |     h          
+8430 ff 00 00 00 00 00 00 00 00 74 73 67 74 8c 03 00 |         tsgt   
+8440 00 8c 03 00 00 74 73 67 74 80 03 00 00 80 03 00 |     tsgt       
+8450 00 74 73 67 74 74 03 00 00 74 03 00 00 61 64 67 | tsgtt   t   adg
+8460 74 00 00 00 00 68 03 00 00 08 24 00 00 33 33 b3 |t    h    $  33 
+8470 3e 00 00 00 3f 00 00 00 00 00 00 00 00 6f 12 83 |>   ?        o  
+8480 3a 6f 12 03 3b 14 00 00 00 01 00 00 00 04 00 00 |:o  ;           
+8490 cd ff ff 7f 7f 00 00 80 bf 00 00 80 3f 01 00 00 |            ?   
+84a0 00 04 00 00 cd 00 00 00 00 00 00 80 3f 00 00 80 |            ?   
+84b0 3f 00 00 00 00 33 33 73 3f cd cc 4c 3d 00 00 80 |?    33s?  L=   
+84c0 3f 00 00 00 00 cd cd cd cd cd cd cd cd cd cd cd |?               
+84d0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+84e0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+84f0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8500 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8510 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8520 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8530 cd 01 00 00 00 04 00 00 cd 00 00 00 00 00 00 00 |                
+8540 00 00 00 80 3f 00 00 80 3f cd cd cd cd cd cd cd |    ?   ?       
+8550 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8560 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8570 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8580 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8590 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+85a0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+85b0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+85c0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+85d0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+85e0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+85f0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8600 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8610 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8620 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8630 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8640 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8650 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8660 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8670 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8680 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8690 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+86a0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+86b0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+86c0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+86d0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+86e0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+86f0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8700 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8710 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8720 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8730 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8740 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8750 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8760 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8770 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8780 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+8790 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+87a0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+87b0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+87c0 cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd cd |                
+87d0 cd 6c 62 67 74 00 00 00 00 08 00 00 00 00 00 00 | lbgt           
+87e0 00 00 00 00 00 6c 62 67 74 00 00 00 00 08 00 00 |     lbgt       
+87f0 00 00 00 00 00 00 00 00 00 6c 62 67 74 00 00 00 |         lbgt   
+8800 00 08 00 00 00 00 00 00 00 00 00 00 00 6c 62 67 |             lbg
+8810 74 00 00 00 00 08 00 00 00 00 00 00 00 01 00 00 |t               
+8820 00 66 72 67 74 00 00 00 00 3b 00 00 00 6a 6f 72 | frgt    ;   jor
+8830 70 6f 62 6a 65 63 74 73 5c 77 65 61 70 6f 6e 73 |pobjects\weapons
+8840 5c 70 69 73 74 6f 6c 5c 6d 61 67 6e 75 6d 5c 70 |\pistol\magnum\p
+8850 72 6f 6a 65 63 74 69 6c 65 73 5c 6d 61 67 6e 75 |rojectiles\magnu
+8860 6d 5f 62 75 6c 6c 65 74 66 72 67 74 00 00 00 00 |m_bulletfrgt    
+8870 00 00 00 00 74 73 67 74 0c 00 00 00 0c 00 00 00 |    tsgt        
+8880 66 72 67 74 00 00 00 00 00 00 00 00 66 72 67 74 |frgt        frgt
+8890 00 00 00 00 00 00 00 00 69 73 67 74 00 00 00 00 |        isgt    
+88a0 00 00 00 00 6c 62 67 74 00 00 00 00 f2 01 00 00 |    lbgt        
+88b0 01 00 00 00 00 00 00 00 01 00 01 00 65 66 66 65 |            effe
+88c0 00 00 00 00 27 00 00 00 ff ff ff ff ff ff ff ff |    '           
+88d0 00 00 00 00 00 00 00 00 ff ff ff ff 21 64 6e 73 |            !dns
+88e0 00 00 00 00 23 00 00 00 ff ff ff ff ff ff ff ff |    #           
+88f0 00 00 00 00 00 00 00 00 ff ff ff ff 66 64 72 64 |            fdrd
+8900 00 00 00 00 34 00 00 00 ff ff ff ff ff ff ff ff |    4           
+8910 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff |                
+8920 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff |                
+8930 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff |                
+8940 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff |                
+8950 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff |                
+8960 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff |                
+8970 00 00 00 00 00 00 00 00 ff ff ff ff 74 73 67 74 |            tsgt
+8980 1a 01 00 00 1a 01 00 00 66 72 67 74 00 00 00 00 |        frgt    
+8990 2b 00 00 00 65 66 66 65 6f 62 6a 65 63 74 73 5c |+   effeobjects\
+89a0 77 65 61 70 6f 6e 73 5c 70 69 73 74 6f 6c 5c 6d |weapons\pistol\m
+89b0 61 67 6e 75 6d 5c 66 78 5c 66 69 72 69 6e 67 66 |agnum\fx\firingf
+89c0 72 67 74 00 00 00 00 00 00 00 00 66 72 67 74 00 |rgt        frgt 
+89d0 00 00 00 27 00 00 00 21 64 6e 73 73 6f 75 6e 64 |   '   !dnssound
+89e0 5c 77 65 61 70 6f 6e 73 5c 6d 61 67 6e 75 6d 5c |\weapons\magnum\
+89f0 6d 61 67 6e 75 6d 5f 64 72 79 66 69 72 65 66 72 |magnum_dryfirefr
+8a00 67 74 00 00 00 00 00 00 00 00 66 72 67 74 00 00 |gt        frgt  
+8a10 00 00 38 00 00 00 66 64 72 64 6f 62 6a 65 63 74 |  8   fdrdobject
+8a20 73 5c 77 65 61 70 6f 6e 73 5c 70 69 73 74 6f 6c |s\weapons\pistol
+8a30 5c 6d 61 67 6e 75 6d 5c 66 65 65 64 62 61 63 6b |\magnum\feedback
+8a40 5c 6d 61 67 6e 75 6d 5f 66 69 72 69 6e 67 66 72 |\magnum_firingfr
+8a50 67 74 00 00 00 00 00 00 00 00 66 72 67 74 00 00 |gt        frgt  
+8a60 00 00 00 00 00 00 66 72 67 74 00 00 00 00 00 00 |      frgt      
+8a70 00 00 66 72 67 74 00 00 00 00 00 00 00 00 66 72 |  frgt        fr
+8a80 67 74 00 00 00 00 00 00 00 00 66 72 67 74 00 00 |gt        frgt  
+8a90 00 00 00 00 00 00 66 72 67 74 00 00 00 00 00 00 |      frgt      
+8aa0 00 00 66 72 67 74 00 00 00 00 00 00 00 00 66 72 |  frgt        fr
+8ab0 67 74 00 00 00 00 00 00 00 00 66 72 67 74 00 00 |gt        frgt  
+8ac0 00 00 00 00 00 00 66 72 67 74 00 00 00 00 00 00 |      frgt      
+8ad0 00 00 69 73 67 74 00 00 00 00 0c 00 00 00 77 65 |  isgt        we
+8ae0 61 70 6f 6e 5f 74 68 69 67 68 6c 62 67 74 00 00 |apon_thighlbgt  
+8af0 00 00 08 00 00 00 00 00 00 00 00 00 00 00         |              
