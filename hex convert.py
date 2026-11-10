@@ -16,8 +16,7 @@ def hexdump(file, output, sz):
             #    print("{CLEAN MEM}")
             #    offset += 16
 
-
-        
+            
 
             hex_bytes = [f"{b:02x}" for b in chunk]
             hex_bytes += [" "] * (sz - len(chunk))
