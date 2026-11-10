@@ -14,9 +14,9 @@ def read_chunk_header(data, offset):
     signature = r_signature[::-1].decode('ascii')
     return signature, version, size
 
-def inspect_tag_file(path):
-    with open(path, 'rb') as urmom:
-        data = urmom.read()
+def inspect_tag_file(path, raw):
+    with open(path, 'rb') as f:
+        data = f.read()
 
 
         header_format = '<36xIIi4sII4s'
@@ -35,12 +35,22 @@ def inspect_tag_file(path):
         #    4s  : engine magic at 0x3C ('MALB' -> 'BLAM')
         #############################################
         #back to human code 
-        
-        _, _, _, raw_group, group_ver, checksum, raw_magic = struct.unpack_from(header_format, data, 0)
+
+        s, s, s, raw_group, group_ver, checksum, raw_magic = struct.unpack_from(header_format, data, 0)
         group = raw_group[::-1].decode('ascii')
         magic = raw_magic[::-1].decode('ascii')
-        print(f"BLAM: magic Tag: {magic}")
-        print(f"Group type Tag: {group}")
-        print(f"raw: {raw_group}, {raw_magic}")
+        print(f"Engine magic Tag: {magic}")
+        print(f"Group type Tag: {group}, version {group_ver}")
+        print(f"checksum {checksum}") 
+        if raw:
+            print(f"(raw: { s, s, s, raw_group, group_ver, checksum, raw_magic})")
 
-inspect_tag_file('tags\magnum\magnum.weapon')
+        offset = 0x40
+        sig, ver, tag_size = read_chunk_header(data, offset)
+        print(f"tag master offset {offset:x}")
+        print(f"chunk {sig} (version {ver})")
+        print(f"size: {tag_size}")
+        
+          
+
+inspect_tag_file('tags/needler/needler.weapon', False)
