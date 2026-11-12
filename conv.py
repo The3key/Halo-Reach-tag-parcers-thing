@@ -36,21 +36,36 @@ def inspect_tag_file(path, raw):
         #############################################
         #back to human code 
 
-        s, s, s, raw_group, group_ver, checksum, raw_magic = struct.unpack_from(header_format, data, 0)
+        #unknown1, unknown2, unknown3
+        unk1, unk2, unk3, raw_group, group_ver, checksum, raw_magic = struct.unpack_from(header_format, data, 0)
         group = raw_group[::-1].decode('ascii')
         magic = raw_magic[::-1].decode('ascii')
         print(f"Engine magic Tag: {magic}")
         print(f"Group type Tag: {group}, version {group_ver}")
-        print(f"checksum {checksum}") 
+        print(f"checksum {checksum} \n")
+        #see tag header raw  
         if raw:
-            print(f"(raw: { s, s, s, raw_group, group_ver, checksum, raw_magic})")
-
+            print(f"(raw: { unk1, unk2, unk3, raw_group, group_ver, checksum, raw_magic})")
+        #Now, after reading that, we need to read the master tag that holds everything. 
         offset = 0x40
         sig, ver, tag_size = read_chunk_header(data, offset)
-        print(f"tag master offset {offset:x}")
-        print(f"chunk {sig} (version {ver})")
-        print(f"size: {tag_size}")
+        print(f"tag {offset:x} chunk {sig} (v; {ver}) size: {tag_size}")
+        #after this, we check for any more chunks. In this case, we have 2 other headers. 
+        #this is to help make this file interchangable across multiple files 
+        #(CHECKED): all files should work and are formated like each other
+        start = 0x40
+        end = start + 12 + tag_size # we need to skip 12 to avoid master tag header
+        offset = start + 12
+        while offset < end:
+            sig, ver, size = read_chunk_header(data, offset)
+            print(f"tag {offset:x} chunk {sig} (v; {ver}) size: {size}")
+            if raw:
+                print(f"raw {offset:x} {sig} {ver} {size}")
+            offset = offset + 12 + size
+        #debugg
+        print("loop ended exactly at end of file: ", offset == end)
         
+        #looking back at this now, because these are similaer to 
           
 
-inspect_tag_file('tags/needler/needler.weapon', False)
+inspect_tag_file('tags/needler/needler.render_model', True)
