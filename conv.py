@@ -65,31 +65,46 @@ def inspect_tag_file(path, raw):
 
             #start of the function 
             tgly_start = 0xa4
+            tgly_sig, tgly_ver, tgly_size = read_chunk_header(data, tgly_start)
             
             str_sig, str_ver, str_size = read_chunk_header(data, tgly_start + 12)
             print(f"tag {tgly_start:x} chunk {str_sig} (v; {str_ver}) size: {str_size}")
 
-            pos = tgly_start + 12 + 12
-            str_end = pos + str_size
-            print(data[pos : pos + 5])
-            indexer = 1
+
+
+            #pos = tgly_start + 12 + 12
+            #str_end = tgly_start + str_size
+            #print(data[pos : pos + 5])
             master_index = []
             attr = []
-            while pos < str_end:
+            scanner(data,tgly_start,str_size,attr)
+            #print(attr)
+            tgly_body = tgly_start + 12
+            tgly_end = tgly_body + tgly_size
+            for sig, chunk_start, size in iter(data, tgly_body, tgly_end):
+                print(sig, hex(chunk_start), size)
+
+def scanner(data,start,size,attr):
+     indexer = 1
+     pos = start + 12 + 12
+     end = 24 + start + size
+     while pos < end:
                 c = data[pos : pos + indexer]
                 if not b'\x00' in c:
                     indexer += 1 
                     #(data[a : a + b].decode('latin1'))
                 if  b'\x00' in c:
-                    #print(data[a : a + b].decode('latin1'))
+                        #print(data[a : a + b].decode('latin1'))
                     attr.append(data[pos : pos + indexer -1].decode('latin1'))
-                    master_index.append(pos)
                     pos += indexer
 
                     indexer = 0
-            print(attr)
-            #print(master_index)
 
-       
+def iter (data, start, end):    
+     pos = start
+     while pos < end:
+           sig, ver, size = read_chunk_header(data, pos)
+           yield sig, pos + 12, size
+           pos = pos + 12 + size   
 
 inspect_tag_file('magnum.weapon', False)
