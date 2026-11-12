@@ -62,10 +62,31 @@ def inspect_tag_file(path, raw):
             if raw:
                 print(f"raw {offset:x} {sig} {ver} {size}")
             offset = offset + 12 + size
-        #debugg
-        print("loop ended exactly at end of file: ", offset == end)
+        #print("loop ended exactly at end of file: ", offset == end)
         
-        #looking back at this now, because these are similaer to 
-          
+        #read the weapon attributes
+        if group == "weap":
 
-inspect_tag_file('tags/needler/needler.render_model', True)
+            #start of the function 
+            tgly_start = 0xa4
+            
+            str_sig, str_ver, str_size = read_chunk_header(data, tgly_start + 12)
+            print(f"tag {tgly_start:x} chunk {str_sig} (v; {str_ver}) size: {str_size}")
+            a = tgly_start + 12 + 12
+            str_end = a + str_size
+            print(data[a : a + 5])
+            m = 0
+            b = 1
+            while a < str_end:
+                c = data[a : a + b]
+                if not b'\x00' in c:
+                    b += 1 
+                    #(data[a : a + b].decode('latin1'))
+                if  b'\x00' in c:
+                    print(data[a : a + b].decode('latin1'))
+                    a += b
+                    b = 0
+                
+        
+
+inspect_tag_file('magnum.weapon', False)
