@@ -50,20 +50,16 @@ def inspect_tag_file(path, raw):
         offset = 0x40
         sig, ver, tag_size = read_chunk_header(data, offset)
         print(f"tag {offset:x} chunk {sig} (v; {ver}) size: {tag_size}")
-        #after this, we check for any more chunks. In this case, we have 2 other headers. 
-        #this is to help make this file interchangable across multiple files 
-        #(CHECKED): all files should work and are formated like each other
-        start = 0x40
-        end = start + 12 + tag_size # we need to skip 12 to avoid master tag header
-        offset = start + 12
-        while offset < end:
-            sig, ver, size = read_chunk_header(data, offset)
-            print(f"tag {offset:x} chunk {sig} (v; {ver}) size: {size}")
-            if raw:
-                print(f"raw {offset:x} {sig} {ver} {size}")
-            offset = offset + 12 + size
-        #print("loop ended exactly at end of file: ", offset == end)
         
+        #making blay&bdat dedicated varibles 
+        blay_start = 0x40
+        blay_sig, blay_ver, blay_size = read_chunk_header(data, blay_start + 12)
+        print(f"tag {blay_start:x} chunk {blay_sig} (v; {blay_ver}) size: {blay_size}")
+
+        bdat_start = blay_start + 12 + blay_size
+        bdat_sig, bdat_ver, bdat_size = read_chunk_header(data, bdat_start + 12)
+        print(f"tag {bdat_start:x} chunk {bdat_sig} (v; {bdat_ver}) size: {bdat_size}")
+
         #read the weapon attributes
         if group == "weap":
 
@@ -94,20 +90,6 @@ def inspect_tag_file(path, raw):
             print(attr)
             #print(master_index)
 
-            bdat_start = 0x3DB0E
-            pos = bdat_start + 12 + 12
-            str_end = pos + 5406
-            val = []
-            while pos < str_end:
-                c = data[pos : pos + indexer]
-                val = data[pos : pos + 3]
-                if not b'\x00' in c:
-                    indexer += 2 
-                if  b'\x00' in c:
-                    val.append(data[pos : pos + indexer -1].decode('latin1'))
-                    pos += indexer
-        
-                    indexer = 0
-            print(val)
+       
 
 inspect_tag_file('magnum.weapon', False)
