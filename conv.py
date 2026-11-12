@@ -14,9 +14,9 @@ def read_chunk_header(data, offset):
     signature = r_signature[::-1].decode('ascii')
     return signature, version, size
 
-def inspect_tag_file(path):
-    with open(path, 'rb') as urmom:
-        data = urmom.read()
+def inspect_tag_file(path, raw):
+    with open(path, 'rb') as f:
+        data = f.read()
 
 
         header_format = '<36xIIi4sII4s'
@@ -35,12 +35,37 @@ def inspect_tag_file(path):
         #    4s  : engine magic at 0x3C ('MALB' -> 'BLAM')
         #############################################
         #back to human code 
-        
-        _, _, _, raw_group, group_ver, checksum, raw_magic = struct.unpack_from(header_format, data, 0)
+
+        #unknown1, unknown2, unknown3
+        unk1, unk2, unk3, raw_group, group_ver, checksum, raw_magic = struct.unpack_from(header_format, data, 0)
         group = raw_group[::-1].decode('ascii')
         magic = raw_magic[::-1].decode('ascii')
-        print(f"BLAM: magic Tag: {magic}")
-        print(f"Group type Tag: {group}")
-        print(f"raw: {raw_group}, {raw_magic}")
+        print(f"Engine magic Tag: {magic}")
+        print(f"Group type Tag: {group}, version {group_ver}")
+        print(f"checksum {checksum} \n")
+        #see tag header raw  
+        if raw:
+            print(f"(raw: { unk1, unk2, unk3, raw_group, group_ver, checksum, raw_magic})")
+        #Now, after reading that, we need to read the master tag that holds everything. 
+        offset = 0x40
+        sig, ver, tag_size = read_chunk_header(data, offset)
+        print(f"tag {offset:x} chunk {sig} (v; {ver}) size: {tag_size}")
+        #after this, we check for any more chunks. In this case, we have 2 other headers. 
+        #this is to help make this file interchangable across multiple files 
+        #(CHECKED): all files should work and are formated like each other
+        start = 0x40
+        end = start + 12 + tag_size # we need to skip 12 to avoid master tag header
+        offset = start + 12
+        while offset < end:
+            sig, ver, size = read_chunk_header(data, offset)
+            print(f"tag {offset:x} chunk {sig} (v; {ver}) size: {size}")
+            if raw:
+                print(f"raw {offset:x} {sig} {ver} {size}")
+            offset = offset + 12 + size
+        #debugg
+        print("loop ended exactly at end of file: ", offset == end)
+        
+        #looking back at this now, because these are similaer to 
+          
 
-inspect_tag_file('tags\magnum\magnum.weapon')
+inspect_tag_file('tags/needler/needler.render_model', True)
