@@ -72,21 +72,27 @@ def inspect_tag_file(path, raw):
             
             str_sig, str_ver, str_size = read_chunk_header(data, tgly_start + 12)
             print(f"tag {tgly_start:x} chunk {str_sig} (v; {str_ver}) size: {str_size}")
-            a = tgly_start + 12 + 12
-            str_end = a + str_size
-            print(data[a : a + 5])
-            m = 0
-            b = 1
-            while a < str_end:
-                c = data[a : a + b]
+
+            pos = tgly_start + 12 + 12
+            str_end = pos + str_size
+            print(data[pos : pos + 5])
+            indexer = 1
+            master_index = []
+            attr = []
+            while pos < str_end:
+                c = data[pos : pos + indexer]
                 if not b'\x00' in c:
-                    b += 1 
+                    indexer += 1 
                     #(data[a : a + b].decode('latin1'))
                 if  b'\x00' in c:
-                    print(data[a : a + b].decode('latin1'))
-                    a += b
-                    b = 0
-                
+                    #print(data[a : a + b].decode('latin1'))
+                    attr.append(data[pos : pos + indexer -1].decode('latin1'))
+                    master_index.append(pos)
+                    pos += indexer
+
+                    indexer = 0
+            print(attr)
+            print(master_index)
         
 
 inspect_tag_file('magnum.weapon', False)
