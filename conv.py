@@ -92,7 +92,22 @@ def inspect_tag_file(path, raw):
 
                     indexer = 0
             print(attr)
-            print(master_index)
+            #print(master_index)
+
+            bdat_start = 0x3DB0E
+            pos = bdat_start + 12 + 12
+            str_end = pos + 5406
+            val = []
+            while pos < str_end:
+                c = data[pos : pos + indexer]
+                val = data[pos : pos + 3]
+                if not b'\x00' in c:
+                    indexer += 2 
+                if  b'\x00' in c:
+                    val.append(data[pos : pos + indexer -1].decode('latin1'))
+                    pos += indexer
         
+                    indexer = 0
+            print(val)
 
 inspect_tag_file('magnum.weapon', False)
